@@ -17,6 +17,7 @@ The instructions below are to reproduce our findings using the [Vegvisir QUIC-HT
 
 ## Instructions for reproducing the setup with Vegvisir and examining the results
 **Setting up the testing framework**
+
 1. Create an empty folder in which to reproduce the setup, we shall henceforth refer to this as ``root``
 2. Navigate to ``root``
 3. Clone and follow the [installation instructions over at the Vegvisir repository](https://github.com/JorisHerbots/vegvisir#installation)
@@ -37,6 +38,7 @@ The instructions below are to reproduce our findings using the [Vegvisir QUIC-HT
 
 **Preparing the dataset**  
 This paper makes use of the [MPEG-DASH dataset provided by Lederer et al.](https://dash.itec.aau.at/dash-dataset/)
+
 11. Navigate to ``root/`` and create an empty folder called ``datasets``
 12. Retrieve all representations for the 2s, 4s and 6s folders of the following datasets (we recommend using ``wget``):
 	1. [Big Buck Bunny](http://ftp.itec.aau.at/datasets/DASHDataset2014/BigBuckBunny/)
@@ -49,6 +51,7 @@ This paper makes use of the [MPEG-DASH dataset provided by Lederer et al.](https
 16. Open ``root/vegvisir/paper_experiment_full.json`` and paste the copied path in the ``settings > www_dir`` JSON key (bottom of file)  
 
 **Run the experiment**
+
 17. Navigate to ``root/vegvisir``, make sure the virtual environment is enabled
 18. Execute ``python -m vegvisir run paper_experiment_full.json``
 	1. Vegvisir will show the experiment progress in the console
@@ -59,6 +62,7 @@ This paper makes use of the [MPEG-DASH dataset provided by Lederer et al.](https
 **Convenience script**  
 Checking every testcase folder individually is cumbersome and it makes comparing results difficult. As such we have provided a small convenience HTML page that autoloads the graphs produced by the above experiment and displays them on a grid.  
 *Note: This script only displays graphs for the above mentioned datasets. If you want to display other datasets/test setups, please change the script accordingly.*
+
 20. Copy the ``root/paper/paper-utilities/visualize_ouput.html`` file to ``root/vegvisir/logs/``
 21. Open and edit the variable on **line 86** to represent the correct folder prefix as explained in instruction 19
 22. Navigate to ``root/vegvisir/logs/`` and perform ``python -m http.server``
