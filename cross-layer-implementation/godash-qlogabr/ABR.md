@@ -1,0 +1,40 @@
+# ABR algorithms
+
+- ARBITER+
+  - throughput-based
+  - exponential average throughput estimation
+  - buffering factor = minimal buffering factor + (maximal buffering factor - minimal buffering factor) * buffer fullness
+  - target rate = exponential average throughput estimation * buffering factor
+  - switching control step
+    - makes sure you can only go up a certain maximum amount of representations
+  - actual rate step
+    - target rate can only go up
+- average
+  - select based on average throughput
+- BBA2
+  - buffer based
+  - calculate reservoir
+    - based on last rate chosen
+  - if buffer is lower than reservoir
+    - if download time took longer than segment duration -> lowest bitrate
+    - otherwise, compare download time with segment duration, maybe reduce rate by 1
+  - otherwise, if buffer is larger than reservoir
+    - use buffer level to decide target rate
+- conventional
+  - throughput based
+  - calculate smoothed throughput estimate
+  - choose representation accordingly
+- ELASTIC
+  - based on throughput and download time
+  - harmonic average rate
+  - target rate based on: download time / buffer fullness
+- exponential
+  - select based on exponential average throughput
+- geometric
+  - select based on geometric average throughput
+- logistic
+  - based on bitrates and current buffer level
+  - target rate = highest bitrate / (1 + ((highest bitrate / lowest bitrate) - 1) e^(alpha * buffer level))
+- progressive
+  - use conventional
+  - retrieve file progressively

@@ -1,0 +1,283 @@
+{
+    "clients": [
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-double-bbb-2s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/BigBuckBunny/2sec/BigBuckBunny_2s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-double",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-bbb-2s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/BigBuckBunny/2sec/BigBuckBunny_2s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-base",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2-bbb-2s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/BigBuckBunny/2sec/BigBuckBunny_2s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2",
+                "MAX_BUFFER": "60"
+            }
+        },
+
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-double-bbb-4s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/BigBuckBunny/4sec/BigBuckBunny_4s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-double",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-bbb-4s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/BigBuckBunny/4sec/BigBuckBunny_4s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-base",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2-bbb-4s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/BigBuckBunny/4sec/BigBuckBunny_4s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2",
+                "MAX_BUFFER": "60"
+            }
+        },
+
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-double-bbb-6s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-double",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-bbb-6s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-base",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2-bbb-6s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2",
+                "MAX_BUFFER": "60"
+            }
+        },
+
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-double-ofm-2s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/OfForestAndMen/2sec/OfForestAndMen_2s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-double",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-ofm-2s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/OfForestAndMen/2sec/OfForestAndMen_2s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-base",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2-ofm-2s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/OfForestAndMen/2sec/OfForestAndMen_2s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2",
+                "MAX_BUFFER": "60"
+            }
+        },
+
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-double-ofm-4s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/OfForestAndMen/4sec/OfForestAndMen_4s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-double",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-ofm-4s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/OfForestAndMen/4sec/OfForestAndMen_4s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-base",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2-ofm-4s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/OfForestAndMen/4sec/OfForestAndMen_4s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2",
+                "MAX_BUFFER": "60"
+            }
+        },
+
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-double-ofm-6s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-double",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-ofm-6s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-base",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2-ofm-6s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2",
+                "MAX_BUFFER": "60"
+            }
+        },
+
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-double-ed-2s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/ElephantsDream/2sec/ElephantsDream_2s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-double",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-ed-2s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/ElephantsDream/2sec/ElephantsDream_2s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-base",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2-ed-2s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/ElephantsDream/2sec/ElephantsDream_2s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2",
+                "MAX_BUFFER": "60"
+            }
+        },
+
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-double-ed-4s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-double",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-ed-4s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-base",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2-ed-4s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2",
+                "MAX_BUFFER": "60"
+            }
+        },
+
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-double-ed-6s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/ElephantsDream/6sec/ElephantsDream_6s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-double",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2cl-ed-6s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/ElephantsDream/6sec/ElephantsDream_6s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2XL-base",
+                "MAX_BUFFER": "60"
+            }
+        },
+        {
+            "name": "godashcl",
+            "log_name": "godashcl-bba2-ed-6s",
+            "arguments": {
+                "REQUESTS": "https://!{ORIGIN}/ElephantsDream/6sec/ElephantsDream_6s_simple_2014_05_09BBA2.mpd",
+                "ABR": "bba2",
+                "MAX_BUFFER": "60"
+            }
+        }
+    ],
+
+    "shapers": [
+        {
+            "name": "tc-netem-cl",
+            "log_name": "tc-netem-cl-paper",
+            "scenario": "bba_buffering_paper"
+        }
+    ],
+    
+    "servers": [
+        {"name": "quic-go"}
+    ],
+
+    "environment": {
+        "name": "cross-layer",
+        "sensors": [
+            {
+                "name": "timeout",
+                "timeout": 100
+            }
+        ]
+    },
+
+    "settings": {
+        "label": "cross_layer_paper",
+        "www_dir": "/run/media/jherbots/Datasets/cross_layer_godash_paper/",
+        "iterations": 1
+    }
+}

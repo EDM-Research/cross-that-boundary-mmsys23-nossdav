@@ -1,0 +1,19 @@
+{
+	"adapt" : "bba2XL-double",
+        "debug" : "on",
+        "initBuffer" : 2,
+        "maxBuffer" : 50,
+        "maxHeight" : 1080,
+        "streamDuration" : 60,
+        "storeDash" : "on",
+        "outputFolder" : "logs",
+        "getHeaders" : "off",
+        "terminalPrint" : "on",
+        "printHeader" : "{\"Algorithm\":\"on\",\"Seg_Dur\":\"off\",\"Codec\":\"off\",\"Width\":\"on\",\"Height\":\"on\",\"FPS\":\"off\",\"Play_Pos\":\"off\",\"RTT\":\"off\",\"Seg_Repl\":\"off\",\"Protocol\":\"on\",\"P.1203\":\"on\",\"Clae\":\"on\",\"Duanmu\":\"on\",\"Yin\":\"on\",\"Yu\":\"on\"}",
+        "expRatio": 0.2,
+        "quic" : "on",
+        "useTestbed" : "off",
+        "url" : "[https://127.0.0.1:6121/TearsOfSteel/6sec/TearsOfSteel_6s_simple_2014_05_09BBA2.mpd]",
+        "QoE" : "off",
+        "serveraddr" : "off"
+}

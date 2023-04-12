@@ -1,0 +1,1018 @@
+DEBUG: 2023/02/27 11:17:47 -debug set to true 
+DEBUG: 2023/02/27 11:17:47 -useTestbed set to off
+DEBUG: 2023/02/27 11:17:47 -quic set to on
+DEBUG: 2023/02/27 11:17:47 -url set to [https://server4/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd]
+DEBUG: 2023/02/27 11:17:47 URL array passed : [https://server4/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd]
+DEBUG: 2023/02/27 11:17:47 Parameters: https://server4/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:17:47 Get the url https://server4/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:17:47 URL is : https://server4/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:17:47 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:17:47 Codec Index List : [0] for MPD 1
+DEBUG: 2023/02/27 11:17:47 Codec List : [h264] for MPD 1
+DEBUG: 2023/02/27 11:17:47 Audio content is set to false
+DEBUG: 2023/02/27 11:17:47 h264
+DEBUG: 2023/02/27 11:17:47 URL array passed : [https://server4/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd]
+DEBUG: 2023/02/27 11:17:47 Parameters: https://server4/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:17:47 Get the url https://server4/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:17:47 URL is : https://server4/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:17:47 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:17:47 -printHeader: print additional headers {"Algorithm":"on","Seg_Dur":"off","Codec":"on","Width":"on","Height":"on","FPS":"off","Play_Pos":"off","RTT":"off","Seg_Repl":"off","Protocol":"on","P.1203":"on","Clae":"on","Duanmu":"on","Yin":"on","Yu":"on"}
+DEBUG: 2023/02/27 11:17:47 -QoE set to on
+DEBUG: 2023/02/27 11:17:47 p1203-standalone is installed
+DEBUG: 2023/02/27 11:17:47 -terminalPrint set to on
+DEBUG: 2023/02/27 11:17:47 -getHeaders set to off
+DEBUG: 2023/02/27 11:17:47 -adapt set to bba2XL-double
+DEBUG: 2023/02/27 11:17:47 -outputFolder set to ../logs/files/
+DEBUG: 2023/02/27 11:17:47 -serveraddr set to off
+DEBUG: 2023/02/27 11:17:47 -maxHeight set to 1080
+DEBUG: 2023/02/27 11:17:47 -streamSpeed set to 1.000000
+DEBUG: 2023/02/27 11:17:47 -maxBuffer set to 60
+DEBUG: 2023/02/27 11:17:47 -initBuffer set to 2
+DEBUG: 2023/02/27 11:17:47 -codec set to h264
+DEBUG: 2023/02/27 11:17:47 -storeDASH set to on
+DEBUG: 2023/02/27 11:17:47 Codec Index List : [0] for MPD 1
+DEBUG: 2023/02/27 11:17:47 Codec List : [h264] for MPD 1
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 3732333
+DEBUG: 2023/02/27 11:17:47 rep_rate for maxHeight:0
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 3161750
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 2501338
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 2141349
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 1754697
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 1513458
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 1264958
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 1008982
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 828868
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 646172
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 555312
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 464254
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 367110
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 277536
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 232403
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 186276
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 137796
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 92310
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 getMPDheightIndex - bitrate: 46881
+DEBUG: 2023/02/27 11:17:47 Rep_Rate 0 @ 3732333 is bigger than or equal to Rep_Rate 18 @ 46881
+
+DEBUG: 2023/02/27 11:17:47 Collect metrics from selected MPD file
+DEBUG: 2023/02/27 11:17:47 Maximum stream duration: 453000
+DEBUG: 2023/02/27 11:17:47 Maximum number of segments: 75
+DEBUG: 2023/02/27 11:17:47 Maximum buffer: 60
+DEBUG: 2023/02/27 11:17:47 Minimum MPD index: 0
+DEBUG: 2023/02/27 11:17:47 Maximum MPD index: 18
+DEBUG: 2023/02/27 11:17:47 Segment Duration: 6
+DEBUG: 2023/02/27 11:17:47 Base URL: 
+
+DEBUG: 2023/02/27 11:17:47 
+Bandwidth List : [3732333 3161750 2501338 2141349 1754697 1513458 1264958 1008982 828868 646172 555312 464254 367110 277536 232403 186276 137796 92310 46881]
+
+DEBUG: 2023/02/27 11:17:47 DASH profile for the header is: isoff-live
+
+DEBUG: 2023/02/27 11:17:47 streaming has begun
+DEBUG: 2023/02/27 11:17:47 Input values to streaming algorithm: bba2XL-double
+DEBUG: 2023/02/27 11:17:47 maxHeight: 1080
+DEBUG: 2023/02/27 11:17:47 streamDuration in seconds: 453000
+DEBUG: 2023/02/27 11:17:47 streamSpeed: 1.000000
+DEBUG: 2023/02/27 11:17:47 maxBuffer: 60
+DEBUG: 2023/02/27 11:17:47 initBuffer: 2
+DEBUG: 2023/02/27 11:17:47 url: [https://server4/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd]
+DEBUG: 2023/02/27 11:17:47 fileDownloadLocation: logs/files
+DEBUG: 2023/02/27 11:17:47 HLS: off
+DEBUG: 2023/02/27 11:17:47 extend: true
+DEBUG: 2023/02/27 11:17:47 stream initialise URL header: forest_46881bps/OfForestAndMen_6s_init.mp4
+
+DEBUG: 2023/02/27 11:17:47 current URL header: https://server4/OfForestAndMen/6sec/OfForestAndMen_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:17:47 get file from URL: https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s_init.mp4
+
+DEBUG: 2023/02/27 11:17:47 Get the url https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s_init.mp4
+DEBUG: 2023/02/27 11:17:47 URL is : https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s_init.mp4
+DEBUG: 2023/02/27 11:17:47 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:17:47 HTTP body size is 1.145508
+DEBUG: 2023/02/27 11:17:47 Before consul update
+DEBUG: 2023/02/27 11:17:47 After consul update
+
+DEBUG: 2023/02/27 11:17:47 We are using repRate: 18
+DEBUG: 2023/02/27 11:17:47 We are using : bba2XL-double for streaming
+
+DEBUG: 2023/02/27 11:17:47 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:17:47 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:17:47 current segment URL: forest_46881bps/OfForestAndMen_6s1.m4s
+DEBUG: 2023/02/27 11:17:47 get file from URL: https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s1.m4s
+
+DEBUG: 2023/02/27 11:17:47 Get the url https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s1.m4s
+DEBUG: 2023/02/27 11:17:48 URL is : https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s1.m4s
+DEBUG: 2023/02/27 11:17:48 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:17:48 HTTP body size is 43.902344
+DEBUG: 2023/02/27 11:17:48 Before consul update
+DEBUG: 2023/02/27 11:17:48 After consul update
+DEBUG: 2023/02/27 11:17:48 200
+
+DEBUG: 2023/02/27 11:17:48 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:17:48 Getting Claye Value
+
+DEBUG: 2023/02/27 11:17:48 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:17:48 Getting Yin Value
+
+DEBUG: 2023/02/27 11:17:48 Getting Yu Value
+
+DEBUG: 2023/02/27 11:17:48 bba2XL-double has choosen rep_Rate 18 @ a rate of 46
+
+DEBUG: 2023/02/27 11:17:48 Current segment duration: 6000
+DEBUG: 2023/02/27 11:17:48 Total segment duration: 0
+DEBUG: 2023/02/27 11:17:48 Next chunk duration: 6
+DEBUG: 2023/02/27 11:17:48 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:17:48 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:17:48 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:17:48 current segment URL: forest_46881bps/OfForestAndMen_6s2.m4s
+DEBUG: 2023/02/27 11:17:48 get file from URL: https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s2.m4s
+
+DEBUG: 2023/02/27 11:17:48 Get the url https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s2.m4s
+DEBUG: 2023/02/27 11:17:48 URL is : https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s2.m4s
+DEBUG: 2023/02/27 11:17:48 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:17:48 HTTP body size is 29.887695
+DEBUG: 2023/02/27 11:17:48 Before consul update
+DEBUG: 2023/02/27 11:17:48 After consul update
+DEBUG: 2023/02/27 11:17:48 200
+
+DEBUG: 2023/02/27 11:17:48 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:17:48 Getting Claye Value
+
+DEBUG: 2023/02/27 11:17:48 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:17:48 Getting Yin Value
+
+DEBUG: 2023/02/27 11:17:48 Getting Yu Value
+DEBUG: 2023/02/27 11:17:48 DELTAB 5 626481
+DEBUG: 2023/02/27 11:17:48 Using Rate
+DEBUG: 2023/02/27 11:17:48 Selected 17 for segment 2
+
+DEBUG: 2023/02/27 11:17:48 bba2XL-double has choosen rep_Rate 17 @ a rate of 92
+
+DEBUG: 2023/02/27 11:17:48 Current segment duration: 6000
+DEBUG: 2023/02/27 11:17:48 Total segment duration: 0
+DEBUG: 2023/02/27 11:17:48 Next chunk duration: 6
+DEBUG: 2023/02/27 11:17:48 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:17:48 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:17:48 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:17:48 current segment URL: forest_92310bps/OfForestAndMen_6s3.m4s
+DEBUG: 2023/02/27 11:17:48 get file from URL: https://server4/OfForestAndMen/6sec/forest_92310bps/OfForestAndMen_6s3.m4s
+
+DEBUG: 2023/02/27 11:17:48 Get the url https://server4/OfForestAndMen/6sec/forest_92310bps/OfForestAndMen_6s3.m4s
+DEBUG: 2023/02/27 11:17:48 URL is : https://server4/OfForestAndMen/6sec/forest_92310bps/OfForestAndMen_6s3.m4s
+DEBUG: 2023/02/27 11:17:48 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:17:48 HTTP body size is 92.220703
+DEBUG: 2023/02/27 11:17:48 Before consul update
+DEBUG: 2023/02/27 11:17:48 After consul update
+DEBUG: 2023/02/27 11:17:48 200
+
+DEBUG: 2023/02/27 11:17:48 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:17:48 Getting Claye Value
+
+DEBUG: 2023/02/27 11:17:48 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:17:48 Getting Yin Value
+
+DEBUG: 2023/02/27 11:17:48 Getting Yu Value
+DEBUG: 2023/02/27 11:17:48 Stepping down
+DEBUG: 2023/02/27 11:17:48 DELTAB 5 933148
+DEBUG: 2023/02/27 11:17:48 Using Rate
+DEBUG: 2023/02/27 11:17:48 Selected 16 for segment 3
+
+DEBUG: 2023/02/27 11:17:48 bba2XL-double has choosen rep_Rate 16 @ a rate of 137
+
+DEBUG: 2023/02/27 11:17:48 Current segment duration: 6000
+DEBUG: 2023/02/27 11:17:48 Total segment duration: 0
+DEBUG: 2023/02/27 11:17:48 Next chunk duration: 6
+DEBUG: 2023/02/27 11:17:48 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:17:48 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:17:48 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:17:48 current segment URL: forest_137796bps/OfForestAndMen_6s4.m4s
+DEBUG: 2023/02/27 11:17:48 get file from URL: https://server4/OfForestAndMen/6sec/forest_137796bps/OfForestAndMen_6s4.m4s
+
+DEBUG: 2023/02/27 11:17:48 Get the url https://server4/OfForestAndMen/6sec/forest_137796bps/OfForestAndMen_6s4.m4s
+DEBUG: 2023/02/27 11:17:48 URL is : https://server4/OfForestAndMen/6sec/forest_137796bps/OfForestAndMen_6s4.m4s
+DEBUG: 2023/02/27 11:17:48 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:17:49 HTTP body size is 145.445312
+DEBUG: 2023/02/27 11:17:49 Before consul update
+DEBUG: 2023/02/27 11:17:49 After consul update
+DEBUG: 2023/02/27 11:17:49 200
+
+DEBUG: 2023/02/27 11:17:49 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:17:49 Getting Claye Value
+
+DEBUG: 2023/02/27 11:17:49 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:17:49 Getting Yin Value
+
+DEBUG: 2023/02/27 11:17:49 Getting Yu Value
+DEBUG: 2023/02/27 11:17:49 Stepping up
+DEBUG: 2023/02/27 11:17:49 DELTAB 5 1254926
+DEBUG: 2023/02/27 11:17:49 Using Rate
+DEBUG: 2023/02/27 11:17:49 Selected 15 for segment 4
+
+DEBUG: 2023/02/27 11:17:49 bba2XL-double has choosen rep_Rate 15 @ a rate of 186
+
+DEBUG: 2023/02/27 11:17:49 Current segment duration: 6000
+DEBUG: 2023/02/27 11:17:49 Total segment duration: 0
+DEBUG: 2023/02/27 11:17:49 Next chunk duration: 6
+DEBUG: 2023/02/27 11:17:49 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:17:49 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:17:49 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:17:49 current segment URL: forest_186276bps/OfForestAndMen_6s5.m4s
+DEBUG: 2023/02/27 11:17:49 get file from URL: https://server4/OfForestAndMen/6sec/forest_186276bps/OfForestAndMen_6s5.m4s
+
+DEBUG: 2023/02/27 11:17:49 Get the url https://server4/OfForestAndMen/6sec/forest_186276bps/OfForestAndMen_6s5.m4s
+DEBUG: 2023/02/27 11:17:49 URL is : https://server4/OfForestAndMen/6sec/forest_186276bps/OfForestAndMen_6s5.m4s
+DEBUG: 2023/02/27 11:17:49 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:17:49 HTTP body size is 192.598633
+DEBUG: 2023/02/27 11:17:49 Before consul update
+DEBUG: 2023/02/27 11:17:49 After consul update
+DEBUG: 2023/02/27 11:17:49 200
+
+DEBUG: 2023/02/27 11:17:49 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:17:49 Getting Claye Value
+
+DEBUG: 2023/02/27 11:17:49 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:17:49 Getting Yin Value
+
+DEBUG: 2023/02/27 11:17:49 Getting Yu Value
+DEBUG: 2023/02/27 11:17:49 Stepping up
+DEBUG: 2023/02/27 11:17:49 DELTAB 5 1567417
+DEBUG: 2023/02/27 11:17:49 Using Rate
+DEBUG: 2023/02/27 11:17:49 Selected 14 for segment 5
+
+DEBUG: 2023/02/27 11:17:49 bba2XL-double has choosen rep_Rate 14 @ a rate of 232
+
+DEBUG: 2023/02/27 11:17:49 Current segment duration: 6000
+DEBUG: 2023/02/27 11:17:49 Total segment duration: 0
+DEBUG: 2023/02/27 11:17:49 Next chunk duration: 6
+DEBUG: 2023/02/27 11:17:49 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:17:49 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:17:49 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:17:49 current segment URL: forest_232403bps/OfForestAndMen_6s6.m4s
+DEBUG: 2023/02/27 11:17:49 get file from URL: https://server4/OfForestAndMen/6sec/forest_232403bps/OfForestAndMen_6s6.m4s
+
+DEBUG: 2023/02/27 11:17:49 Get the url https://server4/OfForestAndMen/6sec/forest_232403bps/OfForestAndMen_6s6.m4s
+DEBUG: 2023/02/27 11:17:49 URL is : https://server4/OfForestAndMen/6sec/forest_232403bps/OfForestAndMen_6s6.m4s
+DEBUG: 2023/02/27 11:17:49 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:17:50 HTTP body size is 239.738281
+DEBUG: 2023/02/27 11:17:50 Before consul update
+DEBUG: 2023/02/27 11:17:50 After consul update
+DEBUG: 2023/02/27 11:17:50 200
+
+DEBUG: 2023/02/27 11:17:50 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:17:50 Getting Claye Value
+
+DEBUG: 2023/02/27 11:17:50 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:17:50 Getting Yin Value
+
+DEBUG: 2023/02/27 11:17:50 Getting Yu Value
+DEBUG: 2023/02/27 11:17:50 Stepping up
+DEBUG: 2023/02/27 11:17:50 DELTAB 5 1884889
+DEBUG: 2023/02/27 11:17:50 Using Rate
+DEBUG: 2023/02/27 11:17:50 Selected 13 for segment 6
+
+DEBUG: 2023/02/27 11:17:50 bba2XL-double has choosen rep_Rate 13 @ a rate of 277
+
+DEBUG: 2023/02/27 11:17:50 Current segment duration: 6000
+DEBUG: 2023/02/27 11:17:50 Total segment duration: 0
+DEBUG: 2023/02/27 11:17:50 Next chunk duration: 6
+DEBUG: 2023/02/27 11:17:50 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:17:50 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:17:50 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:17:50 current segment URL: forest_277536bps/OfForestAndMen_6s7.m4s
+DEBUG: 2023/02/27 11:17:50 get file from URL: https://server4/OfForestAndMen/6sec/forest_277536bps/OfForestAndMen_6s7.m4s
+
+DEBUG: 2023/02/27 11:17:50 Get the url https://server4/OfForestAndMen/6sec/forest_277536bps/OfForestAndMen_6s7.m4s
+DEBUG: 2023/02/27 11:17:50 URL is : https://server4/OfForestAndMen/6sec/forest_277536bps/OfForestAndMen_6s7.m4s
+DEBUG: 2023/02/27 11:17:50 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:17:51 HTTP body size is 284.927734
+DEBUG: 2023/02/27 11:17:51 Before consul update
+DEBUG: 2023/02/27 11:17:51 After consul update
+DEBUG: 2023/02/27 11:17:51 200
+
+DEBUG: 2023/02/27 11:17:51 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:17:51 Getting Claye Value
+
+DEBUG: 2023/02/27 11:17:51 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:17:51 Getting Yin Value
+
+DEBUG: 2023/02/27 11:17:51 Getting Yu Value
+DEBUG: 2023/02/27 11:17:51 Stepping up
+DEBUG: 2023/02/27 11:17:51 DELTAB 5 2511566
+DEBUG: 2023/02/27 11:17:51 Using Rate
+DEBUG: 2023/02/27 11:17:51 Selected 12 for segment 7
+
+DEBUG: 2023/02/27 11:17:51 bba2XL-double has choosen rep_Rate 12 @ a rate of 367
+
+DEBUG: 2023/02/27 11:17:51 Current segment duration: 6000
+DEBUG: 2023/02/27 11:17:51 Total segment duration: 0
+DEBUG: 2023/02/27 11:17:51 Next chunk duration: 6
+DEBUG: 2023/02/27 11:17:51 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:17:51 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:17:51 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:17:51 current segment URL: forest_367110bps/OfForestAndMen_6s8.m4s
+DEBUG: 2023/02/27 11:17:51 get file from URL: https://server4/OfForestAndMen/6sec/forest_367110bps/OfForestAndMen_6s8.m4s
+
+DEBUG: 2023/02/27 11:17:51 Get the url https://server4/OfForestAndMen/6sec/forest_367110bps/OfForestAndMen_6s8.m4s
+DEBUG: 2023/02/27 11:17:51 URL is : https://server4/OfForestAndMen/6sec/forest_367110bps/OfForestAndMen_6s8.m4s
+DEBUG: 2023/02/27 11:17:51 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:17:52 HTTP body size is 384.306641
+DEBUG: 2023/02/27 11:17:52 Before consul update
+DEBUG: 2023/02/27 11:17:52 After consul update
+DEBUG: 2023/02/27 11:17:52 200
+
+DEBUG: 2023/02/27 11:17:52 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:17:52 Getting Claye Value
+
+DEBUG: 2023/02/27 11:17:52 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:17:52 Getting Yin Value
+
+DEBUG: 2023/02/27 11:17:52 Getting Yu Value
+DEBUG: 2023/02/27 11:17:52 Stepping up
+DEBUG: 2023/02/27 11:17:52 DELTAB 5 3141113
+DEBUG: 2023/02/27 11:17:52 Using Rate
+DEBUG: 2023/02/27 11:17:52 Selected 11 for segment 8
+
+DEBUG: 2023/02/27 11:17:52 bba2XL-double has choosen rep_Rate 11 @ a rate of 464
+
+DEBUG: 2023/02/27 11:17:52 Current segment duration: 6000
+DEBUG: 2023/02/27 11:17:52 Total segment duration: 0
+DEBUG: 2023/02/27 11:17:52 Next chunk duration: 6
+DEBUG: 2023/02/27 11:17:52 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:17:52 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:17:52 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:17:52 current segment URL: forest_464254bps/OfForestAndMen_6s9.m4s
+DEBUG: 2023/02/27 11:17:52 get file from URL: https://server4/OfForestAndMen/6sec/forest_464254bps/OfForestAndMen_6s9.m4s
+
+DEBUG: 2023/02/27 11:17:52 Get the url https://server4/OfForestAndMen/6sec/forest_464254bps/OfForestAndMen_6s9.m4s
+DEBUG: 2023/02/27 11:17:52 URL is : https://server4/OfForestAndMen/6sec/forest_464254bps/OfForestAndMen_6s9.m4s
+DEBUG: 2023/02/27 11:17:52 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:17:54 HTTP body size is 460.309570
+DEBUG: 2023/02/27 11:17:54 Before consul update
+DEBUG: 2023/02/27 11:17:54 After consul update
+DEBUG: 2023/02/27 11:17:54 200
+
+DEBUG: 2023/02/27 11:17:54 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:17:54 Getting Claye Value
+
+DEBUG: 2023/02/27 11:17:54 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:17:54 Getting Yin Value
+
+DEBUG: 2023/02/27 11:17:54 Getting Yu Value
+DEBUG: 2023/02/27 11:17:54 Stepping up
+DEBUG: 2023/02/27 11:17:54 DELTAB 5 3764004
+DEBUG: 2023/02/27 11:17:54 Using Rate
+DEBUG: 2023/02/27 11:17:54 Selected 10 for segment 9
+
+DEBUG: 2023/02/27 11:17:54 bba2XL-double has choosen rep_Rate 10 @ a rate of 555
+
+DEBUG: 2023/02/27 11:17:54 Current segment duration: 6000
+DEBUG: 2023/02/27 11:17:54 Total segment duration: 0
+DEBUG: 2023/02/27 11:17:54 Next chunk duration: 6
+DEBUG: 2023/02/27 11:17:54 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:17:54 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:17:54 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:17:54 current segment URL: forest_555312bps/OfForestAndMen_6s10.m4s
+DEBUG: 2023/02/27 11:17:54 get file from URL: https://server4/OfForestAndMen/6sec/forest_555312bps/OfForestAndMen_6s10.m4s
+
+DEBUG: 2023/02/27 11:17:54 Get the url https://server4/OfForestAndMen/6sec/forest_555312bps/OfForestAndMen_6s10.m4s
+DEBUG: 2023/02/27 11:17:54 URL is : https://server4/OfForestAndMen/6sec/forest_555312bps/OfForestAndMen_6s10.m4s
+DEBUG: 2023/02/27 11:17:54 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:17:56 HTTP body size is 551.330078
+DEBUG: 2023/02/27 11:17:56 Before consul update
+DEBUG: 2023/02/27 11:17:56 After consul update
+DEBUG: 2023/02/27 11:17:56 200
+
+DEBUG: 2023/02/27 11:17:56 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:17:56 Getting Claye Value
+
+DEBUG: 2023/02/27 11:17:56 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:17:56 Getting Yin Value
+
+DEBUG: 2023/02/27 11:17:56 Getting Yu Value
+DEBUG: 2023/02/27 11:17:56 Stepping up
+DEBUG: 2023/02/27 11:17:56 DELTAB 5 4403872
+DEBUG: 2023/02/27 11:17:56 Using Rate
+DEBUG: 2023/02/27 11:17:56 Selected 9 for segment 10
+
+DEBUG: 2023/02/27 11:17:56 bba2XL-double has choosen rep_Rate 9 @ a rate of 646
+
+DEBUG: 2023/02/27 11:17:56 Current segment duration: 6000
+DEBUG: 2023/02/27 11:17:56 Total segment duration: 0
+DEBUG: 2023/02/27 11:17:56 Next chunk duration: 6
+DEBUG: 2023/02/27 11:17:56 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:17:56 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:17:56 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:17:56 current segment URL: forest_646172bps/OfForestAndMen_6s11.m4s
+DEBUG: 2023/02/27 11:17:56 get file from URL: https://server4/OfForestAndMen/6sec/forest_646172bps/OfForestAndMen_6s11.m4s
+
+DEBUG: 2023/02/27 11:17:56 Get the url https://server4/OfForestAndMen/6sec/forest_646172bps/OfForestAndMen_6s11.m4s
+DEBUG: 2023/02/27 11:17:56 URL is : https://server4/OfForestAndMen/6sec/forest_646172bps/OfForestAndMen_6s11.m4s
+DEBUG: 2023/02/27 11:17:56 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:18:08 HTTP body size is 645.191406
+DEBUG: 2023/02/27 11:18:08 Before consul update
+DEBUG: 2023/02/27 11:18:08 After consul update
+DEBUG: 2023/02/27 11:18:08 200
+
+DEBUG: 2023/02/27 11:18:08 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:18:08 Getting Claye Value
+
+DEBUG: 2023/02/27 11:18:08 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:18:08 Getting Yin Value
+
+DEBUG: 2023/02/27 11:18:08 Getting Yu Value
+DEBUG: 2023/02/27 11:18:08 Stepping up
+DEBUG: 2023/02/27 11:18:08 DELTAB 5 5661069
+DEBUG: 2023/02/27 11:18:08 Switched from Rate to BBA2
+DEBUG: 2023/02/27 11:18:08 Selected 8 for segment 11
+
+DEBUG: 2023/02/27 11:18:08 bba2XL-double has choosen rep_Rate 8 @ a rate of 828
+
+DEBUG: 2023/02/27 11:18:08 Current segment duration: 6000
+DEBUG: 2023/02/27 11:18:08 Total segment duration: 0
+DEBUG: 2023/02/27 11:18:08 Next chunk duration: 6
+DEBUG: 2023/02/27 11:18:08 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:18:08 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:18:08 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:18:08 current segment URL: forest_828868bps/OfForestAndMen_6s12.m4s
+DEBUG: 2023/02/27 11:18:08 get file from URL: https://server4/OfForestAndMen/6sec/forest_828868bps/OfForestAndMen_6s12.m4s
+
+DEBUG: 2023/02/27 11:18:08 Get the url https://server4/OfForestAndMen/6sec/forest_828868bps/OfForestAndMen_6s12.m4s
+DEBUG: 2023/02/27 11:18:08 URL is : https://server4/OfForestAndMen/6sec/forest_828868bps/OfForestAndMen_6s12.m4s
+DEBUG: 2023/02/27 11:18:08 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:18:31 HTTP body size is 866.871094
+DEBUG: 2023/02/27 11:18:31 Before consul update
+DEBUG: 2023/02/27 11:18:31 After consul update
+DEBUG: 2023/02/27 11:18:31 200
+
+DEBUG: 2023/02/27 11:18:31 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:18:31 Getting Claye Value
+
+DEBUG: 2023/02/27 11:18:31 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:18:31 Getting Yin Value
+
+DEBUG: 2023/02/27 11:18:31 Getting Yu Value
+DEBUG: 2023/02/27 11:18:31 Stepping up
+DEBUG: 2023/02/27 11:18:31 Selected 7 for segment 12
+
+DEBUG: 2023/02/27 11:18:31 bba2XL-double has choosen rep_Rate 7 @ a rate of 1008
+
+DEBUG: 2023/02/27 11:18:31 Current segment duration: 6000
+DEBUG: 2023/02/27 11:18:31 Total segment duration: 0
+DEBUG: 2023/02/27 11:18:31 Next chunk duration: 6
+DEBUG: 2023/02/27 11:18:31 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:18:31 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:18:31 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:18:31 current segment URL: forest_1008982bps/OfForestAndMen_6s13.m4s
+DEBUG: 2023/02/27 11:18:31 get file from URL: https://server4/OfForestAndMen/6sec/forest_1008982bps/OfForestAndMen_6s13.m4s
+
+DEBUG: 2023/02/27 11:18:31 Get the url https://server4/OfForestAndMen/6sec/forest_1008982bps/OfForestAndMen_6s13.m4s
+DEBUG: 2023/02/27 11:18:31 URL is : https://server4/OfForestAndMen/6sec/forest_1008982bps/OfForestAndMen_6s13.m4s
+DEBUG: 2023/02/27 11:18:31 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:18:41 HTTP body size is 1035.224609
+DEBUG: 2023/02/27 11:18:41 Before consul update
+DEBUG: 2023/02/27 11:18:41 After consul update
+DEBUG: 2023/02/27 11:18:41 200
+
+DEBUG: 2023/02/27 11:18:41 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:18:41 Getting Claye Value
+
+DEBUG: 2023/02/27 11:18:41 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:18:41 Getting Yin Value
+
+DEBUG: 2023/02/27 11:18:41 Getting Yu Value
+DEBUG: 2023/02/27 11:18:41 Stepping down
+DEBUG: 2023/02/27 11:18:41 Selected 8 for segment 13
+
+DEBUG: 2023/02/27 11:18:41 bba2XL-double has choosen rep_Rate 8 @ a rate of 828
+
+DEBUG: 2023/02/27 11:18:41 Current segment duration: 6000
+DEBUG: 2023/02/27 11:18:41 Total segment duration: 0
+DEBUG: 2023/02/27 11:18:41 Next chunk duration: 6
+DEBUG: 2023/02/27 11:18:41 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:18:41 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:18:41 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:18:41 current segment URL: forest_828868bps/OfForestAndMen_6s14.m4s
+DEBUG: 2023/02/27 11:18:41 get file from URL: https://server4/OfForestAndMen/6sec/forest_828868bps/OfForestAndMen_6s14.m4s
+
+DEBUG: 2023/02/27 11:18:41 Get the url https://server4/OfForestAndMen/6sec/forest_828868bps/OfForestAndMen_6s14.m4s
+DEBUG: 2023/02/27 11:18:41 URL is : https://server4/OfForestAndMen/6sec/forest_828868bps/OfForestAndMen_6s14.m4s
+DEBUG: 2023/02/27 11:18:41 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:18:49 HTTP body size is 125.617188
+DEBUG: 2023/02/27 11:18:49 Before consul update
+DEBUG: 2023/02/27 11:18:49 After consul update
+DEBUG: 2023/02/27 11:18:49 200
+DEBUG: 2023/02/27 11:18:49 current segment URL: forest_46881bps/OfForestAndMen_6s14.m4s
+
+DEBUG: 2023/02/27 11:18:49 ABORT has choosen rep_Rate 18 @ a rate of 46
+DEBUG: 2023/02/27 11:18:49 get file from URL: https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s14.m4s
+
+DEBUG: 2023/02/27 11:18:49 Get the url https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s14.m4s
+DEBUG: 2023/02/27 11:18:50 URL is : https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s14.m4s
+DEBUG: 2023/02/27 11:18:50 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:18:53 HTTP body size is 46.671875
+DEBUG: 2023/02/27 11:18:53 Before consul update
+DEBUG: 2023/02/27 11:18:53 After consul update
+
+DEBUG: 2023/02/27 11:18:53 Abort segment arrived
+
+DEBUG: 2023/02/27 11:18:53 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:18:53 Getting Claye Value
+
+DEBUG: 2023/02/27 11:18:53 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:18:53 Getting Yin Value
+
+DEBUG: 2023/02/27 11:18:53 Getting Yu Value
+DEBUG: 2023/02/27 11:18:53 DELTAB 2 626481
+DEBUG: 2023/02/27 11:18:53 Switched from Rate to BBA2
+DEBUG: 2023/02/27 11:18:53 Selected 18 for segment 14
+
+DEBUG: 2023/02/27 11:18:53 bba2XL-double has choosen rep_Rate 18 @ a rate of 46
+
+DEBUG: 2023/02/27 11:18:53 Current segment duration: 6000
+DEBUG: 2023/02/27 11:18:53 Total segment duration: 0
+DEBUG: 2023/02/27 11:18:53 Next chunk duration: 6
+DEBUG: 2023/02/27 11:18:53 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:18:53 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:18:53 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:18:53 current segment URL: forest_46881bps/OfForestAndMen_6s15.m4s
+DEBUG: 2023/02/27 11:18:53 get file from URL: https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s15.m4s
+
+DEBUG: 2023/02/27 11:18:53 Get the url https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s15.m4s
+DEBUG: 2023/02/27 11:18:53 URL is : https://server4/OfForestAndMen/6sec/forest_46881bps/OfForestAndMen_6s15.m4s
+DEBUG: 2023/02/27 11:18:53 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:18:56 HTTP body size is 46.068359
+DEBUG: 2023/02/27 11:18:56 Before consul update
+DEBUG: 2023/02/27 11:18:56 After consul update
+DEBUG: 2023/02/27 11:18:56 200
+
+DEBUG: 2023/02/27 11:18:56 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:18:56 Getting Claye Value
+
+DEBUG: 2023/02/27 11:18:56 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:18:56 Getting Yin Value
+
+DEBUG: 2023/02/27 11:18:56 Getting Yu Value
+DEBUG: 2023/02/27 11:18:56 Stepping up
+DEBUG: 2023/02/27 11:18:56 Selected 17 for segment 15
+
+DEBUG: 2023/02/27 11:18:56 bba2XL-double has choosen rep_Rate 17 @ a rate of 92
+
+DEBUG: 2023/02/27 11:18:56 Current segment duration: 6000
+DEBUG: 2023/02/27 11:18:56 Total segment duration: 0
+DEBUG: 2023/02/27 11:18:56 Next chunk duration: 6
+DEBUG: 2023/02/27 11:18:56 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:18:56 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:18:56 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:18:56 current segment URL: forest_92310bps/OfForestAndMen_6s16.m4s
+DEBUG: 2023/02/27 11:18:56 get file from URL: https://server4/OfForestAndMen/6sec/forest_92310bps/OfForestAndMen_6s16.m4s
+
+DEBUG: 2023/02/27 11:18:56 Get the url https://server4/OfForestAndMen/6sec/forest_92310bps/OfForestAndMen_6s16.m4s
+DEBUG: 2023/02/27 11:18:56 URL is : https://server4/OfForestAndMen/6sec/forest_92310bps/OfForestAndMen_6s16.m4s
+DEBUG: 2023/02/27 11:18:56 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:19:02 HTTP body size is 94.328125
+DEBUG: 2023/02/27 11:19:02 Before consul update
+DEBUG: 2023/02/27 11:19:02 After consul update
+DEBUG: 2023/02/27 11:19:02 200
+
+DEBUG: 2023/02/27 11:19:02 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:19:02 Getting Claye Value
+
+DEBUG: 2023/02/27 11:19:02 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:19:02 Getting Yin Value
+
+DEBUG: 2023/02/27 11:19:02 Getting Yu Value
+DEBUG: 2023/02/27 11:19:02 Stepping up
+DEBUG: 2023/02/27 11:19:02 Selected 16 for segment 16
+
+DEBUG: 2023/02/27 11:19:02 bba2XL-double has choosen rep_Rate 16 @ a rate of 137
+
+DEBUG: 2023/02/27 11:19:02 Current segment duration: 6000
+DEBUG: 2023/02/27 11:19:02 Total segment duration: 0
+DEBUG: 2023/02/27 11:19:02 Next chunk duration: 6
+DEBUG: 2023/02/27 11:19:02 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:19:02 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:19:02 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:19:02 current segment URL: forest_137796bps/OfForestAndMen_6s17.m4s
+DEBUG: 2023/02/27 11:19:02 get file from URL: https://server4/OfForestAndMen/6sec/forest_137796bps/OfForestAndMen_6s17.m4s
+
+DEBUG: 2023/02/27 11:19:02 Get the url https://server4/OfForestAndMen/6sec/forest_137796bps/OfForestAndMen_6s17.m4s
+DEBUG: 2023/02/27 11:19:02 URL is : https://server4/OfForestAndMen/6sec/forest_137796bps/OfForestAndMen_6s17.m4s
+DEBUG: 2023/02/27 11:19:02 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:19:08 HTTP body size is 145.473633
+DEBUG: 2023/02/27 11:19:08 Before consul update
+DEBUG: 2023/02/27 11:19:08 After consul update
+DEBUG: 2023/02/27 11:19:08 200
+
+DEBUG: 2023/02/27 11:19:08 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:19:08 Getting Claye Value
+
+DEBUG: 2023/02/27 11:19:08 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:19:08 Getting Yin Value
+
+DEBUG: 2023/02/27 11:19:08 Getting Yu Value
+DEBUG: 2023/02/27 11:19:08 Stepping up
+DEBUG: 2023/02/27 11:19:08 Selected 15 for segment 17
+
+DEBUG: 2023/02/27 11:19:08 bba2XL-double has choosen rep_Rate 15 @ a rate of 186
+
+DEBUG: 2023/02/27 11:19:08 Current segment duration: 6000
+DEBUG: 2023/02/27 11:19:08 Total segment duration: 0
+DEBUG: 2023/02/27 11:19:08 Next chunk duration: 6
+DEBUG: 2023/02/27 11:19:08 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:19:08 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:19:08 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:19:08 current segment URL: forest_186276bps/OfForestAndMen_6s18.m4s
+DEBUG: 2023/02/27 11:19:08 get file from URL: https://server4/OfForestAndMen/6sec/forest_186276bps/OfForestAndMen_6s18.m4s
+
+DEBUG: 2023/02/27 11:19:08 Get the url https://server4/OfForestAndMen/6sec/forest_186276bps/OfForestAndMen_6s18.m4s
+DEBUG: 2023/02/27 11:19:08 URL is : https://server4/OfForestAndMen/6sec/forest_186276bps/OfForestAndMen_6s18.m4s
+DEBUG: 2023/02/27 11:19:08 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:19:09 HTTP body size is 193.353516
+DEBUG: 2023/02/27 11:19:09 Before consul update
+DEBUG: 2023/02/27 11:19:09 After consul update
+DEBUG: 2023/02/27 11:19:09 200
+
+DEBUG: 2023/02/27 11:19:09 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:19:09 Getting Claye Value
+
+DEBUG: 2023/02/27 11:19:09 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:19:09 Getting Yin Value
+
+DEBUG: 2023/02/27 11:19:09 Getting Yu Value
+DEBUG: 2023/02/27 11:19:09 Stepping up
+DEBUG: 2023/02/27 11:19:09 Selected 14 for segment 18
+
+DEBUG: 2023/02/27 11:19:09 bba2XL-double has choosen rep_Rate 14 @ a rate of 232
+
+DEBUG: 2023/02/27 11:19:09 Current segment duration: 6000
+DEBUG: 2023/02/27 11:19:09 Total segment duration: 0
+DEBUG: 2023/02/27 11:19:09 Next chunk duration: 6
+DEBUG: 2023/02/27 11:19:09 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:19:09 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:19:09 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:19:09 current segment URL: forest_232403bps/OfForestAndMen_6s19.m4s
+DEBUG: 2023/02/27 11:19:09 get file from URL: https://server4/OfForestAndMen/6sec/forest_232403bps/OfForestAndMen_6s19.m4s
+
+DEBUG: 2023/02/27 11:19:09 Get the url https://server4/OfForestAndMen/6sec/forest_232403bps/OfForestAndMen_6s19.m4s
+DEBUG: 2023/02/27 11:19:09 URL is : https://server4/OfForestAndMen/6sec/forest_232403bps/OfForestAndMen_6s19.m4s
+DEBUG: 2023/02/27 11:19:09 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:19:09 HTTP body size is 242.279297
+DEBUG: 2023/02/27 11:19:09 Before consul update
+DEBUG: 2023/02/27 11:19:09 After consul update
+DEBUG: 2023/02/27 11:19:09 200
+
+DEBUG: 2023/02/27 11:19:09 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:19:09 Getting Claye Value
+
+DEBUG: 2023/02/27 11:19:09 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:19:09 Getting Yin Value
+
+DEBUG: 2023/02/27 11:19:09 Getting Yu Value
+DEBUG: 2023/02/27 11:19:09 Stepping up
+DEBUG: 2023/02/27 11:19:09 Selected 13 for segment 19
+
+DEBUG: 2023/02/27 11:19:09 bba2XL-double has choosen rep_Rate 13 @ a rate of 277
+
+DEBUG: 2023/02/27 11:19:09 Current segment duration: 6000
+DEBUG: 2023/02/27 11:19:09 Total segment duration: 0
+DEBUG: 2023/02/27 11:19:09 Next chunk duration: 6
+DEBUG: 2023/02/27 11:19:09 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:19:09 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:19:09 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:19:09 current segment URL: forest_277536bps/OfForestAndMen_6s20.m4s
+DEBUG: 2023/02/27 11:19:09 get file from URL: https://server4/OfForestAndMen/6sec/forest_277536bps/OfForestAndMen_6s20.m4s
+
+DEBUG: 2023/02/27 11:19:09 Get the url https://server4/OfForestAndMen/6sec/forest_277536bps/OfForestAndMen_6s20.m4s
+DEBUG: 2023/02/27 11:19:09 URL is : https://server4/OfForestAndMen/6sec/forest_277536bps/OfForestAndMen_6s20.m4s
+DEBUG: 2023/02/27 11:19:09 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:19:10 HTTP body size is 288.777344
+DEBUG: 2023/02/27 11:19:10 Before consul update
+DEBUG: 2023/02/27 11:19:10 After consul update
+DEBUG: 2023/02/27 11:19:10 200
+
+DEBUG: 2023/02/27 11:19:10 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:19:10 Getting Claye Value
+
+DEBUG: 2023/02/27 11:19:10 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:19:10 Getting Yin Value
+
+DEBUG: 2023/02/27 11:19:10 Getting Yu Value
+DEBUG: 2023/02/27 11:19:10 Stepping up
+DEBUG: 2023/02/27 11:19:10 Selected 12 for segment 20
+
+DEBUG: 2023/02/27 11:19:10 bba2XL-double has choosen rep_Rate 12 @ a rate of 367
+
+DEBUG: 2023/02/27 11:19:10 Current segment duration: 6000
+DEBUG: 2023/02/27 11:19:10 Total segment duration: 0
+DEBUG: 2023/02/27 11:19:10 Next chunk duration: 6
+DEBUG: 2023/02/27 11:19:10 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:19:10 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:19:10 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:19:10 current segment URL: forest_367110bps/OfForestAndMen_6s21.m4s
+DEBUG: 2023/02/27 11:19:10 get file from URL: https://server4/OfForestAndMen/6sec/forest_367110bps/OfForestAndMen_6s21.m4s
+
+DEBUG: 2023/02/27 11:19:10 Get the url https://server4/OfForestAndMen/6sec/forest_367110bps/OfForestAndMen_6s21.m4s
+DEBUG: 2023/02/27 11:19:10 URL is : https://server4/OfForestAndMen/6sec/forest_367110bps/OfForestAndMen_6s21.m4s
+DEBUG: 2023/02/27 11:19:10 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:19:12 HTTP body size is 387.012695
+DEBUG: 2023/02/27 11:19:12 Before consul update
+DEBUG: 2023/02/27 11:19:12 After consul update
+DEBUG: 2023/02/27 11:19:12 200
+
+DEBUG: 2023/02/27 11:19:12 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:19:12 Getting Claye Value
+
+DEBUG: 2023/02/27 11:19:12 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:19:12 Getting Yin Value
+
+DEBUG: 2023/02/27 11:19:12 Getting Yu Value
+DEBUG: 2023/02/27 11:19:12 Stepping up
+DEBUG: 2023/02/27 11:19:12 Selected 11 for segment 21
+
+DEBUG: 2023/02/27 11:19:12 bba2XL-double has choosen rep_Rate 11 @ a rate of 464
+
+DEBUG: 2023/02/27 11:19:12 Current segment duration: 6000
+DEBUG: 2023/02/27 11:19:12 Total segment duration: 0
+DEBUG: 2023/02/27 11:19:12 Next chunk duration: 6
+DEBUG: 2023/02/27 11:19:12 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:19:12 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:19:12 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:19:12 current segment URL: forest_464254bps/OfForestAndMen_6s22.m4s
+DEBUG: 2023/02/27 11:19:12 get file from URL: https://server4/OfForestAndMen/6sec/forest_464254bps/OfForestAndMen_6s22.m4s
+
+DEBUG: 2023/02/27 11:19:12 Get the url https://server4/OfForestAndMen/6sec/forest_464254bps/OfForestAndMen_6s22.m4s
+DEBUG: 2023/02/27 11:19:12 URL is : https://server4/OfForestAndMen/6sec/forest_464254bps/OfForestAndMen_6s22.m4s
+DEBUG: 2023/02/27 11:19:12 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:19:13 HTTP body size is 469.938477
+DEBUG: 2023/02/27 11:19:13 Before consul update
+DEBUG: 2023/02/27 11:19:13 After consul update
+DEBUG: 2023/02/27 11:19:13 200
+
+DEBUG: 2023/02/27 11:19:13 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:19:13 Getting Claye Value
+
+DEBUG: 2023/02/27 11:19:13 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:19:13 Getting Yin Value
+
+DEBUG: 2023/02/27 11:19:13 Getting Yu Value
+DEBUG: 2023/02/27 11:19:13 Stepping up
+DEBUG: 2023/02/27 11:19:13 Selected 10 for segment 22
+
+DEBUG: 2023/02/27 11:19:13 bba2XL-double has choosen rep_Rate 10 @ a rate of 555
+
+DEBUG: 2023/02/27 11:19:13 Current segment duration: 6000
+DEBUG: 2023/02/27 11:19:13 Total segment duration: 0
+DEBUG: 2023/02/27 11:19:13 Next chunk duration: 6
+DEBUG: 2023/02/27 11:19:13 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:19:13 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:19:13 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:19:13 current segment URL: forest_555312bps/OfForestAndMen_6s23.m4s
+DEBUG: 2023/02/27 11:19:13 get file from URL: https://server4/OfForestAndMen/6sec/forest_555312bps/OfForestAndMen_6s23.m4s
+
+DEBUG: 2023/02/27 11:19:13 Get the url https://server4/OfForestAndMen/6sec/forest_555312bps/OfForestAndMen_6s23.m4s
+DEBUG: 2023/02/27 11:19:13 URL is : https://server4/OfForestAndMen/6sec/forest_555312bps/OfForestAndMen_6s23.m4s
+DEBUG: 2023/02/27 11:19:13 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:19:15 HTTP body size is 538.660156
+DEBUG: 2023/02/27 11:19:15 Before consul update
+DEBUG: 2023/02/27 11:19:15 After consul update
+DEBUG: 2023/02/27 11:19:15 200
+
+DEBUG: 2023/02/27 11:19:15 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:19:15 Getting Claye Value
+
+DEBUG: 2023/02/27 11:19:15 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:19:15 Getting Yin Value
+
+DEBUG: 2023/02/27 11:19:15 Getting Yu Value
+DEBUG: 2023/02/27 11:19:15 Stepping up
+DEBUG: 2023/02/27 11:19:15 Selected 9 for segment 23
+
+DEBUG: 2023/02/27 11:19:15 bba2XL-double has choosen rep_Rate 9 @ a rate of 646
+
+DEBUG: 2023/02/27 11:19:15 Current segment duration: 6000
+DEBUG: 2023/02/27 11:19:15 Total segment duration: 0
+DEBUG: 2023/02/27 11:19:15 Next chunk duration: 6
+DEBUG: 2023/02/27 11:19:15 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:19:15 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:19:15 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:19:15 current segment URL: forest_646172bps/OfForestAndMen_6s24.m4s
+DEBUG: 2023/02/27 11:19:15 get file from URL: https://server4/OfForestAndMen/6sec/forest_646172bps/OfForestAndMen_6s24.m4s
+
+DEBUG: 2023/02/27 11:19:15 Get the url https://server4/OfForestAndMen/6sec/forest_646172bps/OfForestAndMen_6s24.m4s
+DEBUG: 2023/02/27 11:19:15 URL is : https://server4/OfForestAndMen/6sec/forest_646172bps/OfForestAndMen_6s24.m4s
+DEBUG: 2023/02/27 11:19:15 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:19:17 HTTP body size is 690.615234
+DEBUG: 2023/02/27 11:19:17 Before consul update
+DEBUG: 2023/02/27 11:19:17 After consul update
+DEBUG: 2023/02/27 11:19:17 200
+
+DEBUG: 2023/02/27 11:19:17 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:19:17 Getting Claye Value
+
+DEBUG: 2023/02/27 11:19:17 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:19:17 Getting Yin Value
+
+DEBUG: 2023/02/27 11:19:17 Getting Yu Value
+DEBUG: 2023/02/27 11:19:17 Stepping up
+DEBUG: 2023/02/27 11:19:17 Selected 8 for segment 24
+
+DEBUG: 2023/02/27 11:19:17 bba2XL-double has choosen rep_Rate 8 @ a rate of 828
+
+DEBUG: 2023/02/27 11:19:17 Current segment duration: 6000
+DEBUG: 2023/02/27 11:19:17 Total segment duration: 0
+DEBUG: 2023/02/27 11:19:17 Next chunk duration: 6
+DEBUG: 2023/02/27 11:19:17 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:19:17 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:19:17 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:19:17 current segment URL: forest_828868bps/OfForestAndMen_6s25.m4s
+DEBUG: 2023/02/27 11:19:17 get file from URL: https://server4/OfForestAndMen/6sec/forest_828868bps/OfForestAndMen_6s25.m4s
+
+DEBUG: 2023/02/27 11:19:17 Get the url https://server4/OfForestAndMen/6sec/forest_828868bps/OfForestAndMen_6s25.m4s
+DEBUG: 2023/02/27 11:19:17 URL is : https://server4/OfForestAndMen/6sec/forest_828868bps/OfForestAndMen_6s25.m4s
+DEBUG: 2023/02/27 11:19:17 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:19:20 HTTP body size is 835.224609
+DEBUG: 2023/02/27 11:19:20 Before consul update
+DEBUG: 2023/02/27 11:19:20 After consul update
+DEBUG: 2023/02/27 11:19:20 200
+
+DEBUG: 2023/02/27 11:19:20 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:19:20 Getting Claye Value
+
+DEBUG: 2023/02/27 11:19:20 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:19:20 Getting Yin Value
+
+DEBUG: 2023/02/27 11:19:20 Getting Yu Value
+DEBUG: 2023/02/27 11:19:20 Stepping up
+DEBUG: 2023/02/27 11:19:20 Selected 7 for segment 25
+
+DEBUG: 2023/02/27 11:19:20 bba2XL-double has choosen rep_Rate 7 @ a rate of 1008
+
+DEBUG: 2023/02/27 11:19:20 Current segment duration: 6000
+DEBUG: 2023/02/27 11:19:20 Total segment duration: 0
+DEBUG: 2023/02/27 11:19:20 Next chunk duration: 6
+DEBUG: 2023/02/27 11:19:20 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:19:20 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:19:20 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:19:20 current segment URL: forest_1008982bps/OfForestAndMen_6s26.m4s
+DEBUG: 2023/02/27 11:19:20 get file from URL: https://server4/OfForestAndMen/6sec/forest_1008982bps/OfForestAndMen_6s26.m4s
+
+DEBUG: 2023/02/27 11:19:20 Get the url https://server4/OfForestAndMen/6sec/forest_1008982bps/OfForestAndMen_6s26.m4s
+DEBUG: 2023/02/27 11:19:20 URL is : https://server4/OfForestAndMen/6sec/forest_1008982bps/OfForestAndMen_6s26.m4s
+DEBUG: 2023/02/27 11:19:20 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:19:23 HTTP body size is 1055.933594
+DEBUG: 2023/02/27 11:19:23 Before consul update
+DEBUG: 2023/02/27 11:19:23 After consul update
+DEBUG: 2023/02/27 11:19:23 200
+
+DEBUG: 2023/02/27 11:19:24 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:19:24 Getting Claye Value
+
+DEBUG: 2023/02/27 11:19:24 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:19:24 Getting Yin Value
+
+DEBUG: 2023/02/27 11:19:24 Getting Yu Value
+DEBUG: 2023/02/27 11:19:24 Stepping up
+DEBUG: 2023/02/27 11:19:24 Selected 6 for segment 26
+
+DEBUG: 2023/02/27 11:19:24 bba2XL-double has choosen rep_Rate 6 @ a rate of 1264
+
+DEBUG: 2023/02/27 11:19:24 Current segment duration: 6000
+DEBUG: 2023/02/27 11:19:24 Total segment duration: 0
+DEBUG: 2023/02/27 11:19:24 Next chunk duration: 6
+DEBUG: 2023/02/27 11:19:24 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:19:24 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:19:24 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:19:24 current segment URL: forest_1264958bps/OfForestAndMen_6s27.m4s
+DEBUG: 2023/02/27 11:19:24 get file from URL: https://server4/OfForestAndMen/6sec/forest_1264958bps/OfForestAndMen_6s27.m4s
+
+DEBUG: 2023/02/27 11:19:24 Get the url https://server4/OfForestAndMen/6sec/forest_1264958bps/OfForestAndMen_6s27.m4s
+DEBUG: 2023/02/27 11:19:24 URL is : https://server4/OfForestAndMen/6sec/forest_1264958bps/OfForestAndMen_6s27.m4s
+DEBUG: 2023/02/27 11:19:24 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:19:28 HTTP body size is 1306.046875
+DEBUG: 2023/02/27 11:19:28 Before consul update
+DEBUG: 2023/02/27 11:19:28 After consul update
+DEBUG: 2023/02/27 11:19:28 200
+
+DEBUG: 2023/02/27 11:19:29 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:19:29 Getting Claye Value
+
+DEBUG: 2023/02/27 11:19:29 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:19:29 Getting Yin Value
+
+DEBUG: 2023/02/27 11:19:29 Getting Yu Value
+DEBUG: 2023/02/27 11:19:29 Stepping up
+DEBUG: 2023/02/27 11:19:29 Selected 5 for segment 27
+
+DEBUG: 2023/02/27 11:19:29 bba2XL-double has choosen rep_Rate 5 @ a rate of 1513
+
+DEBUG: 2023/02/27 11:19:29 Current segment duration: 6000
+DEBUG: 2023/02/27 11:19:29 Total segment duration: 0
+DEBUG: 2023/02/27 11:19:29 Next chunk duration: 6
+DEBUG: 2023/02/27 11:19:29 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:19:29 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:19:29 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:19:29 current segment URL: forest_1513458bps/OfForestAndMen_6s28.m4s
+DEBUG: 2023/02/27 11:19:29 get file from URL: https://server4/OfForestAndMen/6sec/forest_1513458bps/OfForestAndMen_6s28.m4s
+
+DEBUG: 2023/02/27 11:19:29 Get the url https://server4/OfForestAndMen/6sec/forest_1513458bps/OfForestAndMen_6s28.m4s
+DEBUG: 2023/02/27 11:19:29 URL is : https://server4/OfForestAndMen/6sec/forest_1513458bps/OfForestAndMen_6s28.m4s
+DEBUG: 2023/02/27 11:19:29 Protocol is : HTTP/3.0

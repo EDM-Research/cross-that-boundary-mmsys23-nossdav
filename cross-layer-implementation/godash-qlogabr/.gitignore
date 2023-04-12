@@ -1,0 +1,10 @@
+bin/**
+.DS_Store
+files/**
+godash
+goDASH
+logs/**
+pkg/**
+src/**
+go.sum
+.vscode/**

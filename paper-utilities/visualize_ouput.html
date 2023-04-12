@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #images {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            #images div {
+                width: 30vw;
+                flex: 0 0 25%
+            }
+
+            #images div img {
+                width: 30vw;
+                /* flex: 0 0 25% */
+            }
+
+            #images div pre, #images div h2 {
+                width: 30vw;
+                flex: 0 0 5%;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            #images h1 {
+                width: 100vw;
+                flex: 0 0 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="images"></div>
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", async () => {
+                let abr = ["bba2", "bba2XL-base", "bba2XL-double"]
+                let abrPaperTitles = ["bba2", "bba2-CL", "bba2-CLDouble"]
+                let clients = [
+                    "godashcl-bba2-bbb-2s",
+                    "godashcl-bba2cl-bbb-2s",
+                    "godashcl-bba2cl-double-bbb-2s",
+
+                    "godashcl-bba2-bbb-4s",
+                    "godashcl-bba2cl-bbb-4s",
+                    "godashcl-bba2cl-double-bbb-4s",
+
+                    "godashcl-bba2-bbb-6s",
+                    "godashcl-bba2cl-bbb-6s",
+                    "godashcl-bba2cl-double-bbb-6s",
+
+                    "godashcl-bba2-ofm-2s",
+                    "godashcl-bba2cl-ofm-2s",
+                    "godashcl-bba2cl-double-ofm-2s",
+
+                    "godashcl-bba2-ofm-4s",
+                    "godashcl-bba2cl-ofm-4s",
+                    "godashcl-bba2cl-double-ofm-4s",
+
+                    "godashcl-bba2-ofm-6s",
+                    "godashcl-bba2cl-ofm-6s",
+                    "godashcl-bba2cl-double-ofm-6s",
+
+                    "godashcl-bba2-ed-2s",
+                    "godashcl-bba2cl-ed-2s",
+                    "godashcl-bba2cl-double-ed-2s",
+
+                    "godashcl-bba2-ed-4s",
+                    "godashcl-bba2cl-ed-4s",
+                    "godashcl-bba2cl-double-ed-4s",
+
+                    "godashcl-bba2-ed-6s",
+                    "godashcl-bba2cl-ed-6s",
+                    "godashcl-bba2cl-double-ed-6s",
+                ];
+                
+                let shapers = [
+                    "tc-netem-cl-paper"
+                ];
+
+                let servers = [
+                    "quic-go"
+                ];
+
+                // CHANGE ME TO THE CORRECT FOLDER PLEASE
+                let prefix = "/cross_layer_paper/2023-02-27T_11-49-02/"
+                // THANK YOU :)
+
+                let gallery = document.getElementById("images")
+
+                counter = 0;
+                clients.forEach(client => {
+                    shapers.forEach(shaper => {
+                        servers.forEach(server => {
+                            if (counter % 3 == 0) {
+                                let header = document.createElement("h1");
+                                let metadata = client.split("-");
+                                header.innerText = metadata[metadata.length - 2] + " - " + metadata[metadata.length - 1];
+                                gallery.appendChild(header);
+                            }
+                            
+                            let galleryEntry = document.createElement("div");
+
+                            let title = document.createElement("h2");
+                            title.innerText = abrPaperTitles[counter % 3]
+                            galleryEntry.appendChild(title);
+
+                            let imageUrl = prefix + client + "__" + shaper + "__" + server + "/client/viz_stallprediction.png"
+                            let img = document.createElement("img");
+                            img.src = imageUrl;
+                            galleryEntry.appendChild(img);
+
+                            let scoreElement = document.createElement("pre");
+                            galleryEntry.appendChild(scoreElement);
+                            let o46Url = prefix + client + "__" + shaper + "__" + server + "/client/itu-p1203.json"
+                            fetch(o46Url).then(r => r.json()).then(data => {
+                                let key = Object.keys(data)[0];
+                                console.log(data[key].O46);
+                                let rounded = parseFloat(data[key].O46).toFixed(2);
+                                console.log(rounded);
+                                // pre.innerText = data[key].O46;
+                                scoreElement.innerText = "O46 " + rounded;
+                            });
+
+                            gallery.appendChild(galleryEntry);
+
+                            counter++;
+                        });
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,879 @@
+DEBUG: 2023/02/27 11:04:25 -debug set to true 
+DEBUG: 2023/02/27 11:04:25 -useTestbed set to off
+DEBUG: 2023/02/27 11:04:25 -quic set to on
+DEBUG: 2023/02/27 11:04:25 -url set to [https://server4/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd]
+DEBUG: 2023/02/27 11:04:25 URL array passed : [https://server4/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd]
+DEBUG: 2023/02/27 11:04:25 Parameters: https://server4/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:04:25 Get the url https://server4/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:04:25 URL is : https://server4/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:04:25 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:25 Codec Index List : [0] for MPD 1
+DEBUG: 2023/02/27 11:04:25 Codec List : [h264] for MPD 1
+DEBUG: 2023/02/27 11:04:25 Audio content is set to false
+DEBUG: 2023/02/27 11:04:25 h264
+DEBUG: 2023/02/27 11:04:25 URL array passed : [https://server4/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd]
+DEBUG: 2023/02/27 11:04:25 Parameters: https://server4/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:04:25 Get the url https://server4/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:04:25 URL is : https://server4/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:04:25 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:25 -printHeader: print additional headers {"Algorithm":"on","Seg_Dur":"off","Codec":"on","Width":"on","Height":"on","FPS":"off","Play_Pos":"off","RTT":"off","Seg_Repl":"off","Protocol":"on","P.1203":"on","Clae":"on","Duanmu":"on","Yin":"on","Yu":"on"}
+DEBUG: 2023/02/27 11:04:25 -QoE set to on
+DEBUG: 2023/02/27 11:04:25 p1203-standalone is installed
+DEBUG: 2023/02/27 11:04:25 -terminalPrint set to on
+DEBUG: 2023/02/27 11:04:25 -getHeaders set to off
+DEBUG: 2023/02/27 11:04:25 -adapt set to bba2
+DEBUG: 2023/02/27 11:04:25 -outputFolder set to ../logs/files/
+DEBUG: 2023/02/27 11:04:25 -serveraddr set to off
+DEBUG: 2023/02/27 11:04:25 -maxHeight set to 1080
+DEBUG: 2023/02/27 11:04:25 -streamSpeed set to 1.000000
+DEBUG: 2023/02/27 11:04:25 -maxBuffer set to 60
+DEBUG: 2023/02/27 11:04:25 -initBuffer set to 2
+DEBUG: 2023/02/27 11:04:25 -codec set to h264
+DEBUG: 2023/02/27 11:04:25 -storeDASH set to on
+DEBUG: 2023/02/27 11:04:25 Codec Index List : [0] for MPD 1
+DEBUG: 2023/02/27 11:04:25 Codec List : [h264] for MPD 1
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 3858484
+DEBUG: 2023/02/27 11:04:25 rep_rate for maxHeight:0
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 3557500
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 3297198
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 2919314
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 2395950
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 2078678
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 1461530
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 1201426
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 1006743
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 779796
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 573252
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 506300
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 373935
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 320564
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 255169
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 217651
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 176827
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 128256
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 89036
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 getMPDheightIndex - bitrate: 45514
+DEBUG: 2023/02/27 11:04:25 Rep_Rate 0 @ 3858484 is bigger than or equal to Rep_Rate 19 @ 45514
+
+DEBUG: 2023/02/27 11:04:25 Collect metrics from selected MPD file
+DEBUG: 2023/02/27 11:04:25 Maximum stream duration: 596000
+DEBUG: 2023/02/27 11:04:25 Maximum number of segments: 99
+DEBUG: 2023/02/27 11:04:25 Maximum buffer: 60
+DEBUG: 2023/02/27 11:04:25 Minimum MPD index: 0
+DEBUG: 2023/02/27 11:04:25 Maximum MPD index: 19
+DEBUG: 2023/02/27 11:04:25 Segment Duration: 6
+DEBUG: 2023/02/27 11:04:25 Base URL: 
+
+DEBUG: 2023/02/27 11:04:25 
+Bandwidth List : [3858484 3557500 3297198 2919314 2395950 2078678 1461530 1201426 1006743 779796 573252 506300 373935 320564 255169 217651 176827 128256 89036 45514]
+
+DEBUG: 2023/02/27 11:04:25 DASH profile for the header is: isoff-live
+
+DEBUG: 2023/02/27 11:04:25 streaming has begun
+DEBUG: 2023/02/27 11:04:25 Input values to streaming algorithm: bba2
+DEBUG: 2023/02/27 11:04:25 maxHeight: 1080
+DEBUG: 2023/02/27 11:04:25 streamDuration in seconds: 596000
+DEBUG: 2023/02/27 11:04:25 streamSpeed: 1.000000
+DEBUG: 2023/02/27 11:04:25 maxBuffer: 60
+DEBUG: 2023/02/27 11:04:25 initBuffer: 2
+DEBUG: 2023/02/27 11:04:25 url: [https://server4/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd]
+DEBUG: 2023/02/27 11:04:25 fileDownloadLocation: logs/files
+DEBUG: 2023/02/27 11:04:25 HLS: off
+DEBUG: 2023/02/27 11:04:25 extend: true
+DEBUG: 2023/02/27 11:04:25 stream initialise URL header: bunny_45514bps/BigBuckBunny_6s_init.mp4
+
+DEBUG: 2023/02/27 11:04:25 current URL header: https://server4/BigBuckBunny/6sec/BigBuckBunny_6s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:04:25 get file from URL: https://server4/BigBuckBunny/6sec/bunny_45514bps/BigBuckBunny_6s_init.mp4
+
+DEBUG: 2023/02/27 11:04:25 Get the url https://server4/BigBuckBunny/6sec/bunny_45514bps/BigBuckBunny_6s_init.mp4
+DEBUG: 2023/02/27 11:04:25 URL is : https://server4/BigBuckBunny/6sec/bunny_45514bps/BigBuckBunny_6s_init.mp4
+DEBUG: 2023/02/27 11:04:25 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:25 HTTP body size is 1.141602
+DEBUG: 2023/02/27 11:04:25 Before consul update
+DEBUG: 2023/02/27 11:04:25 After consul update
+
+DEBUG: 2023/02/27 11:04:25 We are using repRate: 19
+DEBUG: 2023/02/27 11:04:25 We are using : bba2 for streaming
+
+DEBUG: 2023/02/27 11:04:25 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:04:25 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:04:25 current segment URL: bunny_45514bps/BigBuckBunny_6s1.m4s
+DEBUG: 2023/02/27 11:04:25 get file from URL: https://server4/BigBuckBunny/6sec/bunny_45514bps/BigBuckBunny_6s1.m4s
+
+DEBUG: 2023/02/27 11:04:25 Get the url https://server4/BigBuckBunny/6sec/bunny_45514bps/BigBuckBunny_6s1.m4s
+DEBUG: 2023/02/27 11:04:25 URL is : https://server4/BigBuckBunny/6sec/bunny_45514bps/BigBuckBunny_6s1.m4s
+DEBUG: 2023/02/27 11:04:25 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:25 HTTP body size is 42.330078
+DEBUG: 2023/02/27 11:04:25 Before consul update
+DEBUG: 2023/02/27 11:04:25 After consul update
+DEBUG: 2023/02/27 11:04:25 200
+
+DEBUG: 2023/02/27 11:04:25 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:04:25 Getting Claye Value
+
+DEBUG: 2023/02/27 11:04:25 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:04:25 Getting Yin Value
+
+DEBUG: 2023/02/27 11:04:25 Getting Yu Value
+
+DEBUG: 2023/02/27 11:04:25 bba2 has choosen rep_Rate 19 @ a rate of 45
+
+DEBUG: 2023/02/27 11:04:25 Current segment duration: 6000
+DEBUG: 2023/02/27 11:04:25 Total segment duration: 0
+DEBUG: 2023/02/27 11:04:25 Next chunk duration: 6
+DEBUG: 2023/02/27 11:04:25 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:04:25 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:04:25 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:04:25 current segment URL: bunny_45514bps/BigBuckBunny_6s2.m4s
+DEBUG: 2023/02/27 11:04:25 get file from URL: https://server4/BigBuckBunny/6sec/bunny_45514bps/BigBuckBunny_6s2.m4s
+
+DEBUG: 2023/02/27 11:04:25 Get the url https://server4/BigBuckBunny/6sec/bunny_45514bps/BigBuckBunny_6s2.m4s
+DEBUG: 2023/02/27 11:04:25 URL is : https://server4/BigBuckBunny/6sec/bunny_45514bps/BigBuckBunny_6s2.m4s
+DEBUG: 2023/02/27 11:04:25 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:26 HTTP body size is 48.468750
+DEBUG: 2023/02/27 11:04:26 Before consul update
+DEBUG: 2023/02/27 11:04:26 After consul update
+DEBUG: 2023/02/27 11:04:26 200
+
+DEBUG: 2023/02/27 11:04:26 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:04:26 Getting Claye Value
+
+DEBUG: 2023/02/27 11:04:26 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:04:26 Getting Yin Value
+
+DEBUG: 2023/02/27 11:04:26 Getting Yu Value
+DEBUG: 2023/02/27 11:04:26 DELTAB 5 601473
+DEBUG: 2023/02/27 11:04:26 Using Rate
+DEBUG: 2023/02/27 11:04:26 Selected 18 for segment 2
+
+DEBUG: 2023/02/27 11:04:26 bba2 has choosen rep_Rate 18 @ a rate of 89
+
+DEBUG: 2023/02/27 11:04:26 Current segment duration: 6000
+DEBUG: 2023/02/27 11:04:26 Total segment duration: 0
+DEBUG: 2023/02/27 11:04:26 Next chunk duration: 6
+DEBUG: 2023/02/27 11:04:26 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:04:26 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:04:26 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:04:26 current segment URL: bunny_89036bps/BigBuckBunny_6s3.m4s
+DEBUG: 2023/02/27 11:04:26 get file from URL: https://server4/BigBuckBunny/6sec/bunny_89036bps/BigBuckBunny_6s3.m4s
+
+DEBUG: 2023/02/27 11:04:26 Get the url https://server4/BigBuckBunny/6sec/bunny_89036bps/BigBuckBunny_6s3.m4s
+DEBUG: 2023/02/27 11:04:26 URL is : https://server4/BigBuckBunny/6sec/bunny_89036bps/BigBuckBunny_6s3.m4s
+DEBUG: 2023/02/27 11:04:26 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:26 HTTP body size is 88.154297
+DEBUG: 2023/02/27 11:04:26 Before consul update
+DEBUG: 2023/02/27 11:04:26 After consul update
+DEBUG: 2023/02/27 11:04:26 200
+
+DEBUG: 2023/02/27 11:04:26 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:04:26 Getting Claye Value
+
+DEBUG: 2023/02/27 11:04:26 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:04:26 Getting Yin Value
+
+DEBUG: 2023/02/27 11:04:26 Getting Yu Value
+DEBUG: 2023/02/27 11:04:26 Stepping down
+DEBUG: 2023/02/27 11:04:26 DELTAB 5 898842
+DEBUG: 2023/02/27 11:04:26 Using Rate
+DEBUG: 2023/02/27 11:04:26 Selected 17 for segment 3
+
+DEBUG: 2023/02/27 11:04:26 bba2 has choosen rep_Rate 17 @ a rate of 128
+
+DEBUG: 2023/02/27 11:04:26 Current segment duration: 6000
+DEBUG: 2023/02/27 11:04:26 Total segment duration: 0
+DEBUG: 2023/02/27 11:04:26 Next chunk duration: 6
+DEBUG: 2023/02/27 11:04:26 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:04:26 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:04:26 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:04:26 current segment URL: bunny_128256bps/BigBuckBunny_6s4.m4s
+DEBUG: 2023/02/27 11:04:26 get file from URL: https://server4/BigBuckBunny/6sec/bunny_128256bps/BigBuckBunny_6s4.m4s
+
+DEBUG: 2023/02/27 11:04:26 Get the url https://server4/BigBuckBunny/6sec/bunny_128256bps/BigBuckBunny_6s4.m4s
+DEBUG: 2023/02/27 11:04:26 URL is : https://server4/BigBuckBunny/6sec/bunny_128256bps/BigBuckBunny_6s4.m4s
+DEBUG: 2023/02/27 11:04:26 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:26 HTTP body size is 99.622070
+DEBUG: 2023/02/27 11:04:26 Before consul update
+DEBUG: 2023/02/27 11:04:26 After consul update
+DEBUG: 2023/02/27 11:04:26 200
+
+DEBUG: 2023/02/27 11:04:26 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:04:26 Getting Claye Value
+
+DEBUG: 2023/02/27 11:04:26 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:04:26 Getting Yin Value
+
+DEBUG: 2023/02/27 11:04:26 Getting Yu Value
+DEBUG: 2023/02/27 11:04:26 Stepping up
+DEBUG: 2023/02/27 11:04:26 DELTAB 5 1201983
+DEBUG: 2023/02/27 11:04:26 Using Rate
+DEBUG: 2023/02/27 11:04:26 Selected 16 for segment 4
+
+DEBUG: 2023/02/27 11:04:26 bba2 has choosen rep_Rate 16 @ a rate of 176
+
+DEBUG: 2023/02/27 11:04:26 Current segment duration: 6000
+DEBUG: 2023/02/27 11:04:26 Total segment duration: 0
+DEBUG: 2023/02/27 11:04:26 Next chunk duration: 6
+DEBUG: 2023/02/27 11:04:26 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:04:26 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:04:26 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:04:26 current segment URL: bunny_176827bps/BigBuckBunny_6s5.m4s
+DEBUG: 2023/02/27 11:04:26 get file from URL: https://server4/BigBuckBunny/6sec/bunny_176827bps/BigBuckBunny_6s5.m4s
+
+DEBUG: 2023/02/27 11:04:26 Get the url https://server4/BigBuckBunny/6sec/bunny_176827bps/BigBuckBunny_6s5.m4s
+DEBUG: 2023/02/27 11:04:26 URL is : https://server4/BigBuckBunny/6sec/bunny_176827bps/BigBuckBunny_6s5.m4s
+DEBUG: 2023/02/27 11:04:26 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:27 HTTP body size is 180.666016
+DEBUG: 2023/02/27 11:04:27 Before consul update
+DEBUG: 2023/02/27 11:04:27 After consul update
+DEBUG: 2023/02/27 11:04:27 200
+
+DEBUG: 2023/02/27 11:04:27 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:04:27 Getting Claye Value
+
+DEBUG: 2023/02/27 11:04:27 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:04:27 Getting Yin Value
+
+DEBUG: 2023/02/27 11:04:27 Getting Yu Value
+DEBUG: 2023/02/27 11:04:27 Stepping up
+DEBUG: 2023/02/27 11:04:27 DELTAB 5 1504862
+DEBUG: 2023/02/27 11:04:27 Using Rate
+DEBUG: 2023/02/27 11:04:27 Selected 15 for segment 5
+
+DEBUG: 2023/02/27 11:04:27 bba2 has choosen rep_Rate 15 @ a rate of 217
+
+DEBUG: 2023/02/27 11:04:27 Current segment duration: 6000
+DEBUG: 2023/02/27 11:04:27 Total segment duration: 0
+DEBUG: 2023/02/27 11:04:27 Next chunk duration: 6
+DEBUG: 2023/02/27 11:04:27 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:04:27 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:04:27 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:04:27 current segment URL: bunny_217651bps/BigBuckBunny_6s6.m4s
+DEBUG: 2023/02/27 11:04:27 get file from URL: https://server4/BigBuckBunny/6sec/bunny_217651bps/BigBuckBunny_6s6.m4s
+
+DEBUG: 2023/02/27 11:04:27 Get the url https://server4/BigBuckBunny/6sec/bunny_217651bps/BigBuckBunny_6s6.m4s
+DEBUG: 2023/02/27 11:04:27 URL is : https://server4/BigBuckBunny/6sec/bunny_217651bps/BigBuckBunny_6s6.m4s
+DEBUG: 2023/02/27 11:04:27 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:28 HTTP body size is 223.226562
+DEBUG: 2023/02/27 11:04:28 Before consul update
+DEBUG: 2023/02/27 11:04:28 After consul update
+DEBUG: 2023/02/27 11:04:28 200
+
+DEBUG: 2023/02/27 11:04:28 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:04:28 Getting Claye Value
+
+DEBUG: 2023/02/27 11:04:28 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:04:28 Getting Yin Value
+
+DEBUG: 2023/02/27 11:04:28 Getting Yu Value
+DEBUG: 2023/02/27 11:04:28 Stepping up
+DEBUG: 2023/02/27 11:04:28 DELTAB 5 1805181
+DEBUG: 2023/02/27 11:04:28 Using Rate
+DEBUG: 2023/02/27 11:04:28 Selected 14 for segment 6
+
+DEBUG: 2023/02/27 11:04:28 bba2 has choosen rep_Rate 14 @ a rate of 255
+
+DEBUG: 2023/02/27 11:04:28 Current segment duration: 6000
+DEBUG: 2023/02/27 11:04:28 Total segment duration: 0
+DEBUG: 2023/02/27 11:04:28 Next chunk duration: 6
+DEBUG: 2023/02/27 11:04:28 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:04:28 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:04:28 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:04:28 current segment URL: bunny_255169bps/BigBuckBunny_6s7.m4s
+DEBUG: 2023/02/27 11:04:28 get file from URL: https://server4/BigBuckBunny/6sec/bunny_255169bps/BigBuckBunny_6s7.m4s
+
+DEBUG: 2023/02/27 11:04:28 Get the url https://server4/BigBuckBunny/6sec/bunny_255169bps/BigBuckBunny_6s7.m4s
+DEBUG: 2023/02/27 11:04:28 URL is : https://server4/BigBuckBunny/6sec/bunny_255169bps/BigBuckBunny_6s7.m4s
+DEBUG: 2023/02/27 11:04:28 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:29 HTTP body size is 292.123047
+DEBUG: 2023/02/27 11:04:29 Before consul update
+DEBUG: 2023/02/27 11:04:29 After consul update
+DEBUG: 2023/02/27 11:04:29 200
+
+DEBUG: 2023/02/27 11:04:29 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:04:29 Getting Claye Value
+
+DEBUG: 2023/02/27 11:04:29 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:04:29 Getting Yin Value
+
+DEBUG: 2023/02/27 11:04:29 Getting Yu Value
+DEBUG: 2023/02/27 11:04:29 Stepping up
+DEBUG: 2023/02/27 11:04:29 DELTAB 5 2410538
+DEBUG: 2023/02/27 11:04:29 Using Rate
+DEBUG: 2023/02/27 11:04:29 Selected 13 for segment 7
+
+DEBUG: 2023/02/27 11:04:29 bba2 has choosen rep_Rate 13 @ a rate of 320
+
+DEBUG: 2023/02/27 11:04:29 Current segment duration: 6000
+DEBUG: 2023/02/27 11:04:29 Total segment duration: 0
+DEBUG: 2023/02/27 11:04:29 Next chunk duration: 6
+DEBUG: 2023/02/27 11:04:29 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:04:29 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:04:29 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:04:29 current segment URL: bunny_320564bps/BigBuckBunny_6s8.m4s
+DEBUG: 2023/02/27 11:04:29 get file from URL: https://server4/BigBuckBunny/6sec/bunny_320564bps/BigBuckBunny_6s8.m4s
+
+DEBUG: 2023/02/27 11:04:29 Get the url https://server4/BigBuckBunny/6sec/bunny_320564bps/BigBuckBunny_6s8.m4s
+DEBUG: 2023/02/27 11:04:29 URL is : https://server4/BigBuckBunny/6sec/bunny_320564bps/BigBuckBunny_6s8.m4s
+DEBUG: 2023/02/27 11:04:29 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:30 HTTP body size is 371.793945
+DEBUG: 2023/02/27 11:04:30 Before consul update
+DEBUG: 2023/02/27 11:04:30 After consul update
+DEBUG: 2023/02/27 11:04:30 200
+
+DEBUG: 2023/02/27 11:04:30 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:04:30 Getting Claye Value
+
+DEBUG: 2023/02/27 11:04:30 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:04:30 Getting Yin Value
+
+DEBUG: 2023/02/27 11:04:30 Getting Yu Value
+DEBUG: 2023/02/27 11:04:30 Stepping up
+DEBUG: 2023/02/27 11:04:30 DELTAB 5 3013008
+DEBUG: 2023/02/27 11:04:30 Using Rate
+DEBUG: 2023/02/27 11:04:30 Selected 12 for segment 8
+
+DEBUG: 2023/02/27 11:04:30 bba2 has choosen rep_Rate 12 @ a rate of 373
+
+DEBUG: 2023/02/27 11:04:30 Current segment duration: 6000
+DEBUG: 2023/02/27 11:04:30 Total segment duration: 0
+DEBUG: 2023/02/27 11:04:30 Next chunk duration: 6
+DEBUG: 2023/02/27 11:04:30 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:04:30 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:04:30 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:04:30 current segment URL: bunny_373935bps/BigBuckBunny_6s9.m4s
+DEBUG: 2023/02/27 11:04:30 get file from URL: https://server4/BigBuckBunny/6sec/bunny_373935bps/BigBuckBunny_6s9.m4s
+
+DEBUG: 2023/02/27 11:04:30 Get the url https://server4/BigBuckBunny/6sec/bunny_373935bps/BigBuckBunny_6s9.m4s
+DEBUG: 2023/02/27 11:04:30 URL is : https://server4/BigBuckBunny/6sec/bunny_373935bps/BigBuckBunny_6s9.m4s
+DEBUG: 2023/02/27 11:04:30 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:31 HTTP body size is 467.615234
+DEBUG: 2023/02/27 11:04:31 Before consul update
+DEBUG: 2023/02/27 11:04:31 After consul update
+DEBUG: 2023/02/27 11:04:31 200
+
+DEBUG: 2023/02/27 11:04:31 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:04:31 Getting Claye Value
+
+DEBUG: 2023/02/27 11:04:31 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:04:31 Getting Yin Value
+
+DEBUG: 2023/02/27 11:04:31 Getting Yu Value
+DEBUG: 2023/02/27 11:04:31 Stepping up
+DEBUG: 2023/02/27 11:04:31 DELTAB 5 3582704
+DEBUG: 2023/02/27 11:04:31 Using Rate
+DEBUG: 2023/02/27 11:04:31 Selected 11 for segment 9
+
+DEBUG: 2023/02/27 11:04:31 bba2 has choosen rep_Rate 11 @ a rate of 506
+
+DEBUG: 2023/02/27 11:04:31 Current segment duration: 6000
+DEBUG: 2023/02/27 11:04:31 Total segment duration: 0
+DEBUG: 2023/02/27 11:04:31 Next chunk duration: 6
+DEBUG: 2023/02/27 11:04:31 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:04:31 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:04:31 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:04:31 current segment URL: bunny_506300bps/BigBuckBunny_6s10.m4s
+DEBUG: 2023/02/27 11:04:31 get file from URL: https://server4/BigBuckBunny/6sec/bunny_506300bps/BigBuckBunny_6s10.m4s
+
+DEBUG: 2023/02/27 11:04:31 Get the url https://server4/BigBuckBunny/6sec/bunny_506300bps/BigBuckBunny_6s10.m4s
+DEBUG: 2023/02/27 11:04:31 URL is : https://server4/BigBuckBunny/6sec/bunny_506300bps/BigBuckBunny_6s10.m4s
+DEBUG: 2023/02/27 11:04:31 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:33 HTTP body size is 390.832031
+DEBUG: 2023/02/27 11:04:33 Before consul update
+DEBUG: 2023/02/27 11:04:33 After consul update
+DEBUG: 2023/02/27 11:04:33 200
+
+DEBUG: 2023/02/27 11:04:33 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:04:33 Getting Claye Value
+
+DEBUG: 2023/02/27 11:04:33 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:04:33 Getting Yin Value
+
+DEBUG: 2023/02/27 11:04:33 Getting Yu Value
+DEBUG: 2023/02/27 11:04:33 Stepping up
+DEBUG: 2023/02/27 11:04:33 DELTAB 5 4139573
+DEBUG: 2023/02/27 11:04:33 Using Rate
+DEBUG: 2023/02/27 11:04:33 Selected 10 for segment 10
+
+DEBUG: 2023/02/27 11:04:33 bba2 has choosen rep_Rate 10 @ a rate of 573
+
+DEBUG: 2023/02/27 11:04:33 Current segment duration: 6000
+DEBUG: 2023/02/27 11:04:33 Total segment duration: 0
+DEBUG: 2023/02/27 11:04:33 Next chunk duration: 6
+DEBUG: 2023/02/27 11:04:33 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:04:33 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:04:33 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:04:33 current segment URL: bunny_573252bps/BigBuckBunny_6s11.m4s
+DEBUG: 2023/02/27 11:04:33 get file from URL: https://server4/BigBuckBunny/6sec/bunny_573252bps/BigBuckBunny_6s11.m4s
+
+DEBUG: 2023/02/27 11:04:33 Get the url https://server4/BigBuckBunny/6sec/bunny_573252bps/BigBuckBunny_6s11.m4s
+DEBUG: 2023/02/27 11:04:33 URL is : https://server4/BigBuckBunny/6sec/bunny_573252bps/BigBuckBunny_6s11.m4s
+DEBUG: 2023/02/27 11:04:33 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:04:34 HTTP body size is 471.769531
+DEBUG: 2023/02/27 11:04:34 Before consul update
+DEBUG: 2023/02/27 11:04:34 After consul update
+DEBUG: 2023/02/27 11:04:34 200
+
+DEBUG: 2023/02/27 11:04:34 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:04:34 Getting Claye Value
+
+DEBUG: 2023/02/27 11:04:34 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:04:34 Getting Yin Value
+
+DEBUG: 2023/02/27 11:04:34 Getting Yu Value
+DEBUG: 2023/02/27 11:04:34 Stepping up
+DEBUG: 2023/02/27 11:04:34 DELTAB 5 5455339
+DEBUG: 2023/02/27 11:04:34 Using Rate
+DEBUG: 2023/02/27 11:04:34 Selected 9 for segment 11
+
+DEBUG: 2023/02/27 11:04:34 bba2 has choosen rep_Rate 9 @ a rate of 779
+
+DEBUG: 2023/02/27 11:04:34 Current segment duration: 6000
+DEBUG: 2023/02/27 11:04:34 Total segment duration: 0
+DEBUG: 2023/02/27 11:04:34 Next chunk duration: 6
+DEBUG: 2023/02/27 11:04:34 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:04:34 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:04:34 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:04:34 current segment URL: bunny_779796bps/BigBuckBunny_6s12.m4s
+DEBUG: 2023/02/27 11:04:34 get file from URL: https://server4/BigBuckBunny/6sec/bunny_779796bps/BigBuckBunny_6s12.m4s
+
+DEBUG: 2023/02/27 11:04:34 Get the url https://server4/BigBuckBunny/6sec/bunny_779796bps/BigBuckBunny_6s12.m4s
+DEBUG: 2023/02/27 11:04:34 URL is : https://server4/BigBuckBunny/6sec/bunny_779796bps/BigBuckBunny_6s12.m4s
+DEBUG: 2023/02/27 11:04:34 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:05:06 HTTP body size is 776.234375
+DEBUG: 2023/02/27 11:05:06 Before consul update
+DEBUG: 2023/02/27 11:05:06 After consul update
+DEBUG: 2023/02/27 11:05:06 200
+
+DEBUG: 2023/02/27 11:05:06 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:05:06 Getting Claye Value
+
+DEBUG: 2023/02/27 11:05:06 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:05:06 Getting Yin Value
+
+DEBUG: 2023/02/27 11:05:06 Getting Yu Value
+DEBUG: 2023/02/27 11:05:06 Stepping up
+DEBUG: 2023/02/27 11:05:06 DELTAB 4 7348416
+DEBUG: 2023/02/27 11:05:06 Switched from Rate to BBA2
+DEBUG: 2023/02/27 11:05:06 Selected 8 for segment 12
+
+DEBUG: 2023/02/27 11:05:06 bba2 has choosen rep_Rate 8 @ a rate of 1006
+
+DEBUG: 2023/02/27 11:05:06 Current segment duration: 6000
+DEBUG: 2023/02/27 11:05:06 Total segment duration: 0
+DEBUG: 2023/02/27 11:05:06 Next chunk duration: 6
+DEBUG: 2023/02/27 11:05:06 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:05:06 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:05:06 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:05:06 current segment URL: bunny_1006743bps/BigBuckBunny_6s13.m4s
+DEBUG: 2023/02/27 11:05:06 get file from URL: https://server4/BigBuckBunny/6sec/bunny_1006743bps/BigBuckBunny_6s13.m4s
+
+DEBUG: 2023/02/27 11:05:06 Get the url https://server4/BigBuckBunny/6sec/bunny_1006743bps/BigBuckBunny_6s13.m4s
+DEBUG: 2023/02/27 11:05:06 URL is : https://server4/BigBuckBunny/6sec/bunny_1006743bps/BigBuckBunny_6s13.m4s
+DEBUG: 2023/02/27 11:05:06 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:05:12 HTTP body size is 983.375977
+DEBUG: 2023/02/27 11:05:12 Before consul update
+DEBUG: 2023/02/27 11:05:12 After consul update
+DEBUG: 2023/02/27 11:05:12 200
+
+DEBUG: 2023/02/27 11:05:12 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:05:12 Getting Claye Value
+
+DEBUG: 2023/02/27 11:05:12 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:05:12 Getting Yin Value
+
+DEBUG: 2023/02/27 11:05:12 Getting Yu Value
+DEBUG: 2023/02/27 11:05:12 Stepping up
+DEBUG: 2023/02/27 11:05:12 Selected 7 for segment 13
+
+DEBUG: 2023/02/27 11:05:12 bba2 has choosen rep_Rate 7 @ a rate of 1201
+
+DEBUG: 2023/02/27 11:05:12 Current segment duration: 6000
+DEBUG: 2023/02/27 11:05:12 Total segment duration: 0
+DEBUG: 2023/02/27 11:05:12 Next chunk duration: 6
+DEBUG: 2023/02/27 11:05:12 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:05:12 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:05:12 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:05:12 current segment URL: bunny_1201426bps/BigBuckBunny_6s14.m4s
+DEBUG: 2023/02/27 11:05:12 get file from URL: https://server4/BigBuckBunny/6sec/bunny_1201426bps/BigBuckBunny_6s14.m4s
+
+DEBUG: 2023/02/27 11:05:12 Get the url https://server4/BigBuckBunny/6sec/bunny_1201426bps/BigBuckBunny_6s14.m4s
+DEBUG: 2023/02/27 11:05:12 URL is : https://server4/BigBuckBunny/6sec/bunny_1201426bps/BigBuckBunny_6s14.m4s
+DEBUG: 2023/02/27 11:05:12 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:05:47 HTTP body size is 1401.125977
+DEBUG: 2023/02/27 11:05:47 Before consul update
+DEBUG: 2023/02/27 11:05:47 After consul update
+DEBUG: 2023/02/27 11:05:47 200
+
+DEBUG: 2023/02/27 11:05:47 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:05:47 Getting Claye Value
+
+DEBUG: 2023/02/27 11:05:47 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:05:47 Getting Yin Value
+
+DEBUG: 2023/02/27 11:05:47 Getting Yu Value
+DEBUG: 2023/02/27 11:05:47 Stepping down
+DEBUG: 2023/02/27 11:05:47 Selected 8 for segment 14
+
+DEBUG: 2023/02/27 11:05:47 bba2 has choosen rep_Rate 8 @ a rate of 1006
+
+DEBUG: 2023/02/27 11:05:47 Current segment duration: 6000
+DEBUG: 2023/02/27 11:05:47 Total segment duration: 0
+DEBUG: 2023/02/27 11:05:47 Next chunk duration: 6
+DEBUG: 2023/02/27 11:05:47 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:05:47 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:05:47 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:05:47 current segment URL: bunny_1006743bps/BigBuckBunny_6s15.m4s
+DEBUG: 2023/02/27 11:05:47 get file from URL: https://server4/BigBuckBunny/6sec/bunny_1006743bps/BigBuckBunny_6s15.m4s
+
+DEBUG: 2023/02/27 11:05:47 Get the url https://server4/BigBuckBunny/6sec/bunny_1006743bps/BigBuckBunny_6s15.m4s
+DEBUG: 2023/02/27 11:05:47 URL is : https://server4/BigBuckBunny/6sec/bunny_1006743bps/BigBuckBunny_6s15.m4s
+DEBUG: 2023/02/27 11:05:47 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:05:49 HTTP body size is 561.650391
+DEBUG: 2023/02/27 11:05:49 Before consul update
+DEBUG: 2023/02/27 11:05:49 After consul update
+DEBUG: 2023/02/27 11:05:49 200
+
+DEBUG: 2023/02/27 11:05:49 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:05:49 Getting Claye Value
+
+DEBUG: 2023/02/27 11:05:49 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:05:49 Getting Yin Value
+
+DEBUG: 2023/02/27 11:05:49 Getting Yu Value
+DEBUG: 2023/02/27 11:05:49 Stepping down
+DEBUG: 2023/02/27 11:05:49 Selected 9 for segment 15
+
+DEBUG: 2023/02/27 11:05:49 bba2 has choosen rep_Rate 9 @ a rate of 779
+
+DEBUG: 2023/02/27 11:05:49 Current segment duration: 6000
+DEBUG: 2023/02/27 11:05:49 Total segment duration: 0
+DEBUG: 2023/02/27 11:05:49 Next chunk duration: 6
+DEBUG: 2023/02/27 11:05:49 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:05:49 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:05:49 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:05:49 current segment URL: bunny_779796bps/BigBuckBunny_6s16.m4s
+DEBUG: 2023/02/27 11:05:49 get file from URL: https://server4/BigBuckBunny/6sec/bunny_779796bps/BigBuckBunny_6s16.m4s
+
+DEBUG: 2023/02/27 11:05:49 Get the url https://server4/BigBuckBunny/6sec/bunny_779796bps/BigBuckBunny_6s16.m4s
+DEBUG: 2023/02/27 11:05:49 URL is : https://server4/BigBuckBunny/6sec/bunny_779796bps/BigBuckBunny_6s16.m4s
+DEBUG: 2023/02/27 11:05:49 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:05:51 HTTP body size is 589.408203
+DEBUG: 2023/02/27 11:05:51 Before consul update
+DEBUG: 2023/02/27 11:05:51 After consul update
+DEBUG: 2023/02/27 11:05:51 200
+
+DEBUG: 2023/02/27 11:05:51 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:05:51 Getting Claye Value
+
+DEBUG: 2023/02/27 11:05:51 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:05:51 Getting Yin Value
+
+DEBUG: 2023/02/27 11:05:51 Getting Yu Value
+DEBUG: 2023/02/27 11:05:51 Stepping down
+DEBUG: 2023/02/27 11:05:51 Selected 10 for segment 16
+
+DEBUG: 2023/02/27 11:05:51 bba2 has choosen rep_Rate 10 @ a rate of 573
+
+DEBUG: 2023/02/27 11:05:51 Current segment duration: 6000
+DEBUG: 2023/02/27 11:05:51 Total segment duration: 0
+DEBUG: 2023/02/27 11:05:51 Next chunk duration: 6
+DEBUG: 2023/02/27 11:05:51 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:05:51 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:05:51 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:05:51 current segment URL: bunny_573252bps/BigBuckBunny_6s17.m4s
+DEBUG: 2023/02/27 11:05:51 get file from URL: https://server4/BigBuckBunny/6sec/bunny_573252bps/BigBuckBunny_6s17.m4s
+
+DEBUG: 2023/02/27 11:05:51 Get the url https://server4/BigBuckBunny/6sec/bunny_573252bps/BigBuckBunny_6s17.m4s
+DEBUG: 2023/02/27 11:05:51 URL is : https://server4/BigBuckBunny/6sec/bunny_573252bps/BigBuckBunny_6s17.m4s
+DEBUG: 2023/02/27 11:05:51 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:05:52 HTTP body size is 381.941406
+DEBUG: 2023/02/27 11:05:52 Before consul update
+DEBUG: 2023/02/27 11:05:52 After consul update
+DEBUG: 2023/02/27 11:05:52 200
+
+DEBUG: 2023/02/27 11:05:52 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:05:52 Getting Claye Value
+
+DEBUG: 2023/02/27 11:05:52 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:05:52 Getting Yin Value
+
+DEBUG: 2023/02/27 11:05:52 Getting Yu Value
+DEBUG: 2023/02/27 11:05:52 Stepping down
+DEBUG: 2023/02/27 11:05:52 Selected 11 for segment 17
+
+DEBUG: 2023/02/27 11:05:52 bba2 has choosen rep_Rate 11 @ a rate of 506
+
+DEBUG: 2023/02/27 11:05:52 Current segment duration: 6000
+DEBUG: 2023/02/27 11:05:52 Total segment duration: 0
+DEBUG: 2023/02/27 11:05:52 Next chunk duration: 6
+DEBUG: 2023/02/27 11:05:52 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:05:52 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:05:52 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:05:52 current segment URL: bunny_506300bps/BigBuckBunny_6s18.m4s
+DEBUG: 2023/02/27 11:05:52 get file from URL: https://server4/BigBuckBunny/6sec/bunny_506300bps/BigBuckBunny_6s18.m4s
+
+DEBUG: 2023/02/27 11:05:52 Get the url https://server4/BigBuckBunny/6sec/bunny_506300bps/BigBuckBunny_6s18.m4s
+DEBUG: 2023/02/27 11:05:52 URL is : https://server4/BigBuckBunny/6sec/bunny_506300bps/BigBuckBunny_6s18.m4s
+DEBUG: 2023/02/27 11:05:52 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:05:53 HTTP body size is 492.208008
+DEBUG: 2023/02/27 11:05:53 Before consul update
+DEBUG: 2023/02/27 11:05:53 After consul update
+DEBUG: 2023/02/27 11:05:53 200
+
+DEBUG: 2023/02/27 11:05:53 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:05:53 Getting Claye Value
+
+DEBUG: 2023/02/27 11:05:53 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:05:53 Getting Yin Value
+
+DEBUG: 2023/02/27 11:05:53 Getting Yu Value
+DEBUG: 2023/02/27 11:05:54 Selected 11 for segment 18
+
+DEBUG: 2023/02/27 11:05:54 bba2 has choosen rep_Rate 11 @ a rate of 506
+
+DEBUG: 2023/02/27 11:05:54 Current segment duration: 6000
+DEBUG: 2023/02/27 11:05:54 Total segment duration: 0
+DEBUG: 2023/02/27 11:05:54 Next chunk duration: 6
+DEBUG: 2023/02/27 11:05:54 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:05:54 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:05:54 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:05:54 current segment URL: bunny_506300bps/BigBuckBunny_6s19.m4s
+DEBUG: 2023/02/27 11:05:54 get file from URL: https://server4/BigBuckBunny/6sec/bunny_506300bps/BigBuckBunny_6s19.m4s
+
+DEBUG: 2023/02/27 11:05:54 Get the url https://server4/BigBuckBunny/6sec/bunny_506300bps/BigBuckBunny_6s19.m4s
+DEBUG: 2023/02/27 11:05:54 URL is : https://server4/BigBuckBunny/6sec/bunny_506300bps/BigBuckBunny_6s19.m4s
+DEBUG: 2023/02/27 11:05:54 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:05:55 HTTP body size is 464.941406
+DEBUG: 2023/02/27 11:05:55 Before consul update
+DEBUG: 2023/02/27 11:05:55 After consul update
+DEBUG: 2023/02/27 11:05:55 200
+
+DEBUG: 2023/02/27 11:05:55 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:05:55 Getting Claye Value
+
+DEBUG: 2023/02/27 11:05:55 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:05:55 Getting Yin Value
+
+DEBUG: 2023/02/27 11:05:55 Getting Yu Value
+DEBUG: 2023/02/27 11:05:55 Stepping up
+DEBUG: 2023/02/27 11:05:55 Selected 10 for segment 19
+
+DEBUG: 2023/02/27 11:05:55 bba2 has choosen rep_Rate 10 @ a rate of 573
+
+DEBUG: 2023/02/27 11:05:55 Current segment duration: 6000
+DEBUG: 2023/02/27 11:05:55 Total segment duration: 0
+DEBUG: 2023/02/27 11:05:55 Next chunk duration: 6
+DEBUG: 2023/02/27 11:05:55 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:05:55 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:05:55 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:05:55 current segment URL: bunny_573252bps/BigBuckBunny_6s20.m4s
+DEBUG: 2023/02/27 11:05:55 get file from URL: https://server4/BigBuckBunny/6sec/bunny_573252bps/BigBuckBunny_6s20.m4s
+
+DEBUG: 2023/02/27 11:05:55 Get the url https://server4/BigBuckBunny/6sec/bunny_573252bps/BigBuckBunny_6s20.m4s
+DEBUG: 2023/02/27 11:05:55 URL is : https://server4/BigBuckBunny/6sec/bunny_573252bps/BigBuckBunny_6s20.m4s
+DEBUG: 2023/02/27 11:05:55 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:05:57 HTTP body size is 602.667969
+DEBUG: 2023/02/27 11:05:57 Before consul update
+DEBUG: 2023/02/27 11:05:57 After consul update
+DEBUG: 2023/02/27 11:05:57 200
+
+DEBUG: 2023/02/27 11:05:57 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:05:57 Getting Claye Value
+
+DEBUG: 2023/02/27 11:05:57 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:05:57 Getting Yin Value
+
+DEBUG: 2023/02/27 11:05:57 Getting Yu Value
+DEBUG: 2023/02/27 11:05:57 Stepping up
+DEBUG: 2023/02/27 11:05:57 Selected 9 for segment 20
+
+DEBUG: 2023/02/27 11:05:57 bba2 has choosen rep_Rate 9 @ a rate of 779
+
+DEBUG: 2023/02/27 11:05:57 Current segment duration: 6000
+DEBUG: 2023/02/27 11:05:57 Total segment duration: 0
+DEBUG: 2023/02/27 11:05:57 Next chunk duration: 6
+DEBUG: 2023/02/27 11:05:57 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:05:57 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:05:57 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:05:57 current segment URL: bunny_779796bps/BigBuckBunny_6s21.m4s
+DEBUG: 2023/02/27 11:05:57 get file from URL: https://server4/BigBuckBunny/6sec/bunny_779796bps/BigBuckBunny_6s21.m4s
+
+DEBUG: 2023/02/27 11:05:57 Get the url https://server4/BigBuckBunny/6sec/bunny_779796bps/BigBuckBunny_6s21.m4s
+DEBUG: 2023/02/27 11:05:57 URL is : https://server4/BigBuckBunny/6sec/bunny_779796bps/BigBuckBunny_6s21.m4s
+DEBUG: 2023/02/27 11:05:57 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:06:00 HTTP body size is 821.148438
+DEBUG: 2023/02/27 11:06:00 Before consul update
+DEBUG: 2023/02/27 11:06:00 After consul update
+DEBUG: 2023/02/27 11:06:00 200
+
+DEBUG: 2023/02/27 11:06:00 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:06:00 Getting Claye Value
+
+DEBUG: 2023/02/27 11:06:00 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:06:00 Getting Yin Value
+
+DEBUG: 2023/02/27 11:06:00 Getting Yu Value
+DEBUG: 2023/02/27 11:06:00 Stepping up
+DEBUG: 2023/02/27 11:06:00 Selected 8 for segment 21
+
+DEBUG: 2023/02/27 11:06:00 bba2 has choosen rep_Rate 8 @ a rate of 1006
+
+DEBUG: 2023/02/27 11:06:00 Current segment duration: 6000
+DEBUG: 2023/02/27 11:06:00 Total segment duration: 0
+DEBUG: 2023/02/27 11:06:00 Next chunk duration: 6
+DEBUG: 2023/02/27 11:06:00 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:06:00 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:06:00 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:06:00 current segment URL: bunny_1006743bps/BigBuckBunny_6s22.m4s
+DEBUG: 2023/02/27 11:06:00 get file from URL: https://server4/BigBuckBunny/6sec/bunny_1006743bps/BigBuckBunny_6s22.m4s
+
+DEBUG: 2023/02/27 11:06:00 Get the url https://server4/BigBuckBunny/6sec/bunny_1006743bps/BigBuckBunny_6s22.m4s
+DEBUG: 2023/02/27 11:06:00 URL is : https://server4/BigBuckBunny/6sec/bunny_1006743bps/BigBuckBunny_6s22.m4s
+DEBUG: 2023/02/27 11:06:00 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:06:03 HTTP body size is 1102.554688
+DEBUG: 2023/02/27 11:06:03 Before consul update
+DEBUG: 2023/02/27 11:06:03 After consul update
+DEBUG: 2023/02/27 11:06:03 200
+
+DEBUG: 2023/02/27 11:06:03 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:06:03 Getting Claye Value
+
+DEBUG: 2023/02/27 11:06:03 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:06:03 Getting Yin Value
+
+DEBUG: 2023/02/27 11:06:03 Getting Yu Value
+DEBUG: 2023/02/27 11:06:03 Stepping up
+DEBUG: 2023/02/27 11:06:03 Selected 7 for segment 22
+
+DEBUG: 2023/02/27 11:06:03 bba2 has choosen rep_Rate 7 @ a rate of 1201
+
+DEBUG: 2023/02/27 11:06:03 Current segment duration: 6000
+DEBUG: 2023/02/27 11:06:03 Total segment duration: 0
+DEBUG: 2023/02/27 11:06:03 Next chunk duration: 6
+DEBUG: 2023/02/27 11:06:03 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:06:03 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:06:03 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:06:03 current segment URL: bunny_1201426bps/BigBuckBunny_6s23.m4s
+DEBUG: 2023/02/27 11:06:03 get file from URL: https://server4/BigBuckBunny/6sec/bunny_1201426bps/BigBuckBunny_6s23.m4s
+
+DEBUG: 2023/02/27 11:06:03 Get the url https://server4/BigBuckBunny/6sec/bunny_1201426bps/BigBuckBunny_6s23.m4s
+DEBUG: 2023/02/27 11:06:03 URL is : https://server4/BigBuckBunny/6sec/bunny_1201426bps/BigBuckBunny_6s23.m4s
+DEBUG: 2023/02/27 11:06:03 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:06:08 HTTP body size is 1421.468750
+DEBUG: 2023/02/27 11:06:08 Before consul update
+DEBUG: 2023/02/27 11:06:08 After consul update
+DEBUG: 2023/02/27 11:06:08 200
+
+DEBUG: 2023/02/27 11:06:08 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:06:08 Getting Claye Value
+
+DEBUG: 2023/02/27 11:06:08 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:06:08 Getting Yin Value
+
+DEBUG: 2023/02/27 11:06:08 Getting Yu Value
+DEBUG: 2023/02/27 11:06:08 Stepping up
+DEBUG: 2023/02/27 11:06:08 Selected 6 for segment 23
+
+DEBUG: 2023/02/27 11:06:08 bba2 has choosen rep_Rate 6 @ a rate of 1461
+
+DEBUG: 2023/02/27 11:06:08 Current segment duration: 6000
+DEBUG: 2023/02/27 11:06:08 Total segment duration: 0
+DEBUG: 2023/02/27 11:06:08 Next chunk duration: 6
+DEBUG: 2023/02/27 11:06:08 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:06:08 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:06:08 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:06:08 current segment URL: bunny_1461530bps/BigBuckBunny_6s24.m4s
+DEBUG: 2023/02/27 11:06:08 get file from URL: https://server4/BigBuckBunny/6sec/bunny_1461530bps/BigBuckBunny_6s24.m4s
+
+DEBUG: 2023/02/27 11:06:08 Get the url https://server4/BigBuckBunny/6sec/bunny_1461530bps/BigBuckBunny_6s24.m4s
+DEBUG: 2023/02/27 11:06:08 URL is : https://server4/BigBuckBunny/6sec/bunny_1461530bps/BigBuckBunny_6s24.m4s
+DEBUG: 2023/02/27 11:06:08 Protocol is : HTTP/3.0

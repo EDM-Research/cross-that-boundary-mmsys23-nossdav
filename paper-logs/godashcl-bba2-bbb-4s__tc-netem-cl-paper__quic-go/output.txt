@@ -1,0 +1,2174 @@
+Calling environment pre_hook
+Command [ip address]:
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eno2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 8c:04:ba:38:98:6f brd ff:ff:ff:ff:ff:ff
+    altname enp0s31f6
+    inet 172.18.15.40/16 brd 172.18.255.255 scope global dynamic noprefixroute eno2
+       valid_lft 167218sec preferred_lft 167218sec
+    inet6 fe80::ac68:682a:44a2:2fa3/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: wlo1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 50:eb:71:37:b5:b8 brd ff:ff:ff:ff:ff:ff
+    altname wlp0s20f3
+    inet 172.19.42.133/24 brd 172.19.42.255 scope global dynamic noprefixroute wlo1
+       valid_lft 80784sec preferred_lft 80784sec
+    inet6 fe80::7af6:80da:484b:b62a/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+4: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    link/ether 02:42:9c:f9:08:72 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::42:9cff:fef9:872/64 scope link 
+       valid_lft forever preferred_lft forever
+3087: br-cc0b9ed4160d: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default 
+    link/ether 02:42:aa:d4:55:3d brd ff:ff:ff:ff:ff:ff
+    inet 193.167.100.1/24 brd 193.167.100.255 scope global br-cc0b9ed4160d
+       valid_lft forever preferred_lft forever
+    inet6 fd00:cafe:cafe:100::1/64 scope global tentative 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::42:aaff:fed4:553d/64 scope link tentative 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::1/64 scope link tentative 
+       valid_lft forever preferred_lft forever
+3088: br-be59f45c2eff: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default 
+    link/ether 02:42:bd:78:a0:25 brd ff:ff:ff:ff:ff:ff
+    inet 193.167.0.1/24 brd 193.167.0.255 scope global br-be59f45c2eff
+       valid_lft forever preferred_lft forever
+    inet6 fd00:cafe:cafe::1/64 scope global tentative 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::42:bdff:fe78:a025/64 scope link tentative 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::1/64 scope link tentative 
+       valid_lft forever preferred_lft forever
+3090: vethe4550da@if3089: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master br-cc0b9ed4160d state UP group default 
+    link/ether 72:7d:c5:cc:0f:6c brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet6 fe80::707d:c5ff:fecc:f6c/64 scope link tentative 
+       valid_lft forever preferred_lft forever
+3092: vethc3e7bf9@if3091: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master br-be59f45c2eff state UP group default 
+    link/ether 8e:79:f3:5f:24:10 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet6 fe80::8c79:f3ff:fe5f:2410/64 scope link tentative 
+       valid_lft forever preferred_lft forever
+3094: veth40b5552@if3093: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master br-cc0b9ed4160d state UP group default 
+    link/ether f2:9f:59:e8:9e:54 brd ff:ff:ff:ff:ff:ff link-netnsid 1
+    inet6 fe80::f09f:59ff:fee8:9e54/64 scope link tentative 
+       valid_lft forever preferred_lft forever
+Command [ip route list]:
+default via 172.18.0.10 dev eno2 proto dhcp src 172.18.15.40 metric 100 
+default via 172.19.42.10 dev wlo1 proto dhcp src 172.19.42.133 metric 600 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+172.18.0.0/16 dev eno2 proto kernel scope link src 172.18.15.40 metric 100 
+172.19.42.0/24 dev wlo1 proto kernel scope link src 172.19.42.133 metric 600 
+193.167.0.0/24 dev br-be59f45c2eff proto kernel scope link src 193.167.0.1 
+193.167.100.0/24 dev br-cc0b9ed4160d proto kernel scope link src 193.167.100.1
+Command [sysctl -a]:
+abi.vsyscall32 = 1
+debug.exception-trace = 1
+debug.kprobes-optimization = 1
+dev.hpet.max-user-freq = 64
+dev.i915.oa_max_sample_rate = 100000
+dev.i915.perf_stream_paranoid = 1
+dev.mac_hid.mouse_button2_keycode = 97
+dev.mac_hid.mouse_button3_keycode = 100
+dev.mac_hid.mouse_button_emulation = 0
+dev.scsi.logging_level = 0
+dev.tty.ldisc_autoload = 1
+fs.aio-max-nr = 1048576
+fs.aio-nr = 0
+fs.binfmt_misc.DOSWin = enabled
+fs.binfmt_misc.DOSWin = interpreter /usr/bin/wine
+fs.binfmt_misc.DOSWin = flags: 
+fs.binfmt_misc.DOSWin = offset 0
+fs.binfmt_misc.DOSWin = magic 4d5a
+fs.binfmt_misc.CLR = enabled
+fs.binfmt_misc.CLR = interpreter /usr/bin/mono
+fs.binfmt_misc.CLR = flags: 
+fs.binfmt_misc.CLR = offset 0
+fs.binfmt_misc.CLR = magic 4d5a
+fs.binfmt_misc.status = enabled
+fs.dentry-state = 113629	83435	45	0	19995	0
+fs.dir-notify-enable = 1
+fs.epoll.max_user_watches = 3598536
+fs.fanotify.max_queued_events = 16384
+fs.fanotify.max_user_groups = 128
+fs.fanotify.max_user_marks = 129321
+fs.file-max = 9223372036854775807
+fs.file-nr = 16160	0	9223372036854775807
+fs.inode-nr = 141440	39301
+fs.inode-state = 141440	39301	0	0	0	0	0
+fs.inotify.max_queued_events = 16384
+fs.inotify.max_user_instances = 1024
+fs.inotify.max_user_watches = 524288
+fs.lease-break-time = 45
+fs.leases-enable = 1
+fs.mount-max = 100000
+fs.mqueue.msg_default = 10
+fs.mqueue.msg_max = 10
+fs.mqueue.msgsize_default = 8192
+fs.mqueue.msgsize_max = 8192
+fs.mqueue.queues_max = 256
+fs.nr_open = 1073741816
+fs.pipe-max-size = 1048576
+fs.pipe-user-pages-hard = 0
+fs.pipe-user-pages-soft = 16384
+fs.protected_fifos = 1
+fs.protected_hardlinks = 1
+fs.protected_regular = 1
+fs.protected_symlinks = 1
+fs.quota.allocated_dquots = 0
+fs.quota.cache_hits = 0
+fs.quota.drops = 0
+fs.quota.free_dquots = 0
+fs.quota.lookups = 0
+fs.quota.reads = 0
+fs.quota.syncs = 5980
+fs.quota.writes = 0
+fs.suid_dumpable = 2
+fs.verity.require_signatures = 0
+kernel.acct = 4	2	30
+kernel.acpi_video_flags = 0
+kernel.arch = x86_64
+kernel.auto_msgmni = 0
+kernel.bootloader_type = 114
+kernel.bootloader_version = 2
+kernel.bpf_stats_enabled = 0
+kernel.cad_pid = 1
+kernel.cap_last_cap = 40
+kernel.core_pattern = |/usr/lib/systemd/systemd-coredump %P %u %g %s %t %c %h
+kernel.core_pipe_limit = 16
+kernel.core_uses_pid = 1
+kernel.ctrl-alt-del = 0
+kernel.dmesg_restrict = 1
+kernel.domainname = (none)
+kernel.ftrace_dump_on_oops = 0
+kernel.ftrace_enabled = 1
+kernel.hardlockup_all_cpu_backtrace = 0
+kernel.hardlockup_panic = 0
+kernel.hostname = nb-jherbots-linux
+kernel.hung_task_all_cpu_backtrace = 0
+kernel.hung_task_check_count = 4194304
+kernel.hung_task_check_interval_secs = 0
+kernel.hung_task_panic = 0
+kernel.hung_task_timeout_secs = 120
+kernel.hung_task_warnings = 10
+kernel.io_delay_type = 0
+kernel.kexec_load_disabled = 0
+kernel.keys.gc_delay = 300
+kernel.keys.maxbytes = 20000
+kernel.keys.maxkeys = 200
+kernel.keys.persistent_keyring_expiry = 259200
+kernel.keys.root_maxbytes = 25000000
+kernel.keys.root_maxkeys = 1000000
+kernel.kptr_restrict = 0
+kernel.latencytop = 0
+kernel.max_lock_depth = 1024
+kernel.max_rcu_stall_to_panic = 0
+kernel.modprobe = /sbin/modprobe
+kernel.modules_disabled = 0
+kernel.msg_next_id = -1
+kernel.msgmax = 8192
+kernel.msgmnb = 16384
+kernel.msgmni = 32000
+kernel.ngroups_max = 65536
+kernel.nmi_watchdog = 1
+kernel.ns_last_pid = 1133170
+kernel.numa_balancing = 0
+kernel.numa_balancing_promote_rate_limit_MBps = 65536
+kernel.oops_all_cpu_backtrace = 0
+kernel.oops_limit = 10000
+kernel.osrelease = 6.1.12-arch1-1
+kernel.ostype = Linux
+kernel.overflowgid = 65534
+kernel.overflowuid = 65534
+kernel.panic = 0
+kernel.panic_on_io_nmi = 0
+kernel.panic_on_oops = 0
+kernel.panic_on_rcu_stall = 0
+kernel.panic_on_unrecovered_nmi = 0
+kernel.panic_on_warn = 0
+kernel.panic_print = 0
+kernel.perf_cpu_time_max_percent = 25
+kernel.perf_event_max_contexts_per_stack = 8
+kernel.perf_event_max_sample_rate = 32100
+kernel.perf_event_max_stack = 127
+kernel.perf_event_mlock_kb = 516
+kernel.perf_event_paranoid = 2
+kernel.pid_max = 4194304
+kernel.poweroff_cmd = /sbin/poweroff
+kernel.print-fatal-signals = 0
+kernel.printk = 1	4	1	4
+kernel.printk_delay = 0
+kernel.printk_devkmsg = on
+kernel.printk_ratelimit = 5
+kernel.printk_ratelimit_burst = 10
+kernel.pty.max = 4096
+kernel.pty.nr = 11
+kernel.pty.reserve = 1024
+kernel.random.boot_id = b68f3085-5820-4ebc-a154-2d9510e5dba1
+kernel.random.entropy_avail = 256
+kernel.random.poolsize = 256
+kernel.random.urandom_min_reseed_secs = 60
+kernel.random.uuid = 937d94fd-5d00-492a-adf8-cb4131227c82
+kernel.random.write_wakeup_threshold = 256
+kernel.randomize_va_space = 2
+kernel.real-root-dev = 0
+kernel.sched_autogroup_enabled = 1
+kernel.sched_cfs_bandwidth_slice_us = 5000
+kernel.sched_child_runs_first = 0
+kernel.sched_deadline_period_max_us = 4194304
+kernel.sched_deadline_period_min_us = 100
+kernel.sched_energy_aware = 1
+kernel.sched_rr_timeslice_ms = 90
+kernel.sched_rt_period_us = 1000000
+kernel.sched_rt_runtime_us = 950000
+kernel.sched_schedstats = 0
+kernel.sched_util_clamp_max = 1024
+kernel.sched_util_clamp_min = 1024
+kernel.sched_util_clamp_min_rt_default = 1024
+kernel.seccomp.actions_avail = kill_process kill_thread trap errno user_notif trace log allow
+kernel.seccomp.actions_logged = kill_process kill_thread trap errno user_notif trace log
+kernel.sem = 32000	1024000000	500	32000
+kernel.sem_next_id = -1
+kernel.shm_next_id = -1
+kernel.shm_rmid_forced = 0
+kernel.shmall = 18446744073692774399
+kernel.shmmax = 18446744073692774399
+kernel.shmmni = 4096
+kernel.soft_watchdog = 1
+kernel.softlockup_all_cpu_backtrace = 0
+kernel.softlockup_panic = 0
+kernel.split_lock_mitigate = 1
+kernel.stack_tracer_enabled = 0
+kernel.sysctl_writes_strict = 1
+kernel.sysrq = 16
+kernel.tainted = 12800
+kernel.task_delayacct = 0
+kernel.threads-max = 126291
+kernel.timer_migration = 1
+kernel.traceoff_on_warning = 0
+kernel.tracepoint_printk = 0
+kernel.unknown_nmi_panic = 0
+kernel.unprivileged_bpf_disabled = 2
+kernel.unprivileged_userns_clone = 1
+kernel.usermodehelper.bset = 4294967295	511
+kernel.usermodehelper.inheritable = 4294967295	511
+kernel.version = #1 SMP PREEMPT_DYNAMIC Tue, 14 Feb 2023 22:08:08 +0000
+kernel.warn_limit = 0
+kernel.watchdog = 1
+kernel.watchdog_cpumask = 0-7
+kernel.watchdog_thresh = 10
+kernel.yama.ptrace_scope = 1
+net.bridge.bridge-nf-call-arptables = 1
+net.bridge.bridge-nf-call-ip6tables = 1
+net.bridge.bridge-nf-call-iptables = 1
+net.bridge.bridge-nf-filter-pppoe-tagged = 0
+net.bridge.bridge-nf-filter-vlan-tagged = 0
+net.bridge.bridge-nf-pass-vlan-input-dev = 0
+net.core.bpf_jit_enable = 1
+net.core.bpf_jit_harden = 0
+net.core.bpf_jit_kallsyms = 1
+net.core.bpf_jit_limit = 264241152
+net.core.busy_poll = 0
+net.core.busy_read = 0
+net.core.default_qdisc = fq_codel
+net.core.dev_weight = 64
+net.core.dev_weight_rx_bias = 1
+net.core.dev_weight_tx_bias = 1
+net.core.devconf_inherit_init_net = 0
+net.core.fb_tunnels_only_for_init_net = 0
+net.core.flow_limit_cpu_bitmap = 00
+net.core.flow_limit_table_len = 4096
+net.core.gro_normal_batch = 8
+net.core.high_order_alloc_disable = 0
+net.core.max_skb_frags = 17
+net.core.message_burst = 10
+net.core.message_cost = 5
+net.core.netdev_budget = 300
+net.core.netdev_budget_usecs = 6666
+net.core.netdev_max_backlog = 1000
+net.core.netdev_rss_key = 9e:41:63:b5:95:6a:d0:ba:9d:1a:07:e8:d0:6c:c5:81:f1:7a:4d:18:69:f3:3d:3b:a3:f7:80:9e:21:22:3e:fd:65:20:bc:ba:3e:bd:9c:6d:91:a1:fc:87:86:67:84:31:41:cc:c2:01
+net.core.netdev_tstamp_prequeue = 1
+net.core.netdev_unregister_timeout_secs = 10
+net.core.optmem_max = 20480
+net.core.rmem_default = 212992
+net.core.rmem_max = 2500000
+net.core.rps_sock_flow_entries = 0
+net.core.skb_defer_max = 64
+net.core.somaxconn = 4096
+net.core.tstamp_allow_data = 1
+net.core.txrehash = 1
+net.core.warnings = 0
+net.core.wmem_default = 212992
+net.core.wmem_max = 212992
+net.core.xfrm_acq_expires = 30
+net.core.xfrm_aevent_etime = 10
+net.core.xfrm_aevent_rseqth = 2
+net.core.xfrm_larval_drop = 1
+net.ipv4.cipso_cache_bucket_size = 10
+net.ipv4.cipso_cache_enable = 1
+net.ipv4.cipso_rbm_optfmt = 0
+net.ipv4.cipso_rbm_strictvalid = 1
+net.ipv4.conf.all.accept_local = 0
+net.ipv4.conf.all.accept_redirects = 0
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.all.arp_accept = 0
+net.ipv4.conf.all.arp_announce = 0
+net.ipv4.conf.all.arp_evict_nocarrier = 1
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.arp_ignore = 0
+net.ipv4.conf.all.arp_notify = 0
+net.ipv4.conf.all.bc_forwarding = 0
+net.ipv4.conf.all.bootp_relay = 0
+net.ipv4.conf.all.disable_policy = 0
+net.ipv4.conf.all.disable_xfrm = 0
+net.ipv4.conf.all.drop_gratuitous_arp = 0
+net.ipv4.conf.all.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.all.force_igmp_version = 0
+net.ipv4.conf.all.forwarding = 1
+net.ipv4.conf.all.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.all.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.all.ignore_routes_with_linkdown = 0
+net.ipv4.conf.all.log_martians = 0
+net.ipv4.conf.all.mc_forwarding = 0
+net.ipv4.conf.all.medium_id = 0
+net.ipv4.conf.all.promote_secondaries = 0
+net.ipv4.conf.all.proxy_arp = 0
+net.ipv4.conf.all.proxy_arp_pvlan = 0
+net.ipv4.conf.all.route_localnet = 0
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.all.secure_redirects = 1
+net.ipv4.conf.all.send_redirects = 1
+net.ipv4.conf.all.shared_media = 1
+net.ipv4.conf.all.src_valid_mark = 0
+net.ipv4.conf.all.tag = 0
+net.ipv4.conf.br-be59f45c2eff.accept_local = 0
+net.ipv4.conf.br-be59f45c2eff.accept_redirects = 0
+net.ipv4.conf.br-be59f45c2eff.accept_source_route = 0
+net.ipv4.conf.br-be59f45c2eff.arp_accept = 0
+net.ipv4.conf.br-be59f45c2eff.arp_announce = 0
+net.ipv4.conf.br-be59f45c2eff.arp_evict_nocarrier = 1
+net.ipv4.conf.br-be59f45c2eff.arp_filter = 0
+net.ipv4.conf.br-be59f45c2eff.arp_ignore = 0
+net.ipv4.conf.br-be59f45c2eff.arp_notify = 0
+net.ipv4.conf.br-be59f45c2eff.bc_forwarding = 0
+net.ipv4.conf.br-be59f45c2eff.bootp_relay = 0
+net.ipv4.conf.br-be59f45c2eff.disable_policy = 0
+net.ipv4.conf.br-be59f45c2eff.disable_xfrm = 0
+net.ipv4.conf.br-be59f45c2eff.drop_gratuitous_arp = 0
+net.ipv4.conf.br-be59f45c2eff.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.br-be59f45c2eff.force_igmp_version = 0
+net.ipv4.conf.br-be59f45c2eff.forwarding = 1
+net.ipv4.conf.br-be59f45c2eff.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.br-be59f45c2eff.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.br-be59f45c2eff.ignore_routes_with_linkdown = 0
+net.ipv4.conf.br-be59f45c2eff.log_martians = 0
+net.ipv4.conf.br-be59f45c2eff.mc_forwarding = 0
+net.ipv4.conf.br-be59f45c2eff.medium_id = 0
+net.ipv4.conf.br-be59f45c2eff.promote_secondaries = 1
+net.ipv4.conf.br-be59f45c2eff.proxy_arp = 0
+net.ipv4.conf.br-be59f45c2eff.proxy_arp_pvlan = 0
+net.ipv4.conf.br-be59f45c2eff.route_localnet = 0
+net.ipv4.conf.br-be59f45c2eff.rp_filter = 2
+net.ipv4.conf.br-be59f45c2eff.secure_redirects = 1
+net.ipv4.conf.br-be59f45c2eff.send_redirects = 1
+net.ipv4.conf.br-be59f45c2eff.shared_media = 1
+net.ipv4.conf.br-be59f45c2eff.src_valid_mark = 0
+net.ipv4.conf.br-be59f45c2eff.tag = 0
+net.ipv4.conf.br-cc0b9ed4160d.accept_local = 0
+net.ipv4.conf.br-cc0b9ed4160d.accept_redirects = 0
+net.ipv4.conf.br-cc0b9ed4160d.accept_source_route = 0
+net.ipv4.conf.br-cc0b9ed4160d.arp_accept = 0
+net.ipv4.conf.br-cc0b9ed4160d.arp_announce = 0
+net.ipv4.conf.br-cc0b9ed4160d.arp_evict_nocarrier = 1
+net.ipv4.conf.br-cc0b9ed4160d.arp_filter = 0
+net.ipv4.conf.br-cc0b9ed4160d.arp_ignore = 0
+net.ipv4.conf.br-cc0b9ed4160d.arp_notify = 0
+net.ipv4.conf.br-cc0b9ed4160d.bc_forwarding = 0
+net.ipv4.conf.br-cc0b9ed4160d.bootp_relay = 0
+net.ipv4.conf.br-cc0b9ed4160d.disable_policy = 0
+net.ipv4.conf.br-cc0b9ed4160d.disable_xfrm = 0
+net.ipv4.conf.br-cc0b9ed4160d.drop_gratuitous_arp = 0
+net.ipv4.conf.br-cc0b9ed4160d.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.br-cc0b9ed4160d.force_igmp_version = 0
+net.ipv4.conf.br-cc0b9ed4160d.forwarding = 1
+net.ipv4.conf.br-cc0b9ed4160d.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.br-cc0b9ed4160d.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.br-cc0b9ed4160d.ignore_routes_with_linkdown = 0
+net.ipv4.conf.br-cc0b9ed4160d.log_martians = 0
+net.ipv4.conf.br-cc0b9ed4160d.mc_forwarding = 0
+net.ipv4.conf.br-cc0b9ed4160d.medium_id = 0
+net.ipv4.conf.br-cc0b9ed4160d.promote_secondaries = 1
+net.ipv4.conf.br-cc0b9ed4160d.proxy_arp = 0
+net.ipv4.conf.br-cc0b9ed4160d.proxy_arp_pvlan = 0
+net.ipv4.conf.br-cc0b9ed4160d.route_localnet = 0
+net.ipv4.conf.br-cc0b9ed4160d.rp_filter = 2
+net.ipv4.conf.br-cc0b9ed4160d.secure_redirects = 1
+net.ipv4.conf.br-cc0b9ed4160d.send_redirects = 1
+net.ipv4.conf.br-cc0b9ed4160d.shared_media = 1
+net.ipv4.conf.br-cc0b9ed4160d.src_valid_mark = 0
+net.ipv4.conf.br-cc0b9ed4160d.tag = 0
+net.ipv4.conf.default.accept_local = 0
+net.ipv4.conf.default.accept_redirects = 0
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv4.conf.default.arp_accept = 0
+net.ipv4.conf.default.arp_announce = 0
+net.ipv4.conf.default.arp_evict_nocarrier = 1
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.arp_ignore = 0
+net.ipv4.conf.default.arp_notify = 0
+net.ipv4.conf.default.bc_forwarding = 0
+net.ipv4.conf.default.bootp_relay = 0
+net.ipv4.conf.default.disable_policy = 0
+net.ipv4.conf.default.disable_xfrm = 0
+net.ipv4.conf.default.drop_gratuitous_arp = 0
+net.ipv4.conf.default.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.default.force_igmp_version = 0
+net.ipv4.conf.default.forwarding = 1
+net.ipv4.conf.default.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.default.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.default.ignore_routes_with_linkdown = 0
+net.ipv4.conf.default.log_martians = 0
+net.ipv4.conf.default.mc_forwarding = 0
+net.ipv4.conf.default.medium_id = 0
+net.ipv4.conf.default.promote_secondaries = 1
+net.ipv4.conf.default.proxy_arp = 0
+net.ipv4.conf.default.proxy_arp_pvlan = 0
+net.ipv4.conf.default.route_localnet = 0
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.default.secure_redirects = 1
+net.ipv4.conf.default.send_redirects = 1
+net.ipv4.conf.default.shared_media = 1
+net.ipv4.conf.default.src_valid_mark = 0
+net.ipv4.conf.default.tag = 0
+net.ipv4.conf.docker0.accept_local = 0
+net.ipv4.conf.docker0.accept_redirects = 0
+net.ipv4.conf.docker0.accept_source_route = 0
+net.ipv4.conf.docker0.arp_accept = 0
+net.ipv4.conf.docker0.arp_announce = 0
+net.ipv4.conf.docker0.arp_evict_nocarrier = 1
+net.ipv4.conf.docker0.arp_filter = 0
+net.ipv4.conf.docker0.arp_ignore = 0
+net.ipv4.conf.docker0.arp_notify = 0
+net.ipv4.conf.docker0.bc_forwarding = 0
+net.ipv4.conf.docker0.bootp_relay = 0
+net.ipv4.conf.docker0.disable_policy = 0
+net.ipv4.conf.docker0.disable_xfrm = 0
+net.ipv4.conf.docker0.drop_gratuitous_arp = 0
+net.ipv4.conf.docker0.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.docker0.force_igmp_version = 0
+net.ipv4.conf.docker0.forwarding = 1
+net.ipv4.conf.docker0.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.docker0.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.docker0.ignore_routes_with_linkdown = 0
+net.ipv4.conf.docker0.log_martians = 0
+net.ipv4.conf.docker0.mc_forwarding = 0
+net.ipv4.conf.docker0.medium_id = 0
+net.ipv4.conf.docker0.promote_secondaries = 1
+net.ipv4.conf.docker0.proxy_arp = 0
+net.ipv4.conf.docker0.proxy_arp_pvlan = 0
+net.ipv4.conf.docker0.route_localnet = 0
+net.ipv4.conf.docker0.rp_filter = 2
+net.ipv4.conf.docker0.secure_redirects = 1
+net.ipv4.conf.docker0.send_redirects = 1
+net.ipv4.conf.docker0.shared_media = 1
+net.ipv4.conf.docker0.src_valid_mark = 0
+net.ipv4.conf.docker0.tag = 0
+net.ipv4.conf.eno2.accept_local = 0
+net.ipv4.conf.eno2.accept_redirects = 0
+net.ipv4.conf.eno2.accept_source_route = 0
+net.ipv4.conf.eno2.arp_accept = 0
+net.ipv4.conf.eno2.arp_announce = 0
+net.ipv4.conf.eno2.arp_evict_nocarrier = 1
+net.ipv4.conf.eno2.arp_filter = 0
+net.ipv4.conf.eno2.arp_ignore = 0
+net.ipv4.conf.eno2.arp_notify = 0
+net.ipv4.conf.eno2.bc_forwarding = 0
+net.ipv4.conf.eno2.bootp_relay = 0
+net.ipv4.conf.eno2.disable_policy = 0
+net.ipv4.conf.eno2.disable_xfrm = 0
+net.ipv4.conf.eno2.drop_gratuitous_arp = 0
+net.ipv4.conf.eno2.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.eno2.force_igmp_version = 0
+net.ipv4.conf.eno2.forwarding = 1
+net.ipv4.conf.eno2.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.eno2.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.eno2.ignore_routes_with_linkdown = 0
+net.ipv4.conf.eno2.log_martians = 0
+net.ipv4.conf.eno2.mc_forwarding = 0
+net.ipv4.conf.eno2.medium_id = 0
+net.ipv4.conf.eno2.promote_secondaries = 1
+net.ipv4.conf.eno2.proxy_arp = 0
+net.ipv4.conf.eno2.proxy_arp_pvlan = 0
+net.ipv4.conf.eno2.route_localnet = 0
+net.ipv4.conf.eno2.rp_filter = 2
+net.ipv4.conf.eno2.secure_redirects = 1
+net.ipv4.conf.eno2.send_redirects = 1
+net.ipv4.conf.eno2.shared_media = 1
+net.ipv4.conf.eno2.src_valid_mark = 0
+net.ipv4.conf.eno2.tag = 0
+net.ipv4.conf.lo.accept_local = 0
+net.ipv4.conf.lo.accept_redirects = 1
+net.ipv4.conf.lo.accept_source_route = 0
+net.ipv4.conf.lo.arp_accept = 0
+net.ipv4.conf.lo.arp_announce = 0
+net.ipv4.conf.lo.arp_evict_nocarrier = 1
+net.ipv4.conf.lo.arp_filter = 0
+net.ipv4.conf.lo.arp_ignore = 0
+net.ipv4.conf.lo.arp_notify = 0
+net.ipv4.conf.lo.bc_forwarding = 0
+net.ipv4.conf.lo.bootp_relay = 0
+net.ipv4.conf.lo.disable_policy = 1
+net.ipv4.conf.lo.disable_xfrm = 1
+net.ipv4.conf.lo.drop_gratuitous_arp = 0
+net.ipv4.conf.lo.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.lo.force_igmp_version = 0
+net.ipv4.conf.lo.forwarding = 1
+net.ipv4.conf.lo.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.lo.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.lo.ignore_routes_with_linkdown = 0
+net.ipv4.conf.lo.log_martians = 0
+net.ipv4.conf.lo.mc_forwarding = 0
+net.ipv4.conf.lo.medium_id = 0
+net.ipv4.conf.lo.promote_secondaries = 1
+net.ipv4.conf.lo.proxy_arp = 0
+net.ipv4.conf.lo.proxy_arp_pvlan = 0
+net.ipv4.conf.lo.route_localnet = 0
+net.ipv4.conf.lo.rp_filter = 2
+net.ipv4.conf.lo.secure_redirects = 1
+net.ipv4.conf.lo.send_redirects = 1
+net.ipv4.conf.lo.shared_media = 1
+net.ipv4.conf.lo.src_valid_mark = 0
+net.ipv4.conf.lo.tag = 0
+net.ipv4.conf.veth40b5552.accept_local = 0
+net.ipv4.conf.veth40b5552.accept_redirects = 0
+net.ipv4.conf.veth40b5552.accept_source_route = 0
+net.ipv4.conf.veth40b5552.arp_accept = 0
+net.ipv4.conf.veth40b5552.arp_announce = 0
+net.ipv4.conf.veth40b5552.arp_evict_nocarrier = 1
+net.ipv4.conf.veth40b5552.arp_filter = 0
+net.ipv4.conf.veth40b5552.arp_ignore = 0
+net.ipv4.conf.veth40b5552.arp_notify = 0
+net.ipv4.conf.veth40b5552.bc_forwarding = 0
+net.ipv4.conf.veth40b5552.bootp_relay = 0
+net.ipv4.conf.veth40b5552.disable_policy = 0
+net.ipv4.conf.veth40b5552.disable_xfrm = 0
+net.ipv4.conf.veth40b5552.drop_gratuitous_arp = 0
+net.ipv4.conf.veth40b5552.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.veth40b5552.force_igmp_version = 0
+net.ipv4.conf.veth40b5552.forwarding = 1
+net.ipv4.conf.veth40b5552.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.veth40b5552.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.veth40b5552.ignore_routes_with_linkdown = 0
+net.ipv4.conf.veth40b5552.log_martians = 0
+net.ipv4.conf.veth40b5552.mc_forwarding = 0
+net.ipv4.conf.veth40b5552.medium_id = 0
+net.ipv4.conf.veth40b5552.promote_secondaries = 1
+net.ipv4.conf.veth40b5552.proxy_arp = 0
+net.ipv4.conf.veth40b5552.proxy_arp_pvlan = 0
+net.ipv4.conf.veth40b5552.route_localnet = 0
+net.ipv4.conf.veth40b5552.rp_filter = 2
+net.ipv4.conf.veth40b5552.secure_redirects = 1
+net.ipv4.conf.veth40b5552.send_redirects = 1
+net.ipv4.conf.veth40b5552.shared_media = 1
+net.ipv4.conf.veth40b5552.src_valid_mark = 0
+net.ipv4.conf.veth40b5552.tag = 0
+net.ipv4.conf.vethc3e7bf9.accept_local = 0
+net.ipv4.conf.vethc3e7bf9.accept_redirects = 0
+net.ipv4.conf.vethc3e7bf9.accept_source_route = 0
+net.ipv4.conf.vethc3e7bf9.arp_accept = 0
+net.ipv4.conf.vethc3e7bf9.arp_announce = 0
+net.ipv4.conf.vethc3e7bf9.arp_evict_nocarrier = 1
+net.ipv4.conf.vethc3e7bf9.arp_filter = 0
+net.ipv4.conf.vethc3e7bf9.arp_ignore = 0
+net.ipv4.conf.vethc3e7bf9.arp_notify = 0
+net.ipv4.conf.vethc3e7bf9.bc_forwarding = 0
+net.ipv4.conf.vethc3e7bf9.bootp_relay = 0
+net.ipv4.conf.vethc3e7bf9.disable_policy = 0
+net.ipv4.conf.vethc3e7bf9.disable_xfrm = 0
+net.ipv4.conf.vethc3e7bf9.drop_gratuitous_arp = 0
+net.ipv4.conf.vethc3e7bf9.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.vethc3e7bf9.force_igmp_version = 0
+net.ipv4.conf.vethc3e7bf9.forwarding = 1
+net.ipv4.conf.vethc3e7bf9.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.vethc3e7bf9.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.vethc3e7bf9.ignore_routes_with_linkdown = 0
+net.ipv4.conf.vethc3e7bf9.log_martians = 0
+net.ipv4.conf.vethc3e7bf9.mc_forwarding = 0
+net.ipv4.conf.vethc3e7bf9.medium_id = 0
+net.ipv4.conf.vethc3e7bf9.promote_secondaries = 1
+net.ipv4.conf.vethc3e7bf9.proxy_arp = 0
+net.ipv4.conf.vethc3e7bf9.proxy_arp_pvlan = 0
+net.ipv4.conf.vethc3e7bf9.route_localnet = 0
+net.ipv4.conf.vethc3e7bf9.rp_filter = 2
+net.ipv4.conf.vethc3e7bf9.secure_redirects = 1
+net.ipv4.conf.vethc3e7bf9.send_redirects = 1
+net.ipv4.conf.vethc3e7bf9.shared_media = 1
+net.ipv4.conf.vethc3e7bf9.src_valid_mark = 0
+net.ipv4.conf.vethc3e7bf9.tag = 0
+net.ipv4.conf.vethe4550da.accept_local = 0
+net.ipv4.conf.vethe4550da.accept_redirects = 0
+net.ipv4.conf.vethe4550da.accept_source_route = 0
+net.ipv4.conf.vethe4550da.arp_accept = 0
+net.ipv4.conf.vethe4550da.arp_announce = 0
+net.ipv4.conf.vethe4550da.arp_evict_nocarrier = 1
+net.ipv4.conf.vethe4550da.arp_filter = 0
+net.ipv4.conf.vethe4550da.arp_ignore = 0
+net.ipv4.conf.vethe4550da.arp_notify = 0
+net.ipv4.conf.vethe4550da.bc_forwarding = 0
+net.ipv4.conf.vethe4550da.bootp_relay = 0
+net.ipv4.conf.vethe4550da.disable_policy = 0
+net.ipv4.conf.vethe4550da.disable_xfrm = 0
+net.ipv4.conf.vethe4550da.drop_gratuitous_arp = 0
+net.ipv4.conf.vethe4550da.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.vethe4550da.force_igmp_version = 0
+net.ipv4.conf.vethe4550da.forwarding = 1
+net.ipv4.conf.vethe4550da.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.vethe4550da.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.vethe4550da.ignore_routes_with_linkdown = 0
+net.ipv4.conf.vethe4550da.log_martians = 0
+net.ipv4.conf.vethe4550da.mc_forwarding = 0
+net.ipv4.conf.vethe4550da.medium_id = 0
+net.ipv4.conf.vethe4550da.promote_secondaries = 1
+net.ipv4.conf.vethe4550da.proxy_arp = 0
+net.ipv4.conf.vethe4550da.proxy_arp_pvlan = 0
+net.ipv4.conf.vethe4550da.route_localnet = 0
+net.ipv4.conf.vethe4550da.rp_filter = 2
+net.ipv4.conf.vethe4550da.secure_redirects = 1
+net.ipv4.conf.vethe4550da.send_redirects = 1
+net.ipv4.conf.vethe4550da.shared_media = 1
+net.ipv4.conf.vethe4550da.src_valid_mark = 0
+net.ipv4.conf.vethe4550da.tag = 0
+net.ipv4.conf.wlo1.accept_local = 0
+net.ipv4.conf.wlo1.accept_redirects = 0
+net.ipv4.conf.wlo1.accept_source_route = 0
+net.ipv4.conf.wlo1.arp_accept = 0
+net.ipv4.conf.wlo1.arp_announce = 0
+net.ipv4.conf.wlo1.arp_evict_nocarrier = 1
+net.ipv4.conf.wlo1.arp_filter = 0
+net.ipv4.conf.wlo1.arp_ignore = 0
+net.ipv4.conf.wlo1.arp_notify = 0
+net.ipv4.conf.wlo1.bc_forwarding = 0
+net.ipv4.conf.wlo1.bootp_relay = 0
+net.ipv4.conf.wlo1.disable_policy = 0
+net.ipv4.conf.wlo1.disable_xfrm = 0
+net.ipv4.conf.wlo1.drop_gratuitous_arp = 0
+net.ipv4.conf.wlo1.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.wlo1.force_igmp_version = 0
+net.ipv4.conf.wlo1.forwarding = 1
+net.ipv4.conf.wlo1.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.wlo1.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.wlo1.ignore_routes_with_linkdown = 0
+net.ipv4.conf.wlo1.log_martians = 0
+net.ipv4.conf.wlo1.mc_forwarding = 0
+net.ipv4.conf.wlo1.medium_id = 0
+net.ipv4.conf.wlo1.promote_secondaries = 1
+net.ipv4.conf.wlo1.proxy_arp = 0
+net.ipv4.conf.wlo1.proxy_arp_pvlan = 0
+net.ipv4.conf.wlo1.route_localnet = 0
+net.ipv4.conf.wlo1.rp_filter = 2
+net.ipv4.conf.wlo1.secure_redirects = 1
+net.ipv4.conf.wlo1.send_redirects = 1
+net.ipv4.conf.wlo1.shared_media = 1
+net.ipv4.conf.wlo1.src_valid_mark = 0
+net.ipv4.conf.wlo1.tag = 0
+net.ipv4.fib_multipath_hash_fields = 7
+net.ipv4.fib_multipath_hash_policy = 0
+net.ipv4.fib_multipath_use_neigh = 0
+net.ipv4.fib_notify_on_flag_change = 0
+net.ipv4.fib_sync_mem = 524288
+net.ipv4.fwmark_reflect = 0
+net.ipv4.icmp_echo_enable_probe = 0
+net.ipv4.icmp_echo_ignore_all = 0
+net.ipv4.icmp_echo_ignore_broadcasts = 1
+net.ipv4.icmp_errors_use_inbound_ifaddr = 0
+net.ipv4.icmp_ignore_bogus_error_responses = 1
+net.ipv4.icmp_msgs_burst = 50
+net.ipv4.icmp_msgs_per_sec = 1000
+net.ipv4.icmp_ratelimit = 1000
+net.ipv4.icmp_ratemask = 6168
+net.ipv4.igmp_link_local_mcast_reports = 1
+net.ipv4.igmp_max_memberships = 20
+net.ipv4.igmp_max_msf = 10
+net.ipv4.igmp_qrv = 2
+net.ipv4.inet_peer_maxttl = 600
+net.ipv4.inet_peer_minttl = 120
+net.ipv4.inet_peer_threshold = 65664
+net.ipv4.ip_autobind_reuse = 0
+net.ipv4.ip_default_ttl = 64
+net.ipv4.ip_dynaddr = 0
+net.ipv4.ip_early_demux = 1
+net.ipv4.ip_forward = 1
+net.ipv4.ip_forward_update_priority = 1
+net.ipv4.ip_forward_use_pmtu = 0
+net.ipv4.ip_local_port_range = 32768	60999
+net.ipv4.ip_local_reserved_ports = 
+net.ipv4.ip_no_pmtu_disc = 0
+net.ipv4.ip_nonlocal_bind = 0
+net.ipv4.ip_unprivileged_port_start = 1024
+net.ipv4.ipfrag_high_thresh = 4194304
+net.ipv4.ipfrag_low_thresh = 3145728
+net.ipv4.ipfrag_max_dist = 64
+net.ipv4.ipfrag_secret_interval = 0
+net.ipv4.ipfrag_time = 30
+net.ipv4.neigh.br-be59f45c2eff.anycast_delay = 99
+net.ipv4.neigh.br-be59f45c2eff.app_solicit = 0
+net.ipv4.neigh.br-be59f45c2eff.base_reachable_time_ms = 30000
+net.ipv4.neigh.br-be59f45c2eff.delay_first_probe_time = 5
+net.ipv4.neigh.br-be59f45c2eff.gc_stale_time = 60
+net.ipv4.neigh.br-be59f45c2eff.interval_probe_time_ms = 5000
+net.ipv4.neigh.br-be59f45c2eff.locktime = 99
+net.ipv4.neigh.br-be59f45c2eff.mcast_resolicit = 0
+net.ipv4.neigh.br-be59f45c2eff.mcast_solicit = 3
+net.ipv4.neigh.br-be59f45c2eff.proxy_delay = 79
+net.ipv4.neigh.br-be59f45c2eff.proxy_qlen = 64
+net.ipv4.neigh.br-be59f45c2eff.retrans_time_ms = 1000
+net.ipv4.neigh.br-be59f45c2eff.ucast_solicit = 3
+net.ipv4.neigh.br-be59f45c2eff.unres_qlen = 101
+net.ipv4.neigh.br-be59f45c2eff.unres_qlen_bytes = 212992
+net.ipv4.neigh.br-cc0b9ed4160d.anycast_delay = 99
+net.ipv4.neigh.br-cc0b9ed4160d.app_solicit = 0
+net.ipv4.neigh.br-cc0b9ed4160d.base_reachable_time_ms = 30000
+net.ipv4.neigh.br-cc0b9ed4160d.delay_first_probe_time = 5
+net.ipv4.neigh.br-cc0b9ed4160d.gc_stale_time = 60
+net.ipv4.neigh.br-cc0b9ed4160d.interval_probe_time_ms = 5000
+net.ipv4.neigh.br-cc0b9ed4160d.locktime = 99
+net.ipv4.neigh.br-cc0b9ed4160d.mcast_resolicit = 0
+net.ipv4.neigh.br-cc0b9ed4160d.mcast_solicit = 3
+net.ipv4.neigh.br-cc0b9ed4160d.proxy_delay = 79
+net.ipv4.neigh.br-cc0b9ed4160d.proxy_qlen = 64
+net.ipv4.neigh.br-cc0b9ed4160d.retrans_time_ms = 1000
+net.ipv4.neigh.br-cc0b9ed4160d.ucast_solicit = 3
+net.ipv4.neigh.br-cc0b9ed4160d.unres_qlen = 101
+net.ipv4.neigh.br-cc0b9ed4160d.unres_qlen_bytes = 212992
+net.ipv4.neigh.default.anycast_delay = 99
+net.ipv4.neigh.default.app_solicit = 0
+net.ipv4.neigh.default.base_reachable_time_ms = 30000
+net.ipv4.neigh.default.delay_first_probe_time = 5
+net.ipv4.neigh.default.gc_interval = 30
+net.ipv4.neigh.default.gc_stale_time = 60
+net.ipv4.neigh.default.gc_thresh1 = 128
+net.ipv4.neigh.default.gc_thresh2 = 512
+net.ipv4.neigh.default.gc_thresh3 = 1024
+net.ipv4.neigh.default.interval_probe_time_ms = 5000
+net.ipv4.neigh.default.locktime = 99
+net.ipv4.neigh.default.mcast_resolicit = 0
+net.ipv4.neigh.default.mcast_solicit = 3
+net.ipv4.neigh.default.proxy_delay = 79
+net.ipv4.neigh.default.proxy_qlen = 64
+net.ipv4.neigh.default.retrans_time_ms = 1000
+net.ipv4.neigh.default.ucast_solicit = 3
+net.ipv4.neigh.default.unres_qlen = 101
+net.ipv4.neigh.default.unres_qlen_bytes = 212992
+net.ipv4.neigh.docker0.anycast_delay = 99
+net.ipv4.neigh.docker0.app_solicit = 0
+net.ipv4.neigh.docker0.base_reachable_time_ms = 30000
+net.ipv4.neigh.docker0.delay_first_probe_time = 5
+net.ipv4.neigh.docker0.gc_stale_time = 60
+net.ipv4.neigh.docker0.interval_probe_time_ms = 5000
+net.ipv4.neigh.docker0.locktime = 99
+net.ipv4.neigh.docker0.mcast_resolicit = 0
+net.ipv4.neigh.docker0.mcast_solicit = 3
+net.ipv4.neigh.docker0.proxy_delay = 79
+net.ipv4.neigh.docker0.proxy_qlen = 64
+net.ipv4.neigh.docker0.retrans_time_ms = 1000
+net.ipv4.neigh.docker0.ucast_solicit = 3
+net.ipv4.neigh.docker0.unres_qlen = 101
+net.ipv4.neigh.docker0.unres_qlen_bytes = 212992
+net.ipv4.neigh.eno2.anycast_delay = 99
+net.ipv4.neigh.eno2.app_solicit = 0
+net.ipv4.neigh.eno2.base_reachable_time_ms = 30000
+net.ipv4.neigh.eno2.delay_first_probe_time = 5
+net.ipv4.neigh.eno2.gc_stale_time = 60
+net.ipv4.neigh.eno2.interval_probe_time_ms = 5000
+net.ipv4.neigh.eno2.locktime = 99
+net.ipv4.neigh.eno2.mcast_resolicit = 0
+net.ipv4.neigh.eno2.mcast_solicit = 3
+net.ipv4.neigh.eno2.proxy_delay = 79
+net.ipv4.neigh.eno2.proxy_qlen = 64
+net.ipv4.neigh.eno2.retrans_time_ms = 1000
+net.ipv4.neigh.eno2.ucast_solicit = 3
+net.ipv4.neigh.eno2.unres_qlen = 101
+net.ipv4.neigh.eno2.unres_qlen_bytes = 212992
+net.ipv4.neigh.lo.anycast_delay = 99
+net.ipv4.neigh.lo.app_solicit = 0
+net.ipv4.neigh.lo.base_reachable_time_ms = 30000
+net.ipv4.neigh.lo.delay_first_probe_time = 5
+net.ipv4.neigh.lo.gc_stale_time = 60
+net.ipv4.neigh.lo.interval_probe_time_ms = 5000
+net.ipv4.neigh.lo.locktime = 99
+net.ipv4.neigh.lo.mcast_resolicit = 0
+net.ipv4.neigh.lo.mcast_solicit = 3
+net.ipv4.neigh.lo.proxy_delay = 79
+net.ipv4.neigh.lo.proxy_qlen = 64
+net.ipv4.neigh.lo.retrans_time_ms = 1000
+net.ipv4.neigh.lo.ucast_solicit = 3
+net.ipv4.neigh.lo.unres_qlen = 101
+net.ipv4.neigh.lo.unres_qlen_bytes = 212992
+net.ipv4.neigh.veth40b5552.anycast_delay = 99
+net.ipv4.neigh.veth40b5552.app_solicit = 0
+net.ipv4.neigh.veth40b5552.base_reachable_time_ms = 30000
+net.ipv4.neigh.veth40b5552.delay_first_probe_time = 5
+net.ipv4.neigh.veth40b5552.gc_stale_time = 60
+net.ipv4.neigh.veth40b5552.interval_probe_time_ms = 5000
+net.ipv4.neigh.veth40b5552.locktime = 99
+net.ipv4.neigh.veth40b5552.mcast_resolicit = 0
+net.ipv4.neigh.veth40b5552.mcast_solicit = 3
+net.ipv4.neigh.veth40b5552.proxy_delay = 79
+net.ipv4.neigh.veth40b5552.proxy_qlen = 64
+net.ipv4.neigh.veth40b5552.retrans_time_ms = 1000
+net.ipv4.neigh.veth40b5552.ucast_solicit = 3
+net.ipv4.neigh.veth40b5552.unres_qlen = 101
+net.ipv4.neigh.veth40b5552.unres_qlen_bytes = 212992
+net.ipv4.neigh.vethc3e7bf9.anycast_delay = 99
+net.ipv4.neigh.vethc3e7bf9.app_solicit = 0
+net.ipv4.neigh.vethc3e7bf9.base_reachable_time_ms = 30000
+net.ipv4.neigh.vethc3e7bf9.delay_first_probe_time = 5
+net.ipv4.neigh.vethc3e7bf9.gc_stale_time = 60
+net.ipv4.neigh.vethc3e7bf9.interval_probe_time_ms = 5000
+net.ipv4.neigh.vethc3e7bf9.locktime = 99
+net.ipv4.neigh.vethc3e7bf9.mcast_resolicit = 0
+net.ipv4.neigh.vethc3e7bf9.mcast_solicit = 3
+net.ipv4.neigh.vethc3e7bf9.proxy_delay = 79
+net.ipv4.neigh.vethc3e7bf9.proxy_qlen = 64
+net.ipv4.neigh.vethc3e7bf9.retrans_time_ms = 1000
+net.ipv4.neigh.vethc3e7bf9.ucast_solicit = 3
+net.ipv4.neigh.vethc3e7bf9.unres_qlen = 101
+net.ipv4.neigh.vethc3e7bf9.unres_qlen_bytes = 212992
+net.ipv4.neigh.vethe4550da.anycast_delay = 99
+net.ipv4.neigh.vethe4550da.app_solicit = 0
+net.ipv4.neigh.vethe4550da.base_reachable_time_ms = 30000
+net.ipv4.neigh.vethe4550da.delay_first_probe_time = 5
+net.ipv4.neigh.vethe4550da.gc_stale_time = 60
+net.ipv4.neigh.vethe4550da.interval_probe_time_ms = 5000
+net.ipv4.neigh.vethe4550da.locktime = 99
+net.ipv4.neigh.vethe4550da.mcast_resolicit = 0
+net.ipv4.neigh.vethe4550da.mcast_solicit = 3
+net.ipv4.neigh.vethe4550da.proxy_delay = 79
+net.ipv4.neigh.vethe4550da.proxy_qlen = 64
+net.ipv4.neigh.vethe4550da.retrans_time_ms = 1000
+net.ipv4.neigh.vethe4550da.ucast_solicit = 3
+net.ipv4.neigh.vethe4550da.unres_qlen = 101
+net.ipv4.neigh.vethe4550da.unres_qlen_bytes = 212992
+net.ipv4.neigh.wlo1.anycast_delay = 99
+net.ipv4.neigh.wlo1.app_solicit = 0
+net.ipv4.neigh.wlo1.base_reachable_time_ms = 30000
+net.ipv4.neigh.wlo1.delay_first_probe_time = 5
+net.ipv4.neigh.wlo1.gc_stale_time = 60
+net.ipv4.neigh.wlo1.interval_probe_time_ms = 5000
+net.ipv4.neigh.wlo1.locktime = 99
+net.ipv4.neigh.wlo1.mcast_resolicit = 0
+net.ipv4.neigh.wlo1.mcast_solicit = 3
+net.ipv4.neigh.wlo1.proxy_delay = 79
+net.ipv4.neigh.wlo1.proxy_qlen = 64
+net.ipv4.neigh.wlo1.retrans_time_ms = 1000
+net.ipv4.neigh.wlo1.ucast_solicit = 3
+net.ipv4.neigh.wlo1.unres_qlen = 101
+net.ipv4.neigh.wlo1.unres_qlen_bytes = 212992
+net.ipv4.nexthop_compat_mode = 1
+net.ipv4.ping_group_range = 0	2147483647
+net.ipv4.raw_l3mdev_accept = 1
+net.ipv4.route.error_burst = 1500
+net.ipv4.route.error_cost = 300
+net.ipv4.route.gc_elasticity = 8
+net.ipv4.route.gc_interval = 60
+net.ipv4.route.gc_min_interval = 0
+net.ipv4.route.gc_min_interval_ms = 500
+net.ipv4.route.gc_thresh = -1
+net.ipv4.route.gc_timeout = 300
+net.ipv4.route.max_size = 2147483647
+net.ipv4.route.min_adv_mss = 256
+net.ipv4.route.min_pmtu = 552
+net.ipv4.route.mtu_expires = 600
+net.ipv4.route.redirect_load = 6
+net.ipv4.route.redirect_number = 9
+net.ipv4.route.redirect_silence = 6144
+net.ipv4.tcp_abort_on_overflow = 0
+net.ipv4.tcp_adv_win_scale = 1
+net.ipv4.tcp_allowed_congestion_control = reno cubic
+net.ipv4.tcp_app_win = 31
+net.ipv4.tcp_autocorking = 1
+net.ipv4.tcp_available_congestion_control = reno cubic
+net.ipv4.tcp_available_ulp = espintcp mptcp
+net.ipv4.tcp_base_mss = 1024
+net.ipv4.tcp_challenge_ack_limit = 2147483647
+net.ipv4.tcp_child_ehash_entries = 0
+net.ipv4.tcp_comp_sack_delay_ns = 1000000
+net.ipv4.tcp_comp_sack_nr = 44
+net.ipv4.tcp_comp_sack_slack_ns = 100000
+net.ipv4.tcp_congestion_control = cubic
+net.ipv4.tcp_dsack = 1
+net.ipv4.tcp_early_demux = 1
+net.ipv4.tcp_early_retrans = 3
+net.ipv4.tcp_ecn = 2
+net.ipv4.tcp_ecn_fallback = 1
+net.ipv4.tcp_ehash_entries = 131072
+net.ipv4.tcp_fack = 0
+net.ipv4.tcp_fastopen = 1
+net.ipv4.tcp_fastopen_blackhole_timeout_sec = 0
+net.ipv4.tcp_fastopen_key = 00000000-00000000-00000000-00000000
+net.ipv4.tcp_fin_timeout = 60
+net.ipv4.tcp_frto = 2
+net.ipv4.tcp_fwmark_accept = 0
+net.ipv4.tcp_invalid_ratelimit = 500
+net.ipv4.tcp_keepalive_intvl = 75
+net.ipv4.tcp_keepalive_probes = 9
+net.ipv4.tcp_keepalive_time = 7200
+net.ipv4.tcp_l3mdev_accept = 0
+net.ipv4.tcp_limit_output_bytes = 1048576
+net.ipv4.tcp_low_latency = 0
+net.ipv4.tcp_max_orphans = 65536
+net.ipv4.tcp_max_reordering = 300
+net.ipv4.tcp_max_syn_backlog = 1024
+net.ipv4.tcp_max_tw_buckets = 65536
+net.ipv4.tcp_mem = 188247	250999	376494
+net.ipv4.tcp_migrate_req = 0
+net.ipv4.tcp_min_rtt_wlen = 300
+net.ipv4.tcp_min_snd_mss = 48
+net.ipv4.tcp_min_tso_segs = 2
+net.ipv4.tcp_moderate_rcvbuf = 1
+net.ipv4.tcp_mtu_probe_floor = 48
+net.ipv4.tcp_mtu_probing = 0
+net.ipv4.tcp_no_metrics_save = 0
+net.ipv4.tcp_no_ssthresh_metrics_save = 1
+net.ipv4.tcp_notsent_lowat = 4294967295
+net.ipv4.tcp_orphan_retries = 0
+net.ipv4.tcp_pacing_ca_ratio = 120
+net.ipv4.tcp_pacing_ss_ratio = 200
+net.ipv4.tcp_probe_interval = 600
+net.ipv4.tcp_probe_threshold = 8
+net.ipv4.tcp_recovery = 1
+net.ipv4.tcp_reflect_tos = 0
+net.ipv4.tcp_reordering = 3
+net.ipv4.tcp_retrans_collapse = 1
+net.ipv4.tcp_retries1 = 3
+net.ipv4.tcp_retries2 = 15
+net.ipv4.tcp_rfc1337 = 0
+net.ipv4.tcp_rmem = 4096	131072	6291456
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_slow_start_after_idle = 1
+net.ipv4.tcp_stdurg = 0
+net.ipv4.tcp_syn_retries = 6
+net.ipv4.tcp_synack_retries = 5
+net.ipv4.tcp_syncookies = 1
+net.ipv4.tcp_thin_linear_timeouts = 0
+net.ipv4.tcp_timestamps = 1
+net.ipv4.tcp_tso_rtt_log = 9
+net.ipv4.tcp_tso_win_divisor = 3
+net.ipv4.tcp_tw_reuse = 2
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_wmem = 4096	16384	4194304
+net.ipv4.tcp_workaround_signed_windows = 0
+net.ipv4.udp_early_demux = 1
+net.ipv4.udp_l3mdev_accept = 0
+net.ipv4.udp_mem = 376497	501998	752994
+net.ipv4.udp_rmem_min = 4096
+net.ipv4.udp_wmem_min = 4096
+net.ipv4.xfrm4_gc_thresh = 32768
+net.ipv6.anycast_src_echo_reply = 0
+net.ipv6.auto_flowlabels = 1
+net.ipv6.bindv6only = 0
+net.ipv6.calipso_cache_bucket_size = 10
+net.ipv6.calipso_cache_enable = 1
+net.ipv6.conf.all.accept_dad = 0
+net.ipv6.conf.all.accept_ra = 1
+net.ipv6.conf.all.accept_ra_defrtr = 1
+net.ipv6.conf.all.accept_ra_from_local = 0
+net.ipv6.conf.all.accept_ra_min_hop_limit = 1
+net.ipv6.conf.all.accept_ra_mtu = 1
+net.ipv6.conf.all.accept_ra_pinfo = 1
+net.ipv6.conf.all.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.all.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.all.accept_ra_rtr_pref = 1
+net.ipv6.conf.all.accept_redirects = 0
+net.ipv6.conf.all.accept_source_route = 0
+net.ipv6.conf.all.accept_untracked_na = 0
+net.ipv6.conf.all.addr_gen_mode = 0
+net.ipv6.conf.all.autoconf = 1
+net.ipv6.conf.all.dad_transmits = 1
+net.ipv6.conf.all.disable_ipv6 = 0
+net.ipv6.conf.all.disable_policy = 0
+net.ipv6.conf.all.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.all.drop_unsolicited_na = 0
+net.ipv6.conf.all.enhanced_dad = 1
+net.ipv6.conf.all.force_mld_version = 0
+net.ipv6.conf.all.force_tllao = 0
+net.ipv6.conf.all.forwarding = 1
+net.ipv6.conf.all.hop_limit = 64
+net.ipv6.conf.all.ignore_routes_with_linkdown = 0
+net.ipv6.conf.all.ioam6_enabled = 0
+net.ipv6.conf.all.ioam6_id = 65535
+net.ipv6.conf.all.ioam6_id_wide = 4294967295
+net.ipv6.conf.all.keep_addr_on_down = 0
+net.ipv6.conf.all.max_addresses = 16
+net.ipv6.conf.all.max_desync_factor = 600
+net.ipv6.conf.all.mc_forwarding = 0
+net.ipv6.conf.all.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.all.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.all.mtu = 1280
+net.ipv6.conf.all.ndisc_evict_nocarrier = 1
+net.ipv6.conf.all.ndisc_notify = 0
+net.ipv6.conf.all.ndisc_tclass = 0
+net.ipv6.conf.all.optimistic_dad = 0
+net.ipv6.conf.all.proxy_ndp = 0
+net.ipv6.conf.all.ra_defrtr_metric = 1024
+net.ipv6.conf.all.regen_max_retry = 3
+net.ipv6.conf.all.router_probe_interval = 60
+net.ipv6.conf.all.router_solicitation_delay = 1
+net.ipv6.conf.all.router_solicitation_interval = 4
+net.ipv6.conf.all.router_solicitation_max_interval = 3600
+net.ipv6.conf.all.router_solicitations = -1
+net.ipv6.conf.all.rpl_seg_enabled = 0
+net.ipv6.conf.all.seg6_enabled = 0
+net.ipv6.conf.all.seg6_require_hmac = 0
+net.ipv6.conf.all.suppress_frag_ndisc = 1
+net.ipv6.conf.all.temp_prefered_lft = 86400
+net.ipv6.conf.all.temp_valid_lft = 604800
+net.ipv6.conf.all.use_oif_addrs_only = 0
+net.ipv6.conf.all.use_optimistic = 0
+net.ipv6.conf.all.use_tempaddr = 0
+net.ipv6.conf.br-be59f45c2eff.accept_dad = 1
+net.ipv6.conf.br-be59f45c2eff.accept_ra = 0
+net.ipv6.conf.br-be59f45c2eff.accept_ra_defrtr = 1
+net.ipv6.conf.br-be59f45c2eff.accept_ra_from_local = 0
+net.ipv6.conf.br-be59f45c2eff.accept_ra_min_hop_limit = 1
+net.ipv6.conf.br-be59f45c2eff.accept_ra_mtu = 1
+net.ipv6.conf.br-be59f45c2eff.accept_ra_pinfo = 1
+net.ipv6.conf.br-be59f45c2eff.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.br-be59f45c2eff.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.br-be59f45c2eff.accept_ra_rtr_pref = 1
+net.ipv6.conf.br-be59f45c2eff.accept_redirects = 0
+net.ipv6.conf.br-be59f45c2eff.accept_source_route = 0
+net.ipv6.conf.br-be59f45c2eff.accept_untracked_na = 0
+net.ipv6.conf.br-be59f45c2eff.addr_gen_mode = 0
+net.ipv6.conf.br-be59f45c2eff.autoconf = 1
+net.ipv6.conf.br-be59f45c2eff.dad_transmits = 1
+net.ipv6.conf.br-be59f45c2eff.disable_ipv6 = 0
+net.ipv6.conf.br-be59f45c2eff.disable_policy = 0
+net.ipv6.conf.br-be59f45c2eff.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.br-be59f45c2eff.drop_unsolicited_na = 0
+net.ipv6.conf.br-be59f45c2eff.enhanced_dad = 1
+net.ipv6.conf.br-be59f45c2eff.force_mld_version = 0
+net.ipv6.conf.br-be59f45c2eff.force_tllao = 0
+net.ipv6.conf.br-be59f45c2eff.forwarding = 1
+net.ipv6.conf.br-be59f45c2eff.hop_limit = 64
+net.ipv6.conf.br-be59f45c2eff.ignore_routes_with_linkdown = 0
+net.ipv6.conf.br-be59f45c2eff.ioam6_enabled = 0
+net.ipv6.conf.br-be59f45c2eff.ioam6_id = 65535
+net.ipv6.conf.br-be59f45c2eff.ioam6_id_wide = 4294967295
+net.ipv6.conf.br-be59f45c2eff.keep_addr_on_down = 0
+net.ipv6.conf.br-be59f45c2eff.max_addresses = 16
+net.ipv6.conf.br-be59f45c2eff.max_desync_factor = 600
+net.ipv6.conf.br-be59f45c2eff.mc_forwarding = 0
+net.ipv6.conf.br-be59f45c2eff.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.br-be59f45c2eff.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.br-be59f45c2eff.mtu = 1500
+net.ipv6.conf.br-be59f45c2eff.ndisc_evict_nocarrier = 1
+net.ipv6.conf.br-be59f45c2eff.ndisc_notify = 0
+net.ipv6.conf.br-be59f45c2eff.ndisc_tclass = 0
+net.ipv6.conf.br-be59f45c2eff.optimistic_dad = 0
+net.ipv6.conf.br-be59f45c2eff.proxy_ndp = 0
+net.ipv6.conf.br-be59f45c2eff.ra_defrtr_metric = 1024
+net.ipv6.conf.br-be59f45c2eff.regen_max_retry = 3
+net.ipv6.conf.br-be59f45c2eff.router_probe_interval = 60
+net.ipv6.conf.br-be59f45c2eff.router_solicitation_delay = 1
+net.ipv6.conf.br-be59f45c2eff.router_solicitation_interval = 4
+net.ipv6.conf.br-be59f45c2eff.router_solicitation_max_interval = 3600
+net.ipv6.conf.br-be59f45c2eff.router_solicitations = -1
+net.ipv6.conf.br-be59f45c2eff.rpl_seg_enabled = 0
+net.ipv6.conf.br-be59f45c2eff.seg6_enabled = 0
+net.ipv6.conf.br-be59f45c2eff.seg6_require_hmac = 0
+net.ipv6.conf.br-be59f45c2eff.suppress_frag_ndisc = 1
+net.ipv6.conf.br-be59f45c2eff.temp_prefered_lft = 86400
+net.ipv6.conf.br-be59f45c2eff.temp_valid_lft = 604800
+net.ipv6.conf.br-be59f45c2eff.use_oif_addrs_only = 0
+net.ipv6.conf.br-be59f45c2eff.use_optimistic = 0
+net.ipv6.conf.br-be59f45c2eff.use_tempaddr = 0
+net.ipv6.conf.br-cc0b9ed4160d.accept_dad = 1
+net.ipv6.conf.br-cc0b9ed4160d.accept_ra = 0
+net.ipv6.conf.br-cc0b9ed4160d.accept_ra_defrtr = 1
+net.ipv6.conf.br-cc0b9ed4160d.accept_ra_from_local = 0
+net.ipv6.conf.br-cc0b9ed4160d.accept_ra_min_hop_limit = 1
+net.ipv6.conf.br-cc0b9ed4160d.accept_ra_mtu = 1
+net.ipv6.conf.br-cc0b9ed4160d.accept_ra_pinfo = 1
+net.ipv6.conf.br-cc0b9ed4160d.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.br-cc0b9ed4160d.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.br-cc0b9ed4160d.accept_ra_rtr_pref = 1
+net.ipv6.conf.br-cc0b9ed4160d.accept_redirects = 0
+net.ipv6.conf.br-cc0b9ed4160d.accept_source_route = 0
+net.ipv6.conf.br-cc0b9ed4160d.accept_untracked_na = 0
+net.ipv6.conf.br-cc0b9ed4160d.addr_gen_mode = 0
+net.ipv6.conf.br-cc0b9ed4160d.autoconf = 1
+net.ipv6.conf.br-cc0b9ed4160d.dad_transmits = 1
+net.ipv6.conf.br-cc0b9ed4160d.disable_ipv6 = 0
+net.ipv6.conf.br-cc0b9ed4160d.disable_policy = 0
+net.ipv6.conf.br-cc0b9ed4160d.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.br-cc0b9ed4160d.drop_unsolicited_na = 0
+net.ipv6.conf.br-cc0b9ed4160d.enhanced_dad = 1
+net.ipv6.conf.br-cc0b9ed4160d.force_mld_version = 0
+net.ipv6.conf.br-cc0b9ed4160d.force_tllao = 0
+net.ipv6.conf.br-cc0b9ed4160d.forwarding = 1
+net.ipv6.conf.br-cc0b9ed4160d.hop_limit = 64
+net.ipv6.conf.br-cc0b9ed4160d.ignore_routes_with_linkdown = 0
+net.ipv6.conf.br-cc0b9ed4160d.ioam6_enabled = 0
+net.ipv6.conf.br-cc0b9ed4160d.ioam6_id = 65535
+net.ipv6.conf.br-cc0b9ed4160d.ioam6_id_wide = 4294967295
+net.ipv6.conf.br-cc0b9ed4160d.keep_addr_on_down = 0
+net.ipv6.conf.br-cc0b9ed4160d.max_addresses = 16
+net.ipv6.conf.br-cc0b9ed4160d.max_desync_factor = 600
+net.ipv6.conf.br-cc0b9ed4160d.mc_forwarding = 0
+net.ipv6.conf.br-cc0b9ed4160d.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.br-cc0b9ed4160d.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.br-cc0b9ed4160d.mtu = 1500
+net.ipv6.conf.br-cc0b9ed4160d.ndisc_evict_nocarrier = 1
+net.ipv6.conf.br-cc0b9ed4160d.ndisc_notify = 0
+net.ipv6.conf.br-cc0b9ed4160d.ndisc_tclass = 0
+net.ipv6.conf.br-cc0b9ed4160d.optimistic_dad = 0
+net.ipv6.conf.br-cc0b9ed4160d.proxy_ndp = 0
+net.ipv6.conf.br-cc0b9ed4160d.ra_defrtr_metric = 1024
+net.ipv6.conf.br-cc0b9ed4160d.regen_max_retry = 3
+net.ipv6.conf.br-cc0b9ed4160d.router_probe_interval = 60
+net.ipv6.conf.br-cc0b9ed4160d.router_solicitation_delay = 1
+net.ipv6.conf.br-cc0b9ed4160d.router_solicitation_interval = 4
+net.ipv6.conf.br-cc0b9ed4160d.router_solicitation_max_interval = 3600
+net.ipv6.conf.br-cc0b9ed4160d.router_solicitations = -1
+net.ipv6.conf.br-cc0b9ed4160d.rpl_seg_enabled = 0
+net.ipv6.conf.br-cc0b9ed4160d.seg6_enabled = 0
+net.ipv6.conf.br-cc0b9ed4160d.seg6_require_hmac = 0
+net.ipv6.conf.br-cc0b9ed4160d.suppress_frag_ndisc = 1
+net.ipv6.conf.br-cc0b9ed4160d.temp_prefered_lft = 86400
+net.ipv6.conf.br-cc0b9ed4160d.temp_valid_lft = 604800
+net.ipv6.conf.br-cc0b9ed4160d.use_oif_addrs_only = 0
+net.ipv6.conf.br-cc0b9ed4160d.use_optimistic = 0
+net.ipv6.conf.br-cc0b9ed4160d.use_tempaddr = 0
+net.ipv6.conf.default.accept_dad = 1
+net.ipv6.conf.default.accept_ra = 1
+net.ipv6.conf.default.accept_ra_defrtr = 1
+net.ipv6.conf.default.accept_ra_from_local = 0
+net.ipv6.conf.default.accept_ra_min_hop_limit = 1
+net.ipv6.conf.default.accept_ra_mtu = 1
+net.ipv6.conf.default.accept_ra_pinfo = 1
+net.ipv6.conf.default.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.default.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.default.accept_ra_rtr_pref = 1
+net.ipv6.conf.default.accept_redirects = 0
+net.ipv6.conf.default.accept_source_route = 0
+net.ipv6.conf.default.accept_untracked_na = 0
+net.ipv6.conf.default.addr_gen_mode = 0
+net.ipv6.conf.default.autoconf = 1
+net.ipv6.conf.default.dad_transmits = 1
+net.ipv6.conf.default.disable_ipv6 = 0
+net.ipv6.conf.default.disable_policy = 0
+net.ipv6.conf.default.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.default.drop_unsolicited_na = 0
+net.ipv6.conf.default.enhanced_dad = 1
+net.ipv6.conf.default.force_mld_version = 0
+net.ipv6.conf.default.force_tllao = 0
+net.ipv6.conf.default.forwarding = 1
+net.ipv6.conf.default.hop_limit = 64
+net.ipv6.conf.default.ignore_routes_with_linkdown = 0
+net.ipv6.conf.default.ioam6_enabled = 0
+net.ipv6.conf.default.ioam6_id = 65535
+net.ipv6.conf.default.ioam6_id_wide = 4294967295
+net.ipv6.conf.default.keep_addr_on_down = 0
+net.ipv6.conf.default.max_addresses = 16
+net.ipv6.conf.default.max_desync_factor = 600
+net.ipv6.conf.default.mc_forwarding = 0
+net.ipv6.conf.default.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.default.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.default.mtu = 1280
+net.ipv6.conf.default.ndisc_evict_nocarrier = 1
+net.ipv6.conf.default.ndisc_notify = 0
+net.ipv6.conf.default.ndisc_tclass = 0
+net.ipv6.conf.default.optimistic_dad = 0
+net.ipv6.conf.default.proxy_ndp = 0
+net.ipv6.conf.default.ra_defrtr_metric = 1024
+net.ipv6.conf.default.regen_max_retry = 3
+net.ipv6.conf.default.router_probe_interval = 60
+net.ipv6.conf.default.router_solicitation_delay = 1
+net.ipv6.conf.default.router_solicitation_interval = 4
+net.ipv6.conf.default.router_solicitation_max_interval = 3600
+net.ipv6.conf.default.router_solicitations = -1
+net.ipv6.conf.default.rpl_seg_enabled = 0
+net.ipv6.conf.default.seg6_enabled = 0
+net.ipv6.conf.default.seg6_require_hmac = 0
+net.ipv6.conf.default.suppress_frag_ndisc = 1
+net.ipv6.conf.default.temp_prefered_lft = 86400
+net.ipv6.conf.default.temp_valid_lft = 604800
+net.ipv6.conf.default.use_oif_addrs_only = 0
+net.ipv6.conf.default.use_optimistic = 0
+net.ipv6.conf.default.use_tempaddr = 0
+net.ipv6.conf.docker0.accept_dad = 1
+net.ipv6.conf.docker0.accept_ra = 0
+net.ipv6.conf.docker0.accept_ra_defrtr = 1
+net.ipv6.conf.docker0.accept_ra_from_local = 0
+net.ipv6.conf.docker0.accept_ra_min_hop_limit = 1
+net.ipv6.conf.docker0.accept_ra_mtu = 1
+net.ipv6.conf.docker0.accept_ra_pinfo = 1
+net.ipv6.conf.docker0.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.docker0.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.docker0.accept_ra_rtr_pref = 1
+net.ipv6.conf.docker0.accept_redirects = 0
+net.ipv6.conf.docker0.accept_source_route = 0
+net.ipv6.conf.docker0.accept_untracked_na = 0
+net.ipv6.conf.docker0.addr_gen_mode = 0
+net.ipv6.conf.docker0.autoconf = 1
+net.ipv6.conf.docker0.dad_transmits = 1
+net.ipv6.conf.docker0.disable_ipv6 = 0
+net.ipv6.conf.docker0.disable_policy = 0
+net.ipv6.conf.docker0.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.docker0.drop_unsolicited_na = 0
+net.ipv6.conf.docker0.enhanced_dad = 1
+net.ipv6.conf.docker0.force_mld_version = 0
+net.ipv6.conf.docker0.force_tllao = 0
+net.ipv6.conf.docker0.forwarding = 1
+net.ipv6.conf.docker0.hop_limit = 64
+net.ipv6.conf.docker0.ignore_routes_with_linkdown = 0
+net.ipv6.conf.docker0.ioam6_enabled = 0
+net.ipv6.conf.docker0.ioam6_id = 65535
+net.ipv6.conf.docker0.ioam6_id_wide = 4294967295
+net.ipv6.conf.docker0.keep_addr_on_down = 0
+net.ipv6.conf.docker0.max_addresses = 16
+net.ipv6.conf.docker0.max_desync_factor = 600
+net.ipv6.conf.docker0.mc_forwarding = 0
+net.ipv6.conf.docker0.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.docker0.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.docker0.mtu = 1500
+net.ipv6.conf.docker0.ndisc_evict_nocarrier = 1
+net.ipv6.conf.docker0.ndisc_notify = 0
+net.ipv6.conf.docker0.ndisc_tclass = 0
+net.ipv6.conf.docker0.optimistic_dad = 0
+net.ipv6.conf.docker0.proxy_ndp = 0
+net.ipv6.conf.docker0.ra_defrtr_metric = 1024
+net.ipv6.conf.docker0.regen_max_retry = 3
+net.ipv6.conf.docker0.router_probe_interval = 60
+net.ipv6.conf.docker0.router_solicitation_delay = 1
+net.ipv6.conf.docker0.router_solicitation_interval = 4
+net.ipv6.conf.docker0.router_solicitation_max_interval = 3600
+net.ipv6.conf.docker0.router_solicitations = -1
+net.ipv6.conf.docker0.rpl_seg_enabled = 0
+net.ipv6.conf.docker0.seg6_enabled = 0
+net.ipv6.conf.docker0.seg6_require_hmac = 0
+net.ipv6.conf.docker0.suppress_frag_ndisc = 1
+net.ipv6.conf.docker0.temp_prefered_lft = 86400
+net.ipv6.conf.docker0.temp_valid_lft = 604800
+net.ipv6.conf.docker0.use_oif_addrs_only = 0
+net.ipv6.conf.docker0.use_optimistic = 0
+net.ipv6.conf.docker0.use_tempaddr = 0
+net.ipv6.conf.eno2.accept_dad = 1
+net.ipv6.conf.eno2.accept_ra = 0
+net.ipv6.conf.eno2.accept_ra_defrtr = 1
+net.ipv6.conf.eno2.accept_ra_from_local = 0
+net.ipv6.conf.eno2.accept_ra_min_hop_limit = 1
+net.ipv6.conf.eno2.accept_ra_mtu = 1
+net.ipv6.conf.eno2.accept_ra_pinfo = 1
+net.ipv6.conf.eno2.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.eno2.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.eno2.accept_ra_rtr_pref = 1
+net.ipv6.conf.eno2.accept_redirects = 0
+net.ipv6.conf.eno2.accept_source_route = 0
+net.ipv6.conf.eno2.accept_untracked_na = 0
+net.ipv6.conf.eno2.addr_gen_mode = 1
+net.ipv6.conf.eno2.autoconf = 1
+net.ipv6.conf.eno2.dad_transmits = 1
+net.ipv6.conf.eno2.disable_ipv6 = 0
+net.ipv6.conf.eno2.disable_policy = 0
+net.ipv6.conf.eno2.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.eno2.drop_unsolicited_na = 0
+net.ipv6.conf.eno2.enhanced_dad = 1
+net.ipv6.conf.eno2.force_mld_version = 0
+net.ipv6.conf.eno2.force_tllao = 0
+net.ipv6.conf.eno2.forwarding = 0
+net.ipv6.conf.eno2.hop_limit = 64
+net.ipv6.conf.eno2.ignore_routes_with_linkdown = 0
+net.ipv6.conf.eno2.ioam6_enabled = 0
+net.ipv6.conf.eno2.ioam6_id = 65535
+net.ipv6.conf.eno2.ioam6_id_wide = 4294967295
+net.ipv6.conf.eno2.keep_addr_on_down = 0
+net.ipv6.conf.eno2.max_addresses = 16
+net.ipv6.conf.eno2.max_desync_factor = 600
+net.ipv6.conf.eno2.mc_forwarding = 0
+net.ipv6.conf.eno2.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.eno2.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.eno2.mtu = 1500
+net.ipv6.conf.eno2.ndisc_evict_nocarrier = 1
+net.ipv6.conf.eno2.ndisc_notify = 0
+net.ipv6.conf.eno2.ndisc_tclass = 0
+net.ipv6.conf.eno2.optimistic_dad = 0
+net.ipv6.conf.eno2.proxy_ndp = 0
+net.ipv6.conf.eno2.ra_defrtr_metric = 1024
+net.ipv6.conf.eno2.regen_max_retry = 3
+net.ipv6.conf.eno2.router_probe_interval = 60
+net.ipv6.conf.eno2.router_solicitation_delay = 1
+net.ipv6.conf.eno2.router_solicitation_interval = 4
+net.ipv6.conf.eno2.router_solicitation_max_interval = 3600
+net.ipv6.conf.eno2.router_solicitations = -1
+net.ipv6.conf.eno2.rpl_seg_enabled = 0
+net.ipv6.conf.eno2.seg6_enabled = 0
+net.ipv6.conf.eno2.seg6_require_hmac = 0
+net.ipv6.conf.eno2.suppress_frag_ndisc = 1
+net.ipv6.conf.eno2.temp_prefered_lft = 86400
+net.ipv6.conf.eno2.temp_valid_lft = 604800
+net.ipv6.conf.eno2.use_oif_addrs_only = 0
+net.ipv6.conf.eno2.use_optimistic = 0
+net.ipv6.conf.eno2.use_tempaddr = 0
+net.ipv6.conf.lo.accept_dad = -1
+net.ipv6.conf.lo.accept_ra = 1
+net.ipv6.conf.lo.accept_ra_defrtr = 1
+net.ipv6.conf.lo.accept_ra_from_local = 0
+net.ipv6.conf.lo.accept_ra_min_hop_limit = 1
+net.ipv6.conf.lo.accept_ra_mtu = 1
+net.ipv6.conf.lo.accept_ra_pinfo = 1
+net.ipv6.conf.lo.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.lo.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.lo.accept_ra_rtr_pref = 1
+net.ipv6.conf.lo.accept_redirects = 1
+net.ipv6.conf.lo.accept_source_route = 0
+net.ipv6.conf.lo.accept_untracked_na = 0
+net.ipv6.conf.lo.addr_gen_mode = 0
+net.ipv6.conf.lo.autoconf = 1
+net.ipv6.conf.lo.dad_transmits = 1
+net.ipv6.conf.lo.disable_ipv6 = 0
+net.ipv6.conf.lo.disable_policy = 0
+net.ipv6.conf.lo.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.lo.drop_unsolicited_na = 0
+net.ipv6.conf.lo.enhanced_dad = 1
+net.ipv6.conf.lo.force_mld_version = 0
+net.ipv6.conf.lo.force_tllao = 0
+net.ipv6.conf.lo.forwarding = 1
+net.ipv6.conf.lo.hop_limit = 64
+net.ipv6.conf.lo.ignore_routes_with_linkdown = 0
+net.ipv6.conf.lo.ioam6_enabled = 0
+net.ipv6.conf.lo.ioam6_id = 65535
+net.ipv6.conf.lo.ioam6_id_wide = 4294967295
+net.ipv6.conf.lo.keep_addr_on_down = 0
+net.ipv6.conf.lo.max_addresses = 16
+net.ipv6.conf.lo.max_desync_factor = 600
+net.ipv6.conf.lo.mc_forwarding = 0
+net.ipv6.conf.lo.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.lo.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.lo.mtu = 65536
+net.ipv6.conf.lo.ndisc_evict_nocarrier = 1
+net.ipv6.conf.lo.ndisc_notify = 0
+net.ipv6.conf.lo.ndisc_tclass = 0
+net.ipv6.conf.lo.optimistic_dad = 0
+net.ipv6.conf.lo.proxy_ndp = 0
+net.ipv6.conf.lo.ra_defrtr_metric = 1024
+net.ipv6.conf.lo.regen_max_retry = 3
+net.ipv6.conf.lo.router_probe_interval = 60
+net.ipv6.conf.lo.router_solicitation_delay = 1
+net.ipv6.conf.lo.router_solicitation_interval = 4
+net.ipv6.conf.lo.router_solicitation_max_interval = 3600
+net.ipv6.conf.lo.router_solicitations = -1
+net.ipv6.conf.lo.rpl_seg_enabled = 0
+net.ipv6.conf.lo.seg6_enabled = 0
+net.ipv6.conf.lo.seg6_require_hmac = 0
+net.ipv6.conf.lo.suppress_frag_ndisc = 1
+net.ipv6.conf.lo.temp_prefered_lft = 86400
+net.ipv6.conf.lo.temp_valid_lft = 604800
+net.ipv6.conf.lo.use_oif_addrs_only = 0
+net.ipv6.conf.lo.use_optimistic = 0
+net.ipv6.conf.lo.use_tempaddr = -1
+net.ipv6.conf.veth40b5552.accept_dad = 1
+net.ipv6.conf.veth40b5552.accept_ra = 1
+net.ipv6.conf.veth40b5552.accept_ra_defrtr = 1
+net.ipv6.conf.veth40b5552.accept_ra_from_local = 0
+net.ipv6.conf.veth40b5552.accept_ra_min_hop_limit = 1
+net.ipv6.conf.veth40b5552.accept_ra_mtu = 1
+net.ipv6.conf.veth40b5552.accept_ra_pinfo = 1
+net.ipv6.conf.veth40b5552.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.veth40b5552.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.veth40b5552.accept_ra_rtr_pref = 1
+net.ipv6.conf.veth40b5552.accept_redirects = 0
+net.ipv6.conf.veth40b5552.accept_source_route = 0
+net.ipv6.conf.veth40b5552.accept_untracked_na = 0
+net.ipv6.conf.veth40b5552.addr_gen_mode = 0
+net.ipv6.conf.veth40b5552.autoconf = 1
+net.ipv6.conf.veth40b5552.dad_transmits = 1
+net.ipv6.conf.veth40b5552.disable_ipv6 = 0
+net.ipv6.conf.veth40b5552.disable_policy = 0
+net.ipv6.conf.veth40b5552.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.veth40b5552.drop_unsolicited_na = 0
+net.ipv6.conf.veth40b5552.enhanced_dad = 1
+net.ipv6.conf.veth40b5552.force_mld_version = 0
+net.ipv6.conf.veth40b5552.force_tllao = 0
+net.ipv6.conf.veth40b5552.forwarding = 1
+net.ipv6.conf.veth40b5552.hop_limit = 64
+net.ipv6.conf.veth40b5552.ignore_routes_with_linkdown = 0
+net.ipv6.conf.veth40b5552.ioam6_enabled = 0
+net.ipv6.conf.veth40b5552.ioam6_id = 65535
+net.ipv6.conf.veth40b5552.ioam6_id_wide = 4294967295
+net.ipv6.conf.veth40b5552.keep_addr_on_down = 0
+net.ipv6.conf.veth40b5552.max_addresses = 16
+net.ipv6.conf.veth40b5552.max_desync_factor = 600
+net.ipv6.conf.veth40b5552.mc_forwarding = 0
+net.ipv6.conf.veth40b5552.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.veth40b5552.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.veth40b5552.mtu = 1500
+net.ipv6.conf.veth40b5552.ndisc_evict_nocarrier = 1
+net.ipv6.conf.veth40b5552.ndisc_notify = 0
+net.ipv6.conf.veth40b5552.ndisc_tclass = 0
+net.ipv6.conf.veth40b5552.optimistic_dad = 0
+net.ipv6.conf.veth40b5552.proxy_ndp = 0
+net.ipv6.conf.veth40b5552.ra_defrtr_metric = 1024
+net.ipv6.conf.veth40b5552.regen_max_retry = 3
+net.ipv6.conf.veth40b5552.router_probe_interval = 60
+net.ipv6.conf.veth40b5552.router_solicitation_delay = 1
+net.ipv6.conf.veth40b5552.router_solicitation_interval = 4
+net.ipv6.conf.veth40b5552.router_solicitation_max_interval = 3600
+net.ipv6.conf.veth40b5552.router_solicitations = -1
+net.ipv6.conf.veth40b5552.rpl_seg_enabled = 0
+net.ipv6.conf.veth40b5552.seg6_enabled = 0
+net.ipv6.conf.veth40b5552.seg6_require_hmac = 0
+net.ipv6.conf.veth40b5552.suppress_frag_ndisc = 1
+net.ipv6.conf.veth40b5552.temp_prefered_lft = 86400
+net.ipv6.conf.veth40b5552.temp_valid_lft = 604800
+net.ipv6.conf.veth40b5552.use_oif_addrs_only = 0
+net.ipv6.conf.veth40b5552.use_optimistic = 0
+net.ipv6.conf.veth40b5552.use_tempaddr = 0
+net.ipv6.conf.vethc3e7bf9.accept_dad = 1
+net.ipv6.conf.vethc3e7bf9.accept_ra = 1
+net.ipv6.conf.vethc3e7bf9.accept_ra_defrtr = 1
+net.ipv6.conf.vethc3e7bf9.accept_ra_from_local = 0
+net.ipv6.conf.vethc3e7bf9.accept_ra_min_hop_limit = 1
+net.ipv6.conf.vethc3e7bf9.accept_ra_mtu = 1
+net.ipv6.conf.vethc3e7bf9.accept_ra_pinfo = 1
+net.ipv6.conf.vethc3e7bf9.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.vethc3e7bf9.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.vethc3e7bf9.accept_ra_rtr_pref = 1
+net.ipv6.conf.vethc3e7bf9.accept_redirects = 0
+net.ipv6.conf.vethc3e7bf9.accept_source_route = 0
+net.ipv6.conf.vethc3e7bf9.accept_untracked_na = 0
+net.ipv6.conf.vethc3e7bf9.addr_gen_mode = 0
+net.ipv6.conf.vethc3e7bf9.autoconf = 1
+net.ipv6.conf.vethc3e7bf9.dad_transmits = 1
+net.ipv6.conf.vethc3e7bf9.disable_ipv6 = 0
+net.ipv6.conf.vethc3e7bf9.disable_policy = 0
+net.ipv6.conf.vethc3e7bf9.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.vethc3e7bf9.drop_unsolicited_na = 0
+net.ipv6.conf.vethc3e7bf9.enhanced_dad = 1
+net.ipv6.conf.vethc3e7bf9.force_mld_version = 0
+net.ipv6.conf.vethc3e7bf9.force_tllao = 0
+net.ipv6.conf.vethc3e7bf9.forwarding = 1
+net.ipv6.conf.vethc3e7bf9.hop_limit = 64
+net.ipv6.conf.vethc3e7bf9.ignore_routes_with_linkdown = 0
+net.ipv6.conf.vethc3e7bf9.ioam6_enabled = 0
+net.ipv6.conf.vethc3e7bf9.ioam6_id = 65535
+net.ipv6.conf.vethc3e7bf9.ioam6_id_wide = 4294967295
+net.ipv6.conf.vethc3e7bf9.keep_addr_on_down = 0
+net.ipv6.conf.vethc3e7bf9.max_addresses = 16
+net.ipv6.conf.vethc3e7bf9.max_desync_factor = 600
+net.ipv6.conf.vethc3e7bf9.mc_forwarding = 0
+net.ipv6.conf.vethc3e7bf9.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.vethc3e7bf9.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.vethc3e7bf9.mtu = 1500
+net.ipv6.conf.vethc3e7bf9.ndisc_evict_nocarrier = 1
+net.ipv6.conf.vethc3e7bf9.ndisc_notify = 0
+net.ipv6.conf.vethc3e7bf9.ndisc_tclass = 0
+net.ipv6.conf.vethc3e7bf9.optimistic_dad = 0
+net.ipv6.conf.vethc3e7bf9.proxy_ndp = 0
+net.ipv6.conf.vethc3e7bf9.ra_defrtr_metric = 1024
+net.ipv6.conf.vethc3e7bf9.regen_max_retry = 3
+net.ipv6.conf.vethc3e7bf9.router_probe_interval = 60
+net.ipv6.conf.vethc3e7bf9.router_solicitation_delay = 1
+net.ipv6.conf.vethc3e7bf9.router_solicitation_interval = 4
+net.ipv6.conf.vethc3e7bf9.router_solicitation_max_interval = 3600
+net.ipv6.conf.vethc3e7bf9.router_solicitations = -1
+net.ipv6.conf.vethc3e7bf9.rpl_seg_enabled = 0
+net.ipv6.conf.vethc3e7bf9.seg6_enabled = 0
+net.ipv6.conf.vethc3e7bf9.seg6_require_hmac = 0
+net.ipv6.conf.vethc3e7bf9.suppress_frag_ndisc = 1
+net.ipv6.conf.vethc3e7bf9.temp_prefered_lft = 86400
+net.ipv6.conf.vethc3e7bf9.temp_valid_lft = 604800
+net.ipv6.conf.vethc3e7bf9.use_oif_addrs_only = 0
+net.ipv6.conf.vethc3e7bf9.use_optimistic = 0
+net.ipv6.conf.vethc3e7bf9.use_tempaddr = 0
+net.ipv6.conf.vethe4550da.accept_dad = 1
+net.ipv6.conf.vethe4550da.accept_ra = 1
+net.ipv6.conf.vethe4550da.accept_ra_defrtr = 1
+net.ipv6.conf.vethe4550da.accept_ra_from_local = 0
+net.ipv6.conf.vethe4550da.accept_ra_min_hop_limit = 1
+net.ipv6.conf.vethe4550da.accept_ra_mtu = 1
+net.ipv6.conf.vethe4550da.accept_ra_pinfo = 1
+net.ipv6.conf.vethe4550da.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.vethe4550da.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.vethe4550da.accept_ra_rtr_pref = 1
+net.ipv6.conf.vethe4550da.accept_redirects = 0
+net.ipv6.conf.vethe4550da.accept_source_route = 0
+net.ipv6.conf.vethe4550da.accept_untracked_na = 0
+net.ipv6.conf.vethe4550da.addr_gen_mode = 0
+net.ipv6.conf.vethe4550da.autoconf = 1
+net.ipv6.conf.vethe4550da.dad_transmits = 1
+net.ipv6.conf.vethe4550da.disable_ipv6 = 0
+net.ipv6.conf.vethe4550da.disable_policy = 0
+net.ipv6.conf.vethe4550da.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.vethe4550da.drop_unsolicited_na = 0
+net.ipv6.conf.vethe4550da.enhanced_dad = 1
+net.ipv6.conf.vethe4550da.force_mld_version = 0
+net.ipv6.conf.vethe4550da.force_tllao = 0
+net.ipv6.conf.vethe4550da.forwarding = 1
+net.ipv6.conf.vethe4550da.hop_limit = 64
+net.ipv6.conf.vethe4550da.ignore_routes_with_linkdown = 0
+net.ipv6.conf.vethe4550da.ioam6_enabled = 0
+net.ipv6.conf.vethe4550da.ioam6_id = 65535
+net.ipv6.conf.vethe4550da.ioam6_id_wide = 4294967295
+net.ipv6.conf.vethe4550da.keep_addr_on_down = 0
+net.ipv6.conf.vethe4550da.max_addresses = 16
+net.ipv6.conf.vethe4550da.max_desync_factor = 600
+net.ipv6.conf.vethe4550da.mc_forwarding = 0
+net.ipv6.conf.vethe4550da.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.vethe4550da.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.vethe4550da.mtu = 1500
+net.ipv6.conf.vethe4550da.ndisc_evict_nocarrier = 1
+net.ipv6.conf.vethe4550da.ndisc_notify = 0
+net.ipv6.conf.vethe4550da.ndisc_tclass = 0
+net.ipv6.conf.vethe4550da.optimistic_dad = 0
+net.ipv6.conf.vethe4550da.proxy_ndp = 0
+net.ipv6.conf.vethe4550da.ra_defrtr_metric = 1024
+net.ipv6.conf.vethe4550da.regen_max_retry = 3
+net.ipv6.conf.vethe4550da.router_probe_interval = 60
+net.ipv6.conf.vethe4550da.router_solicitation_delay = 1
+net.ipv6.conf.vethe4550da.router_solicitation_interval = 4
+net.ipv6.conf.vethe4550da.router_solicitation_max_interval = 3600
+net.ipv6.conf.vethe4550da.router_solicitations = -1
+net.ipv6.conf.vethe4550da.rpl_seg_enabled = 0
+net.ipv6.conf.vethe4550da.seg6_enabled = 0
+net.ipv6.conf.vethe4550da.seg6_require_hmac = 0
+net.ipv6.conf.vethe4550da.suppress_frag_ndisc = 1
+net.ipv6.conf.vethe4550da.temp_prefered_lft = 86400
+net.ipv6.conf.vethe4550da.temp_valid_lft = 604800
+net.ipv6.conf.vethe4550da.use_oif_addrs_only = 0
+net.ipv6.conf.vethe4550da.use_optimistic = 0
+net.ipv6.conf.vethe4550da.use_tempaddr = 0
+net.ipv6.conf.wlo1.accept_dad = 1
+net.ipv6.conf.wlo1.accept_ra = 0
+net.ipv6.conf.wlo1.accept_ra_defrtr = 1
+net.ipv6.conf.wlo1.accept_ra_from_local = 0
+net.ipv6.conf.wlo1.accept_ra_min_hop_limit = 1
+net.ipv6.conf.wlo1.accept_ra_mtu = 1
+net.ipv6.conf.wlo1.accept_ra_pinfo = 1
+net.ipv6.conf.wlo1.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.wlo1.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.wlo1.accept_ra_rtr_pref = 1
+net.ipv6.conf.wlo1.accept_redirects = 0
+net.ipv6.conf.wlo1.accept_source_route = 0
+net.ipv6.conf.wlo1.accept_untracked_na = 0
+net.ipv6.conf.wlo1.addr_gen_mode = 1
+net.ipv6.conf.wlo1.autoconf = 1
+net.ipv6.conf.wlo1.dad_transmits = 1
+net.ipv6.conf.wlo1.disable_ipv6 = 0
+net.ipv6.conf.wlo1.disable_policy = 0
+net.ipv6.conf.wlo1.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.wlo1.drop_unsolicited_na = 0
+net.ipv6.conf.wlo1.enhanced_dad = 1
+net.ipv6.conf.wlo1.force_mld_version = 0
+net.ipv6.conf.wlo1.force_tllao = 0
+net.ipv6.conf.wlo1.forwarding = 0
+net.ipv6.conf.wlo1.hop_limit = 64
+net.ipv6.conf.wlo1.ignore_routes_with_linkdown = 0
+net.ipv6.conf.wlo1.ioam6_enabled = 0
+net.ipv6.conf.wlo1.ioam6_id = 65535
+net.ipv6.conf.wlo1.ioam6_id_wide = 4294967295
+net.ipv6.conf.wlo1.keep_addr_on_down = 0
+net.ipv6.conf.wlo1.max_addresses = 16
+net.ipv6.conf.wlo1.max_desync_factor = 600
+net.ipv6.conf.wlo1.mc_forwarding = 0
+net.ipv6.conf.wlo1.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.wlo1.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.wlo1.mtu = 1500
+net.ipv6.conf.wlo1.ndisc_evict_nocarrier = 1
+net.ipv6.conf.wlo1.ndisc_notify = 0
+net.ipv6.conf.wlo1.ndisc_tclass = 0
+net.ipv6.conf.wlo1.optimistic_dad = 0
+net.ipv6.conf.wlo1.proxy_ndp = 0
+net.ipv6.conf.wlo1.ra_defrtr_metric = 1024
+net.ipv6.conf.wlo1.regen_max_retry = 3
+net.ipv6.conf.wlo1.router_probe_interval = 60
+net.ipv6.conf.wlo1.router_solicitation_delay = 1
+net.ipv6.conf.wlo1.router_solicitation_interval = 4
+net.ipv6.conf.wlo1.router_solicitation_max_interval = 3600
+net.ipv6.conf.wlo1.router_solicitations = -1
+net.ipv6.conf.wlo1.rpl_seg_enabled = 0
+net.ipv6.conf.wlo1.seg6_enabled = 0
+net.ipv6.conf.wlo1.seg6_require_hmac = 0
+net.ipv6.conf.wlo1.suppress_frag_ndisc = 1
+net.ipv6.conf.wlo1.temp_prefered_lft = 86400
+net.ipv6.conf.wlo1.temp_valid_lft = 604800
+net.ipv6.conf.wlo1.use_oif_addrs_only = 0
+net.ipv6.conf.wlo1.use_optimistic = 0
+net.ipv6.conf.wlo1.use_tempaddr = 0
+net.ipv6.fib_multipath_hash_fields = 7
+net.ipv6.fib_multipath_hash_policy = 0
+net.ipv6.fib_notify_on_flag_change = 0
+net.ipv6.flowlabel_consistency = 1
+net.ipv6.flowlabel_reflect = 0
+net.ipv6.flowlabel_state_ranges = 0
+net.ipv6.fwmark_reflect = 0
+net.ipv6.icmp.echo_ignore_all = 0
+net.ipv6.icmp.echo_ignore_anycast = 0
+net.ipv6.icmp.echo_ignore_multicast = 0
+net.ipv6.icmp.ratelimit = 1000
+net.ipv6.icmp.ratemask = 0-1,3-127
+net.ipv6.idgen_delay = 1
+net.ipv6.idgen_retries = 3
+net.ipv6.ioam6_id = 16777215
+net.ipv6.ioam6_id_wide = 72057594037927935
+net.ipv6.ip6frag_high_thresh = 4194304
+net.ipv6.ip6frag_low_thresh = 3145728
+net.ipv6.ip6frag_secret_interval = 0
+net.ipv6.ip6frag_time = 60
+net.ipv6.ip_nonlocal_bind = 0
+net.ipv6.max_dst_opts_length = 2147483647
+net.ipv6.max_dst_opts_number = 8
+net.ipv6.max_hbh_length = 2147483647
+net.ipv6.max_hbh_opts_number = 8
+net.ipv6.mld_max_msf = 64
+net.ipv6.mld_qrv = 2
+net.ipv6.neigh.br-be59f45c2eff.anycast_delay = 99
+net.ipv6.neigh.br-be59f45c2eff.app_solicit = 0
+net.ipv6.neigh.br-be59f45c2eff.base_reachable_time_ms = 30000
+net.ipv6.neigh.br-be59f45c2eff.delay_first_probe_time = 5
+net.ipv6.neigh.br-be59f45c2eff.gc_stale_time = 60
+net.ipv6.neigh.br-be59f45c2eff.interval_probe_time_ms = 5000
+net.ipv6.neigh.br-be59f45c2eff.locktime = 0
+net.ipv6.neigh.br-be59f45c2eff.mcast_resolicit = 0
+net.ipv6.neigh.br-be59f45c2eff.mcast_solicit = 3
+net.ipv6.neigh.br-be59f45c2eff.proxy_delay = 79
+net.ipv6.neigh.br-be59f45c2eff.proxy_qlen = 64
+net.ipv6.neigh.br-be59f45c2eff.retrans_time_ms = 1000
+net.ipv6.neigh.br-be59f45c2eff.ucast_solicit = 3
+net.ipv6.neigh.br-be59f45c2eff.unres_qlen = 101
+net.ipv6.neigh.br-be59f45c2eff.unres_qlen_bytes = 212992
+net.ipv6.neigh.br-cc0b9ed4160d.anycast_delay = 99
+net.ipv6.neigh.br-cc0b9ed4160d.app_solicit = 0
+net.ipv6.neigh.br-cc0b9ed4160d.base_reachable_time_ms = 30000
+net.ipv6.neigh.br-cc0b9ed4160d.delay_first_probe_time = 5
+net.ipv6.neigh.br-cc0b9ed4160d.gc_stale_time = 60
+net.ipv6.neigh.br-cc0b9ed4160d.interval_probe_time_ms = 5000
+net.ipv6.neigh.br-cc0b9ed4160d.locktime = 0
+net.ipv6.neigh.br-cc0b9ed4160d.mcast_resolicit = 0
+net.ipv6.neigh.br-cc0b9ed4160d.mcast_solicit = 3
+net.ipv6.neigh.br-cc0b9ed4160d.proxy_delay = 79
+net.ipv6.neigh.br-cc0b9ed4160d.proxy_qlen = 64
+net.ipv6.neigh.br-cc0b9ed4160d.retrans_time_ms = 1000
+net.ipv6.neigh.br-cc0b9ed4160d.ucast_solicit = 3
+net.ipv6.neigh.br-cc0b9ed4160d.unres_qlen = 101
+net.ipv6.neigh.br-cc0b9ed4160d.unres_qlen_bytes = 212992
+net.ipv6.neigh.default.anycast_delay = 99
+net.ipv6.neigh.default.app_solicit = 0
+net.ipv6.neigh.default.base_reachable_time_ms = 30000
+net.ipv6.neigh.default.delay_first_probe_time = 5
+net.ipv6.neigh.default.gc_interval = 30
+net.ipv6.neigh.default.gc_stale_time = 60
+net.ipv6.neigh.default.gc_thresh1 = 128
+net.ipv6.neigh.default.gc_thresh2 = 512
+net.ipv6.neigh.default.gc_thresh3 = 1024
+net.ipv6.neigh.default.interval_probe_time_ms = 5000
+net.ipv6.neigh.default.locktime = 0
+net.ipv6.neigh.default.mcast_resolicit = 0
+net.ipv6.neigh.default.mcast_solicit = 3
+net.ipv6.neigh.default.proxy_delay = 79
+net.ipv6.neigh.default.proxy_qlen = 64
+net.ipv6.neigh.default.retrans_time_ms = 1000
+net.ipv6.neigh.default.ucast_solicit = 3
+net.ipv6.neigh.default.unres_qlen = 101
+net.ipv6.neigh.default.unres_qlen_bytes = 212992
+net.ipv6.neigh.docker0.anycast_delay = 99
+net.ipv6.neigh.docker0.app_solicit = 0
+net.ipv6.neigh.docker0.base_reachable_time_ms = 30000
+net.ipv6.neigh.docker0.delay_first_probe_time = 5
+net.ipv6.neigh.docker0.gc_stale_time = 60
+net.ipv6.neigh.docker0.interval_probe_time_ms = 5000
+net.ipv6.neigh.docker0.locktime = 0
+net.ipv6.neigh.docker0.mcast_resolicit = 0
+net.ipv6.neigh.docker0.mcast_solicit = 3
+net.ipv6.neigh.docker0.proxy_delay = 79
+net.ipv6.neigh.docker0.proxy_qlen = 64
+net.ipv6.neigh.docker0.retrans_time_ms = 1000
+net.ipv6.neigh.docker0.ucast_solicit = 3
+net.ipv6.neigh.docker0.unres_qlen = 101
+net.ipv6.neigh.docker0.unres_qlen_bytes = 212992
+net.ipv6.neigh.eno2.anycast_delay = 99
+net.ipv6.neigh.eno2.app_solicit = 0
+net.ipv6.neigh.eno2.base_reachable_time_ms = 30000
+net.ipv6.neigh.eno2.delay_first_probe_time = 5
+net.ipv6.neigh.eno2.gc_stale_time = 60
+net.ipv6.neigh.eno2.interval_probe_time_ms = 5000
+net.ipv6.neigh.eno2.locktime = 0
+net.ipv6.neigh.eno2.mcast_resolicit = 0
+net.ipv6.neigh.eno2.mcast_solicit = 3
+net.ipv6.neigh.eno2.proxy_delay = 79
+net.ipv6.neigh.eno2.proxy_qlen = 64
+net.ipv6.neigh.eno2.retrans_time_ms = 1000
+net.ipv6.neigh.eno2.ucast_solicit = 3
+net.ipv6.neigh.eno2.unres_qlen = 101
+net.ipv6.neigh.eno2.unres_qlen_bytes = 212992
+net.ipv6.neigh.lo.anycast_delay = 99
+net.ipv6.neigh.lo.app_solicit = 0
+net.ipv6.neigh.lo.base_reachable_time_ms = 30000
+net.ipv6.neigh.lo.delay_first_probe_time = 5
+net.ipv6.neigh.lo.gc_stale_time = 60
+net.ipv6.neigh.lo.interval_probe_time_ms = 5000
+net.ipv6.neigh.lo.locktime = 0
+net.ipv6.neigh.lo.mcast_resolicit = 0
+net.ipv6.neigh.lo.mcast_solicit = 3
+net.ipv6.neigh.lo.proxy_delay = 79
+net.ipv6.neigh.lo.proxy_qlen = 64
+net.ipv6.neigh.lo.retrans_time_ms = 1000
+net.ipv6.neigh.lo.ucast_solicit = 3
+net.ipv6.neigh.lo.unres_qlen = 101
+net.ipv6.neigh.lo.unres_qlen_bytes = 212992
+net.ipv6.neigh.veth40b5552.anycast_delay = 99
+net.ipv6.neigh.veth40b5552.app_solicit = 0
+net.ipv6.neigh.veth40b5552.base_reachable_time_ms = 30000
+net.ipv6.neigh.veth40b5552.delay_first_probe_time = 5
+net.ipv6.neigh.veth40b5552.gc_stale_time = 60
+net.ipv6.neigh.veth40b5552.interval_probe_time_ms = 5000
+net.ipv6.neigh.veth40b5552.locktime = 0
+net.ipv6.neigh.veth40b5552.mcast_resolicit = 0
+net.ipv6.neigh.veth40b5552.mcast_solicit = 3
+net.ipv6.neigh.veth40b5552.proxy_delay = 79
+net.ipv6.neigh.veth40b5552.proxy_qlen = 64
+net.ipv6.neigh.veth40b5552.retrans_time_ms = 1000
+net.ipv6.neigh.veth40b5552.ucast_solicit = 3
+net.ipv6.neigh.veth40b5552.unres_qlen = 101
+net.ipv6.neigh.veth40b5552.unres_qlen_bytes = 212992
+net.ipv6.neigh.vethc3e7bf9.anycast_delay = 99
+net.ipv6.neigh.vethc3e7bf9.app_solicit = 0
+net.ipv6.neigh.vethc3e7bf9.base_reachable_time_ms = 30000
+net.ipv6.neigh.vethc3e7bf9.delay_first_probe_time = 5
+net.ipv6.neigh.vethc3e7bf9.gc_stale_time = 60
+net.ipv6.neigh.vethc3e7bf9.interval_probe_time_ms = 5000
+net.ipv6.neigh.vethc3e7bf9.locktime = 0
+net.ipv6.neigh.vethc3e7bf9.mcast_resolicit = 0
+net.ipv6.neigh.vethc3e7bf9.mcast_solicit = 3
+net.ipv6.neigh.vethc3e7bf9.proxy_delay = 79
+net.ipv6.neigh.vethc3e7bf9.proxy_qlen = 64
+net.ipv6.neigh.vethc3e7bf9.retrans_time_ms = 1000
+net.ipv6.neigh.vethc3e7bf9.ucast_solicit = 3
+net.ipv6.neigh.vethc3e7bf9.unres_qlen = 101
+net.ipv6.neigh.vethc3e7bf9.unres_qlen_bytes = 212992
+net.ipv6.neigh.vethe4550da.anycast_delay = 99
+net.ipv6.neigh.vethe4550da.app_solicit = 0
+net.ipv6.neigh.vethe4550da.base_reachable_time_ms = 30000
+net.ipv6.neigh.vethe4550da.delay_first_probe_time = 5
+net.ipv6.neigh.vethe4550da.gc_stale_time = 60
+net.ipv6.neigh.vethe4550da.interval_probe_time_ms = 5000
+net.ipv6.neigh.vethe4550da.locktime = 0
+net.ipv6.neigh.vethe4550da.mcast_resolicit = 0
+net.ipv6.neigh.vethe4550da.mcast_solicit = 3
+net.ipv6.neigh.vethe4550da.proxy_delay = 79
+net.ipv6.neigh.vethe4550da.proxy_qlen = 64
+net.ipv6.neigh.vethe4550da.retrans_time_ms = 1000
+net.ipv6.neigh.vethe4550da.ucast_solicit = 3
+net.ipv6.neigh.vethe4550da.unres_qlen = 101
+net.ipv6.neigh.vethe4550da.unres_qlen_bytes = 212992
+net.ipv6.neigh.wlo1.anycast_delay = 99
+net.ipv6.neigh.wlo1.app_solicit = 0
+net.ipv6.neigh.wlo1.base_reachable_time_ms = 30000
+net.ipv6.neigh.wlo1.delay_first_probe_time = 5
+net.ipv6.neigh.wlo1.gc_stale_time = 60
+net.ipv6.neigh.wlo1.interval_probe_time_ms = 5000
+net.ipv6.neigh.wlo1.locktime = 0
+net.ipv6.neigh.wlo1.mcast_resolicit = 0
+net.ipv6.neigh.wlo1.mcast_solicit = 3
+net.ipv6.neigh.wlo1.proxy_delay = 79
+net.ipv6.neigh.wlo1.proxy_qlen = 64
+net.ipv6.neigh.wlo1.retrans_time_ms = 1000
+net.ipv6.neigh.wlo1.ucast_solicit = 3
+net.ipv6.neigh.wlo1.unres_qlen = 101
+net.ipv6.neigh.wlo1.unres_qlen_bytes = 212992
+net.ipv6.route.gc_elasticity = 9
+net.ipv6.route.gc_interval = 30
+net.ipv6.route.gc_min_interval = 0
+net.ipv6.route.gc_min_interval_ms = 500
+net.ipv6.route.gc_thresh = 1024
+net.ipv6.route.gc_timeout = 60
+net.ipv6.route.max_size = 4096
+net.ipv6.route.min_adv_mss = 1220
+net.ipv6.route.mtu_expires = 600
+net.ipv6.route.skip_notify_on_dev_down = 0
+net.ipv6.seg6_flowlabel = 0
+net.ipv6.xfrm6_gc_thresh = 32768
+net.mptcp.add_addr_timeout = 120
+net.mptcp.allow_join_initial_addr_port = 1
+net.mptcp.checksum_enabled = 0
+net.mptcp.enabled = 1
+net.mptcp.pm_type = 0
+net.mptcp.stale_loss_cnt = 4
+net.netfilter.nf_conntrack_acct = 0
+net.netfilter.nf_conntrack_buckets = 262144
+net.netfilter.nf_conntrack_checksum = 1
+net.netfilter.nf_conntrack_count = 172
+net.netfilter.nf_conntrack_dccp_loose = 1
+net.netfilter.nf_conntrack_dccp_timeout_closereq = 64
+net.netfilter.nf_conntrack_dccp_timeout_closing = 64
+net.netfilter.nf_conntrack_dccp_timeout_open = 43200
+net.netfilter.nf_conntrack_dccp_timeout_partopen = 480
+net.netfilter.nf_conntrack_dccp_timeout_request = 240
+net.netfilter.nf_conntrack_dccp_timeout_respond = 480
+net.netfilter.nf_conntrack_dccp_timeout_timewait = 240
+net.netfilter.nf_conntrack_events = 2
+net.netfilter.nf_conntrack_expect_max = 4096
+net.netfilter.nf_conntrack_frag6_high_thresh = 4194304
+net.netfilter.nf_conntrack_frag6_low_thresh = 3145728
+net.netfilter.nf_conntrack_frag6_timeout = 60
+net.netfilter.nf_conntrack_generic_timeout = 600
+net.netfilter.nf_conntrack_gre_timeout = 30
+net.netfilter.nf_conntrack_gre_timeout_stream = 180
+net.netfilter.nf_conntrack_icmp_timeout = 30
+net.netfilter.nf_conntrack_icmpv6_timeout = 30
+net.netfilter.nf_conntrack_log_invalid = 0
+net.netfilter.nf_conntrack_max = 262144
+net.netfilter.nf_conntrack_sctp_timeout_closed = 10
+net.netfilter.nf_conntrack_sctp_timeout_cookie_echoed = 3
+net.netfilter.nf_conntrack_sctp_timeout_cookie_wait = 3
+net.netfilter.nf_conntrack_sctp_timeout_established = 210
+net.netfilter.nf_conntrack_sctp_timeout_heartbeat_sent = 30
+net.netfilter.nf_conntrack_sctp_timeout_shutdown_ack_sent = 3
+net.netfilter.nf_conntrack_sctp_timeout_shutdown_recd = 0
+net.netfilter.nf_conntrack_sctp_timeout_shutdown_sent = 0
+net.netfilter.nf_conntrack_tcp_be_liberal = 0
+net.netfilter.nf_conntrack_tcp_ignore_invalid_rst = 0
+net.netfilter.nf_conntrack_tcp_loose = 1
+net.netfilter.nf_conntrack_tcp_max_retrans = 3
+net.netfilter.nf_conntrack_tcp_timeout_close = 10
+net.netfilter.nf_conntrack_tcp_timeout_close_wait = 60
+net.netfilter.nf_conntrack_tcp_timeout_established = 432000
+net.netfilter.nf_conntrack_tcp_timeout_fin_wait = 120
+net.netfilter.nf_conntrack_tcp_timeout_last_ack = 30
+net.netfilter.nf_conntrack_tcp_timeout_max_retrans = 300
+net.netfilter.nf_conntrack_tcp_timeout_syn_recv = 60
+net.netfilter.nf_conntrack_tcp_timeout_syn_sent = 120
+net.netfilter.nf_conntrack_tcp_timeout_time_wait = 120
+net.netfilter.nf_conntrack_tcp_timeout_unacknowledged = 300
+net.netfilter.nf_conntrack_timestamp = 0
+net.netfilter.nf_conntrack_udp_timeout = 30
+net.netfilter.nf_conntrack_udp_timeout_stream = 120
+net.netfilter.nf_flowtable_tcp_timeout = 30
+net.netfilter.nf_flowtable_udp_timeout = 30
+net.netfilter.nf_hooks_lwtunnel = 0
+net.netfilter.nf_log.0 = NONE
+net.netfilter.nf_log.1 = NONE
+net.netfilter.nf_log.10 = nf_log_ipv6
+net.netfilter.nf_log.2 = nf_log_ipv4
+net.netfilter.nf_log.3 = nf_log_arp
+net.netfilter.nf_log.4 = NONE
+net.netfilter.nf_log.5 = nf_log_netdev
+net.netfilter.nf_log.6 = NONE
+net.netfilter.nf_log.7 = nf_log_bridge
+net.netfilter.nf_log.8 = NONE
+net.netfilter.nf_log.9 = NONE
+net.netfilter.nf_log_all_netns = 0
+net.nf_conntrack_max = 262144
+net.unix.max_dgram_qlen = 512
+user.max_cgroup_namespaces = 63145
+user.max_fanotify_groups = 128
+user.max_fanotify_marks = 129321
+user.max_inotify_instances = 1024
+user.max_inotify_watches = 524288
+user.max_ipc_namespaces = 63145
+user.max_mnt_namespaces = 63145
+user.max_net_namespaces = 63145
+user.max_pid_namespaces = 63145
+user.max_time_namespaces = 63145
+user.max_user_namespaces = 63145
+user.max_uts_namespaces = 63145
+vm.admin_reserve_kbytes = 8192
+vm.compact_unevictable_allowed = 1
+vm.compaction_proactiveness = 20
+vm.dirty_background_bytes = 0
+vm.dirty_background_ratio = 10
+vm.dirty_bytes = 0
+vm.dirty_expire_centisecs = 3000
+vm.dirty_ratio = 20
+vm.dirty_writeback_centisecs = 500
+vm.dirtytime_expire_seconds = 43200
+vm.extfrag_threshold = 500
+vm.hugetlb_optimize_vmemmap = 0
+vm.hugetlb_shm_group = 0
+vm.laptop_mode = 0
+vm.legacy_va_layout = 0
+vm.lowmem_reserve_ratio = 256	256	32	0	0
+vm.max_map_count = 65530
+vm.memory_failure_early_kill = 0
+vm.memory_failure_recovery = 1
+vm.min_free_kbytes = 67584
+vm.min_slab_ratio = 5
+vm.min_unmapped_ratio = 1
+vm.mmap_min_addr = 65536
+vm.mmap_rnd_bits = 28
+vm.mmap_rnd_compat_bits = 8
+vm.nr_hugepages = 0
+vm.nr_hugepages_mempolicy = 0
+vm.nr_overcommit_hugepages = 0
+vm.numa_stat = 1
+vm.numa_zonelist_order = Node
+vm.oom_dump_tasks = 1
+vm.oom_kill_allocating_task = 0
+vm.overcommit_kbytes = 0
+vm.overcommit_memory = 0
+vm.overcommit_ratio = 50
+vm.page-cluster = 3
+vm.page_lock_unfairness = 5
+vm.panic_on_oom = 0
+vm.percpu_pagelist_high_fraction = 0
+vm.stat_interval = 1
+vm.swappiness = 60
+vm.unprivileged_userfaultfd = 1
+vm.user_reserve_kbytes = 131072
+vm.vfs_cache_pressure = 100
+vm.watermark_boost_factor = 15000
+vm.watermark_scale_factor = 10
+vm.zone_reclaim_mode = 0
+Command [docker version]:
+Client:
+ Version:           23.0.1
+ API version:       1.42
+ Go version:        go1.20
+ Git commit:        a5ee5b1dfc
+ Built:             Sat Feb 11 13:58:04 2023
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server:
+ Engine:
+  Version:          23.0.1
+  API version:      1.42 (minimum version 1.12)
+  Go version:       go1.20
+  Git commit:       bc3805a0a0
+  Built:            Sat Feb 11 13:58:04 2023
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v1.6.16
+  GitCommit:        31aa4358a36870b21a992d3ad2bef29e1d693bec.m
+ runc:
+  Version:          1.1.4
+  GitCommit:        
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+Command [docker compose version]:
+Docker Compose version 2.16.0
+Vegvisir: running client: CLIENT=godashcl SERVER=martenseemann/quic-go-interop:latest SHAPER=tc-netem-cl CERTS=/tmp/vegvisir_certs_ed8jdu_a WWW=/run/media/jherbots/Datasets/cross_layer_godash_paper DOWNLOAD_PATH_CLIENT="/home/jherbots/Documents/projects/cross_layer_godash_paper/vegvisir/logs/cross_layer_paper/2023-02-27T_11-49-02/godashcl-bba2-bbb-4s__tc-netem-cl-paper__quic-go/downloads" LOG_PATH_CLIENT="/home/jherbots/Documents/projects/cross_layer_godash_paper/vegvisir/logs/cross_layer_paper/2023-02-27T_11-49-02/godashcl-bba2-bbb-4s__tc-netem-cl-paper__quic-go/client" LOG_PATH_SERVER="/home/jherbots/Documents/projects/cross_layer_godash_paper/vegvisir/logs/cross_layer_paper/2023-02-27T_11-49-02/godashcl-bba2-bbb-4s__tc-netem-cl-paper__quic-go/server" LOG_PATH_SHAPER="/home/jherbots/Documents/projects/cross_layer_godash_paper/vegvisir/logs/cross_layer_paper/2023-02-27T_11-49-02/godashcl-bba2-bbb-4s__tc-netem-cl-paper__quic-go/shaper"  docker compose up --abort-on-container-exit --timeout 1 client
+server  | 2023-02-27T10:58:37.077763136Z Setting up routes...
+server  | 2023-02-27T10:58:37.079622230Z Actual changes:
+server  | 2023-02-27T10:58:37.079638537Z tx-checksumming: off
+server  | 2023-02-27T10:58:37.079641239Z 	tx-checksum-ip-generic: off
+server  | 2023-02-27T10:58:37.079643124Z 	tx-checksum-sctp: off
+server  | 2023-02-27T10:58:37.079644774Z tcp-segmentation-offload: off
+server  | 2023-02-27T10:58:37.079646591Z 	tx-tcp-segmentation: off [requested on]
+server  | 2023-02-27T10:58:37.079648265Z 	tx-tcp-ecn-segmentation: off [requested on]
+server  | 2023-02-27T10:58:37.079649866Z 	tx-tcp-mangleid-segmentation: off [requested on]
+server  | 2023-02-27T10:58:37.079651479Z 	tx-tcp6-segmentation: off [requested on]
+server  | 2023-02-27T10:58:37.081948937Z Endpoint's IPv4 address is 193.167.100.100
+server  | 2023-02-27T10:58:37.084789850Z Endpoint's IPv6 address is fd00:cafe:cafe:100::100
+server  | 2023-02-27T10:58:37.090955936Z Using commit: d2512193dac18f24b31bb3f1f50ac60adb448ee4
+server  | 2023-02-27T10:58:37.090977520Z Running QUIC server.
+time="2023-02-27T12:00:17+01:00" level=warning msg="The \"IPERF_CONGESTION\" variable is not set. Defaulting to a blank string."
+time="2023-02-27T12:00:17+01:00" level=warning msg="The \"IPERF_CONGESTION\" variable is not set. Defaulting to a blank string."
+sim  | 2023-02-27T10:58:36.618869657Z eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+sim  | 2023-02-27T10:58:36.618905407Z         inet 193.167.0.2  netmask 255.255.255.0  broadcast 193.167.0.255
+sim  | 2023-02-27T10:58:36.618910219Z         inet6 fd00:cafe:cafe::2  prefixlen 64  scopeid 0x0<global>
+sim  | 2023-02-27T10:58:36.618913645Z         inet6 fe80::42:c1ff:fea7:2  prefixlen 64  scopeid 0x20<link>
+sim  | 2023-02-27T10:58:36.618916882Z         ether 02:42:c1:a7:00:02  txqueuelen 0  (Ethernet)
+sim  | 2023-02-27T10:58:36.618919887Z         RX packets 2  bytes 164 (164.0 B)
+sim  | 2023-02-27T10:58:36.618922832Z         RX errors 0  dropped 0  overruns 0  frame 0
+sim  | 2023-02-27T10:58:36.618925707Z         TX packets 1  bytes 110 (110.0 B)
+sim  | 2023-02-27T10:58:36.618928780Z         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+sim  | 2023-02-27T10:58:36.618932064Z 
+sim  | 2023-02-27T10:58:36.618934964Z eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+sim  | 2023-02-27T10:58:36.618938137Z         inet 193.167.100.2  netmask 255.255.255.0  broadcast 193.167.100.255
+sim  | 2023-02-27T10:58:36.618943955Z         inet6 fd00:cafe:cafe:100::2  prefixlen 64  scopeid 0x0<global>
+sim  | 2023-02-27T10:58:36.618947452Z         inet6 fe80::42:c1ff:fea7:6402  prefixlen 64  scopeid 0x20<link>
+sim  | 2023-02-27T10:58:36.618950681Z         ether 02:42:c1:a7:64:02  txqueuelen 0  (Ethernet)
+sim  | 2023-02-27T10:58:36.618953747Z         RX packets 1  bytes 110 (110.0 B)
+sim  | 2023-02-27T10:58:36.618956782Z         RX errors 0  dropped 0  overruns 0  frame 0
+sim  | 2023-02-27T10:58:36.618959967Z         TX packets 1  bytes 110 (110.0 B)
+sim  | 2023-02-27T10:58:36.618962970Z         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+sim  | 2023-02-27T10:58:36.618966181Z 
+sim  | 2023-02-27T10:58:36.618969159Z lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+sim  | 2023-02-27T10:58:36.618972381Z         inet 127.0.0.1  netmask 255.0.0.0
+sim  | 2023-02-27T10:58:36.618975388Z         inet6 ::1  prefixlen 128  scopeid 0x10<host>
+sim  | 2023-02-27T10:58:36.618978473Z         loop  txqueuelen 1000  (Local Loopback)
+sim  | 2023-02-27T10:58:36.618981475Z         RX packets 0  bytes 0 (0.0 B)
+sim  | 2023-02-27T10:58:36.618984575Z         RX errors 0  dropped 0  overruns 0  frame 0
+sim  | 2023-02-27T10:58:36.618987678Z         TX packets 0  bytes 0 (0.0 B)
+sim  | 2023-02-27T10:58:36.618990857Z         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+sim  | 2023-02-27T10:58:36.618993979Z 
+sim  | 2023-02-27T10:58:36.627285314Z waiting 10s for server:443
+sim  | 2023-02-27T10:58:37.645551236Z server:443 is available after 1.018679526s
+sim  | 2023-02-27T10:58:37.646127395Z Activating sync mechanism with netcat
+sim  | 2023-02-27T10:58:40.923822963Z Netcat done
+sim  | 2023-02-27T10:58:40.923884367Z Using scenario: bba_buffering_paper.sh
+sim  | 2023-02-27T10:58:40.960704929Z Error: Cannot delete qdisc with handle of zero.
+sim  | 2023-02-27T10:58:40.977894163Z Error: Cannot delete qdisc with handle of zero.
+sim  | 2023-02-27T10:58:40.985856995Z Resetting all TC Netem configurations to client and server.
+sim  | 2023-02-27T10:58:40.988096533Z 20 2000 0
+sim  | 2023-02-27T10:58:51.001148950Z 20 100 0
+sim  | 2023-02-27T10:59:21.030391337Z 20 1000 0
+sim  | 2023-02-27T10:59:31.058843403Z 20 100 0
+sim  | 2023-02-27T11:00:01.083512933Z 20 2000 0
+time="2023-02-27T12:00:17+01:00" level=warning msg="The \"IPERF_CONGESTION\" variable is not set. Defaulting to a blank string."
+time="2023-02-27T12:00:17+01:00" level=warning msg="The \"IPERF_CONGESTION\" variable is not set. Defaulting to a blank string."
+client  | 2023-02-27T10:58:37.856782590Z Setting up routes...
+client  | 2023-02-27T10:58:37.859671139Z Actual changes:
+client  | 2023-02-27T10:58:37.859684202Z tx-checksumming: off
+client  | 2023-02-27T10:58:37.859686542Z 	tx-checksum-ip-generic: off
+client  | 2023-02-27T10:58:37.859688416Z 	tx-checksum-sctp: off
+client  | 2023-02-27T10:58:37.859689982Z tcp-segmentation-offload: off
+client  | 2023-02-27T10:58:37.859691532Z 	tx-tcp-segmentation: off [requested on]
+client  | 2023-02-27T10:58:37.859693191Z 	tx-tcp-ecn-segmentation: off [requested on]
+client  | 2023-02-27T10:58:37.859694914Z 	tx-tcp-mangleid-segmentation: off [requested on]
+client  | 2023-02-27T10:58:37.859696487Z 	tx-tcp6-segmentation: off [requested on]
+client  | 2023-02-27T10:58:37.860968963Z Endpoint's IPv4 address is 193.167.0.100
+client  | 2023-02-27T10:58:37.863022887Z Endpoint's IPv6 address is fd00:cafe:cafe::100
+client  | 2023-02-27T10:58:37.865890733Z ABR: "bba2"
+client  | 2023-02-27T10:58:37.865904971Z CODEC: ""
+client  | 2023-02-27T10:58:37.865908412Z INIT_BUFFER: ""
+client  | 2023-02-27T10:58:37.865911208Z MAX_BUFFER: "60"
+client  | 2023-02-27T10:58:37.865913928Z MAX_HEIGHT: ""
+client  | 2023-02-27T10:58:37.865916261Z STREAM_DURATION: ""
+client  | 2023-02-27T10:58:37.865920535Z EXP_RATIO: ""
+client  | 2023-02-27T10:58:37.865923291Z STREAM_SPEED: ""
+client  | 2023-02-27T10:58:37.865926137Z REQUESTS: "https://server4/BigBuckBunny/4sec/BigBuckBunny_4s_simple_2014_05_09BBA2.mpd"
+client  | 2023-02-27T10:58:37.865929448Z ROLE: "client"
+client  | 2023-02-27T10:58:37.873421944Z wait-for-it.sh: waiting 30 seconds for sim:57832
+client  | 2023-02-27T10:58:40.926728059Z wait-for-it.sh: sim:57832 is available after 3 seconds
+client  | 2023-02-27T10:58:40.936886713Z 2023/02/27 10:58:40 Creating ABR qlog file logs/Client_abr_(empty).qlog.
+client  | 2023-02-27T10:58:40.949995619Z 2023/02/27 10:58:40 Creating qlog file logs/client_e3d2ba9e37a09e5f3fe9b8db9fcf824ba1513849.qlog.
+client  | 2023-02-27T10:58:41.239607110Z      Seg_#     Arr_time     Del_Time    Stall_Dur    Rep_Level     Del_Rate     Act_Rate    Byte_Size   Buff_Level      Algorithm   Codec   Width   Height   Protocol     P.1203       Clae         Duanmu            Yin             Yu
+client  | 2023-02-27T10:58:41.511195250Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:58:41.511247654Z RESERVOIR:  12000
+client  | 2023-02-27T10:58:41.511264718Z In lower reservoir
+client  | 2023-02-27T10:58:41.511278580Z Threshold  3.113090230018758
+client  | 2023-02-27T10:58:41.753973734Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:58:41.754032019Z RESERVOIR:  12000
+client  | 2023-02-27T10:58:41.754051426Z In lower reservoir
+client  | 2023-02-27T10:58:41.754076478Z Threshold  2.824376400862937
+client  | 2023-02-27T10:58:42.065988280Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:58:42.066047887Z RESERVOIR:  12000
+client  | 2023-02-27T10:58:42.066067438Z 0.08207142857142857 15447 42000
+client  | 2023-02-27T10:58:42.066124236Z Threshold  2.7266147789301347
+client  | 2023-02-27T10:58:42.454500963Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:58:42.454560689Z RESERVOIR:  12000
+client  | 2023-02-27T10:58:42.454579731Z 0.16807142857142857 19059 42000
+client  | 2023-02-27T10:58:42.454593558Z Threshold  2.5970565923362714
+client  | 2023-02-27T10:58:42.878658768Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:58:42.878706275Z RESERVOIR:  12000
+client  | 2023-02-27T10:58:42.878716198Z 0.2532142857142857 22635 42000
+client  | 2023-02-27T10:58:42.878724010Z Threshold  2.5553050587139037
+client  | 2023-02-27T10:58:43.505356170Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:58:43.505416960Z RESERVOIR:  12000
+client  | 2023-02-27T10:58:43.505436274Z 0.33354761904761904 26009 42000
+client  | 2023-02-27T10:58:43.505450945Z Threshold  2.727740730237997
+client  | 2023-02-27T10:58:44.338161369Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:58:44.338224054Z RESERVOIR:  12000
+client  | 2023-02-27T10:58:44.338243402Z 0.4089761904761905 29177 42000
+client  | 2023-02-27T10:58:44.338284092Z Threshold  2.7054192676353264
+client  | 2023-02-27T10:58:45.304787242Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:58:45.304805690Z RESERVOIR:  12000
+client  | 2023-02-27T10:58:45.304809515Z 0.48119047619047617 32210 42000
+client  | 2023-02-27T10:58:45.304812169Z Threshold  2.7455184855265493
+client  | 2023-02-27T10:58:46.551613897Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:58:46.551711887Z RESERVOIR:  12000
+client  | 2023-02-27T10:58:46.551737248Z 0.5467619047619048 34964 42000
+client  | 2023-02-27T10:58:46.551752508Z Threshold  2.5548105318325374
+client  | 2023-02-27T10:58:48.030637850Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:58:48.030700581Z RESERVOIR:  12000
+client  | 2023-02-27T10:58:48.030719942Z 0.6067857142857143 37485 42000
+client  | 2023-02-27T10:58:48.030734612Z Threshold  2.7561155464048417
+client  | 2023-02-27T10:58:49.923837623Z          1          144          144            0           45         1203           43        21660         4000           bba2    h264     320      240   HTTP/3.0      0.000      0.000         45.117     -11954.774          0.045
+client  | 2023-02-27T10:58:49.924434459Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:58:49.924470226Z RESERVOIR:  12000
+client  | 2023-02-27T10:58:49.924481291Z 0.656952380952381 39592 42000
+client  | 2023-02-27T10:58:49.924679784Z Threshold  2.7369625394950314
+client  | 2023-02-27T10:59:17.783647545Z          2          270          126            0           45         1500           47        23638         8000           bba2    h264     320      240   HTTP/3.0      0.000      0.235         35.917     -23909.548          0.045
+client  | 2023-02-27T10:59:17.783728459Z          3          513          241            0           88         1683          101        50728        11758           bba2    h264     320      240   HTTP/3.0      0.000      0.213         36.049        135.678          0.060
+client  | 2023-02-27T10:59:17.783787303Z          4          825          311            0          128         1754          136        68193        15447           bba2    h264     320      240   HTTP/3.0      0.000      0.212         36.168        224.461          0.077
+client  | 2023-02-27T10:59:17.783814719Z          5         1214          387            0          177         1784          172        86336        19059           bba2    h264     480      360   HTTP/3.0      0.000      0.213         36.310        352.964          0.097
+client  | 2023-02-27T10:59:17.783963556Z          6         1638          423            0          217         1645          173        86986        22635           bba2    h264     480      360   HTTP/3.0      0.000      0.218         36.450        530.401          0.117
+client  | 2023-02-27T10:59:17.784010763Z          7         2264          625            0          255         1831          286       143054        26009           bba2    h264     480      360   HTTP/3.0      0.000      0.225         36.588        748.162          0.137
+client  | 2023-02-27T10:59:17.784208620Z          8         3097          831            0          323         1848          384       192018        29177           bba2    h264     480      360   HTTP/3.0      0.000      0.228         36.754       1004.027          0.160
+client  | 2023-02-27T10:59:17.784974956Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:59:17.785087774Z RESERVOIR:  12000
+client  | 2023-02-27T10:59:17.785111649Z 0.08888095238095238 15733 42000
+client  | 2023-02-27T10:59:17.785214239Z Threshold  2.6894205981397263
+client  | 2023-02-27T10:59:24.510070123Z          9         4064          965            0          378         1860          448       224426        32210           bba2    h264     480      360   HTTP/3.0      0.000      0.232         36.925       1327.074          0.184
+client  | 2023-02-27T10:59:24.510802032Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:59:24.510838341Z RESERVOIR:  12000
+client  | 2023-02-27T10:59:24.510849043Z 0.023976190476190477 13007 42000
+client  | 2023-02-27T10:59:25.949571197Z         10         5311         1245            0          509         1869          581       290930        34964           bba2    h264     854      480   HTTP/3.0      0.000      0.222         37.159       1705.429          0.217
+client  | 2023-02-27T10:59:25.950235335Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:59:25.950276186Z RESERVOIR:  12000
+client  | 2023-02-27T10:59:25.950289452Z 0.08495238095238095 15568 42000
+client  | 2023-02-27T10:59:27.733460784Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:59:27.733815485Z RESERVOIR:  12000
+client  | 2023-02-27T10:59:27.734101973Z 0.13773809523809524 17785 42000
+client  | 2023-02-27T10:59:29.805244060Z         11         6790         1477            0          577         1841          679       339926        37485           bba2    h264     854      480   HTTP/3.0      0.000      0.221         37.390       2214.520          0.250
+client  | 2023-02-27T10:59:29.805895632Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:59:29.805946210Z RESERVOIR:  12000
+client  | 2023-02-27T10:59:29.805965982Z 0.18364285714285714 19713 42000
+client  | 2023-02-27T10:59:39.079821429Z         12         8683         1892            0          782         1879          889       444517        39592           bba2    h264    1280      720   HTTP/3.0      0.000      0.199         37.711       2792.271          0.294
+client  | 2023-02-27T10:59:39.079907234Z         13        36543        27858            0         1008          165         1152       576366        15733           bba2    h264    1280      720   HTTP/3.0      0.000      0.166         38.105       3574.824          0.349
+client  | 2023-02-27T10:59:39.080685285Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:59:39.080736902Z RESERVOIR:  12000
+client  | 2023-02-27T10:59:39.080756624Z 0.05807142857142857 14439 42000
+client  | 2023-02-27T10:59:59.282913809Z         14        43270         6724            0          782          517          869       434701        13007           bba2    h264    1280      720   HTTP/3.0      0.000      0.192         38.330       4131.231          0.380
+client  | 2023-02-27T10:59:59.282993065Z         15        44709         1437            0          577          949          341       170551        15568           bba2    h264     854      480   HTTP/3.0      0.000      0.222         38.428       4504.180          0.393
+client  | 2023-02-27T10:59:59.283078873Z         16        46492         1782            0          509          948          422       211355        17785           bba2    h264     854      480   HTTP/3.0      0.000      0.248         38.477       4944.611          0.400
+client  | 2023-02-27T10:59:59.283325774Z         17        48565         2071            0          509          950          491       245942        19713           bba2    h264     854      480   HTTP/3.0      0.000      0.271         38.521       5453.702          0.407
+client  | 2023-02-27T10:59:59.283380731Z         18        57839         9273            0          577          215          498       249346        14439           bba2    h264     854      480   HTTP/3.0      0.000      0.294         38.586       5962.793          0.416
+client  | 2023-02-27T10:59:59.284169672Z BUFFERSIZE:  60000
+client  | 2023-02-27T10:59:59.284221640Z RESERVOIR:  12000
+client  | 2023-02-27T10:59:59.284237543Z In lower reservoir
+client  | 2023-02-27T11:00:02.390656496Z         19        78042        20201         5764          509           95          480       240154         4000           bba2    h264     854      480   HTTP/3.0      0.000      0.313         43.142      23695.224        -19.846
+client  | 2023-02-27T11:00:02.391410479Z BUFFERSIZE:  60000
+client  | 2023-02-27T11:00:02.391441180Z RESERVOIR:  12000
+client  | 2023-02-27T11:00:02.391451081Z In lower reservoir
+client  | 2023-02-27T11:00:03.227250946Z BUFFERSIZE:  60000
+client  | 2023-02-27T11:00:03.227294528Z RESERVOIR:  12000
+client  | 2023-02-27T11:00:03.227305356Z In lower reservoir
+client  | 2023-02-27T11:00:03.694861621Z BUFFERSIZE:  60000
+client  | 2023-02-27T11:00:03.694929588Z RESERVOIR:  12000
+client  | 2023-02-27T11:00:03.694948126Z In lower reservoir
+client  | 2023-02-27T11:00:04.149491373Z BUFFERSIZE:  60000
+client  | 2023-02-27T11:00:04.149540762Z RESERVOIR:  12000
+client  | 2023-02-27T11:00:04.149552162Z 0.07466666666666667 15136 42000
+client  | 2023-02-27T11:00:04.570447463Z BUFFERSIZE:  60000
+client  | 2023-02-27T11:00:04.570555384Z RESERVOIR:  12000
+client  | 2023-02-27T11:00:04.570570991Z 0.15988095238095237 18715 42000
+client  | 2023-02-27T11:00:05.034182937Z BUFFERSIZE:  60000
+client  | 2023-02-27T11:00:05.034212215Z RESERVOIR:  12000
+client  | 2023-02-27T11:00:05.034219500Z 0.24407142857142858 22251 42000
+client  | 2023-02-27T11:00:05.659766781Z         20        81150         3105            0          378          621          482       241046         4893           bba2    h264     480      360   HTTP/3.0      0.000      0.322         42.941      23942.843        -19.862
+client  | 2023-02-27T11:00:05.660460634Z BUFFERSIZE:  60000
+client  | 2023-02-27T11:00:05.660507606Z RESERVOIR:  12000
+client  | 2023-02-27T11:00:05.660528996Z 0.32442857142857146 25626 42000
+client  | 2023-02-27T11:00:06.759584621Z BUFFERSIZE:  60000
+client  | 2023-02-27T11:00:06.759638590Z RESERVOIR:  12000
+client  | 2023-02-27T11:00:06.759658333Z 0.3935 28527 42000
+client  | 2023-02-27T11:00:07.757087697Z BUFFERSIZE:  60000
+client  | 2023-02-27T11:00:07.757155810Z RESERVOIR:  12000
+client  | 2023-02-27T11:00:07.757178980Z 0.465 31530 42000
+client  | 2023-02-27T11:00:09.492446509Z         21        81986          834            0          323         1847          385       192563         8057           bba2    h264     480      360   HTTP/3.0      0.000      0.325         38.571       6918.582          0.415
+client  | 2023-02-27T11:00:09.493258222Z BUFFERSIZE:  60000
+client  | 2023-02-27T11:00:09.493300445Z RESERVOIR:  12000
+client  | 2023-02-27T11:00:09.493318556Z 0.5189047619047619 33794 42000
+client  | 2023-02-27T11:00:11.902513936Z BUFFERSIZE:  60000
+client  | 2023-02-27T11:00:11.902578456Z RESERVOIR:  12000
+client  | 2023-02-27T11:00:11.902591617Z 0.5567857142857143 35385 42000
+client  | 2023-02-27T11:00:14.886954154Z         22        82454          466            0          255         1797          209       104693        11590           bba2    h264     480      360   HTTP/3.0      0.000      0.322         38.519       7107.265          0.407
+client  | 2023-02-27T11:00:14.887945215Z BUFFERSIZE:  60000
+client  | 2023-02-27T11:00:14.887994784Z RESERVOIR:  12000
+client  | 2023-02-27T11:00:14.888015796Z 0.580952380952381 36400 42000
+time="2023-02-27T12:00:17+01:00" level=warning msg="The \"IPERF_CONGESTION\" variable is not set. Defaulting to a blank string."
+time="2023-02-27T12:00:17+01:00" level=warning msg="The \"IPERF_CONGESTION\" variable is not set. Defaulting to a blank string."
+
+Changed ownership of output logs to jherbots:jherbots | /home/jherbots/Documents/projects/cross_layer_godash_paper/vegvisir/logs/cross_layer_paper/2023-02-27T_11-49-02/godashcl-bba2-bbb-4s__tc-netem-cl-paper__quic-go
+Test run duration: 0:01:54.419318

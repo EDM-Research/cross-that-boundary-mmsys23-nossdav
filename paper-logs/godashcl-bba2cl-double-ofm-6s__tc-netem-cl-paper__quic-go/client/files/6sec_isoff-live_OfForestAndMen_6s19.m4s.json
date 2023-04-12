@@ -1,0 +1,174 @@
+{
+    "I11": {
+        "segments": [
+            { "bitrate": 192, "codec": "aac", "duration": 114, "start": 0 }
+        ],
+        "streamId": 42
+    },
+    "I13": {
+        "segments": [
+            {
+                "bitrate": 43.90,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "320x240",
+                "start": 0.0
+            },
+            {
+                "bitrate": 29.89,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "320x240",
+                "start": 6.0
+            },
+            {
+                "bitrate": 92.22,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "320x240",
+                "start": 12.0
+            },
+            {
+                "bitrate": 145.45,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "320x240",
+                "start": 18.0
+            },
+            {
+                "bitrate": 192.60,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "480x360",
+                "start": 24.0
+            },
+            {
+                "bitrate": 239.74,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "480x360",
+                "start": 30.0
+            },
+            {
+                "bitrate": 284.93,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "480x360",
+                "start": 36.0
+            },
+            {
+                "bitrate": 384.31,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "480x360",
+                "start": 42.0
+            },
+            {
+                "bitrate": 460.31,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "854x480",
+                "start": 48.0
+            },
+            {
+                "bitrate": 551.33,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "854x480",
+                "start": 54.0
+            },
+            {
+                "bitrate": 645.19,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "854x480",
+                "start": 60.0
+            },
+            {
+                "bitrate": 866.87,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "1024x576",
+                "start": 66.0
+            },
+            {
+                "bitrate": 1035.22,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "1024x576",
+                "start": 72.0
+            },
+            {
+                "bitrate": 46.67,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "320x240",
+                "start": 78.0
+            },
+            {
+                "bitrate": 46.07,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "320x240",
+                "start": 84.0
+            },
+            {
+                "bitrate": 94.33,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "320x240",
+                "start": 90.0
+            },
+            {
+                "bitrate": 145.47,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "320x240",
+                "start": 96.0
+            },
+            {
+                "bitrate": 193.35,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "480x360",
+                "start": 102.0
+            },
+            {
+                "bitrate": 242.28,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 25.0,
+                "resolution": "480x360",
+                "start": 108.0
+            }
+        ],
+        "streamId": 42
+    },
+    "I23": {
+        "stalling": [[0.000,0.000]],
+        "streamId": 42
+    },
+    "IGen": {
+        "device": "pc",
+        "displaySize": "1920x1080",
+        "viewingDistance": "150cm"
+    }
+}

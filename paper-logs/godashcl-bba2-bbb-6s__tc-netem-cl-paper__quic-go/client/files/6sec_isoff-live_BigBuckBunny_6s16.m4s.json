@@ -1,0 +1,150 @@
+{
+    "I11": {
+        "segments": [
+            { "bitrate": 192, "codec": "aac", "duration": 96, "start": 0 }
+        ],
+        "streamId": 42
+    },
+    "I13": {
+        "segments": [
+            {
+                "bitrate": 42.33,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "320x240",
+                "start": 0.0
+            },
+            {
+                "bitrate": 48.47,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "320x240",
+                "start": 6.0
+            },
+            {
+                "bitrate": 88.15,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "320x240",
+                "start": 12.0
+            },
+            {
+                "bitrate": 99.62,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "320x240",
+                "start": 18.0
+            },
+            {
+                "bitrate": 180.67,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "480x360",
+                "start": 24.0
+            },
+            {
+                "bitrate": 223.23,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "480x360",
+                "start": 30.0
+            },
+            {
+                "bitrate": 292.12,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "480x360",
+                "start": 36.0
+            },
+            {
+                "bitrate": 371.79,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "480x360",
+                "start": 42.0
+            },
+            {
+                "bitrate": 467.62,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "480x360",
+                "start": 48.0
+            },
+            {
+                "bitrate": 390.83,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "854x480",
+                "start": 54.0
+            },
+            {
+                "bitrate": 471.77,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "854x480",
+                "start": 60.0
+            },
+            {
+                "bitrate": 776.23,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "1280x720",
+                "start": 66.0
+            },
+            {
+                "bitrate": 983.38,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "1280x720",
+                "start": 72.0
+            },
+            {
+                "bitrate": 1401.13,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "1280x720",
+                "start": 78.0
+            },
+            {
+                "bitrate": 561.65,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "1280x720",
+                "start": 84.0
+            },
+            {
+                "bitrate": 589.41,
+                "codec": "h264",
+                "duration": 6.0,
+                "fps": 24.0,
+                "resolution": "1280x720",
+                "start": 90.0
+            }
+        ],
+        "streamId": 42
+    },
+    "I23": {
+        "stalling": [[0.000,0.000],[78.000,3.254]],
+        "streamId": 42
+    },
+    "IGen": {
+        "device": "pc",
+        "displaySize": "1920x1080",
+        "viewingDistance": "150cm"
+    }
+}

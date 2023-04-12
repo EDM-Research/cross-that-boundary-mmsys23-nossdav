@@ -1,0 +1,1407 @@
+DEBUG: 2023/02/27 11:31:11 -debug set to true 
+DEBUG: 2023/02/27 11:31:11 -useTestbed set to off
+DEBUG: 2023/02/27 11:31:11 -quic set to on
+DEBUG: 2023/02/27 11:31:11 -url set to [https://server4/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd]
+DEBUG: 2023/02/27 11:31:11 URL array passed : [https://server4/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd]
+DEBUG: 2023/02/27 11:31:11 Parameters: https://server4/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:31:11 Get the url https://server4/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:31:11 URL is : https://server4/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:31:11 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:11 Codec Index List : [0] for MPD 1
+DEBUG: 2023/02/27 11:31:11 Codec List : [h264] for MPD 1
+DEBUG: 2023/02/27 11:31:11 Audio content is set to false
+DEBUG: 2023/02/27 11:31:11 h264
+DEBUG: 2023/02/27 11:31:11 URL array passed : [https://server4/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd]
+DEBUG: 2023/02/27 11:31:11 Parameters: https://server4/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:31:11 Get the url https://server4/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:31:11 URL is : https://server4/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:31:11 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:11 -printHeader: print additional headers {"Algorithm":"on","Seg_Dur":"off","Codec":"on","Width":"on","Height":"on","FPS":"off","Play_Pos":"off","RTT":"off","Seg_Repl":"off","Protocol":"on","P.1203":"on","Clae":"on","Duanmu":"on","Yin":"on","Yu":"on"}
+DEBUG: 2023/02/27 11:31:11 -QoE set to on
+DEBUG: 2023/02/27 11:31:11 p1203-standalone is installed
+DEBUG: 2023/02/27 11:31:11 -terminalPrint set to on
+DEBUG: 2023/02/27 11:31:11 -getHeaders set to off
+DEBUG: 2023/02/27 11:31:11 -adapt set to bba2XL-base
+DEBUG: 2023/02/27 11:31:11 -outputFolder set to ../logs/files/
+DEBUG: 2023/02/27 11:31:11 -serveraddr set to off
+DEBUG: 2023/02/27 11:31:11 -maxHeight set to 1080
+DEBUG: 2023/02/27 11:31:11 -streamSpeed set to 1.000000
+DEBUG: 2023/02/27 11:31:11 -maxBuffer set to 60
+DEBUG: 2023/02/27 11:31:11 -initBuffer set to 2
+DEBUG: 2023/02/27 11:31:11 -codec set to h264
+DEBUG: 2023/02/27 11:31:11 -storeDASH set to on
+DEBUG: 2023/02/27 11:31:11 Codec Index List : [0] for MPD 1
+DEBUG: 2023/02/27 11:31:11 Codec List : [h264] for MPD 1
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 4066615
+DEBUG: 2023/02/27 11:31:11 rep_rate for maxHeight:0
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 3666428
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 3339937
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 2908119
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 2394379
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 2087288
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 1456380
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 1197604
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 1016017
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 792489
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 582757
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 516656
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 375852
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 323473
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 259179
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 220743
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 179119
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 129426
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 89889
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 getMPDheightIndex - bitrate: 45791
+DEBUG: 2023/02/27 11:31:11 Rep_Rate 0 @ 4066615 is bigger than or equal to Rep_Rate 19 @ 45791
+
+DEBUG: 2023/02/27 11:31:11 Collect metrics from selected MPD file
+DEBUG: 2023/02/27 11:31:11 Maximum stream duration: 653000
+DEBUG: 2023/02/27 11:31:11 Maximum number of segments: 163
+DEBUG: 2023/02/27 11:31:11 Maximum buffer: 60
+DEBUG: 2023/02/27 11:31:11 Minimum MPD index: 0
+DEBUG: 2023/02/27 11:31:11 Maximum MPD index: 19
+DEBUG: 2023/02/27 11:31:11 Segment Duration: 4
+DEBUG: 2023/02/27 11:31:11 Base URL: 
+
+DEBUG: 2023/02/27 11:31:11 
+Bandwidth List : [4066615 3666428 3339937 2908119 2394379 2087288 1456380 1197604 1016017 792489 582757 516656 375852 323473 259179 220743 179119 129426 89889 45791]
+
+DEBUG: 2023/02/27 11:31:11 DASH profile for the header is: isoff-live
+
+DEBUG: 2023/02/27 11:31:11 streaming has begun
+DEBUG: 2023/02/27 11:31:11 Input values to streaming algorithm: bba2XL-base
+DEBUG: 2023/02/27 11:31:11 maxHeight: 1080
+DEBUG: 2023/02/27 11:31:11 streamDuration in seconds: 653000
+DEBUG: 2023/02/27 11:31:11 streamSpeed: 1.000000
+DEBUG: 2023/02/27 11:31:11 maxBuffer: 60
+DEBUG: 2023/02/27 11:31:11 initBuffer: 2
+DEBUG: 2023/02/27 11:31:11 url: [https://server4/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd]
+DEBUG: 2023/02/27 11:31:11 fileDownloadLocation: logs/files
+DEBUG: 2023/02/27 11:31:11 HLS: off
+DEBUG: 2023/02/27 11:31:11 extend: true
+DEBUG: 2023/02/27 11:31:11 stream initialise URL header: ed_45791bps/ElephantsDream_4s_init.mp4
+
+DEBUG: 2023/02/27 11:31:11 current URL header: https://server4/ElephantsDream/4sec/ElephantsDream_4s_simple_2014_05_09BBA2.mpd
+DEBUG: 2023/02/27 11:31:11 get file from URL: https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s_init.mp4
+
+DEBUG: 2023/02/27 11:31:11 Get the url https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s_init.mp4
+DEBUG: 2023/02/27 11:31:11 URL is : https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s_init.mp4
+DEBUG: 2023/02/27 11:31:11 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:11 HTTP body size is 1.714844
+DEBUG: 2023/02/27 11:31:11 Before consul update
+DEBUG: 2023/02/27 11:31:11 After consul update
+
+DEBUG: 2023/02/27 11:31:11 We are using repRate: 19
+DEBUG: 2023/02/27 11:31:11 We are using : bba2XL-base for streaming
+
+DEBUG: 2023/02/27 11:31:11 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:11 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:11 current segment URL: ed_45791bps/ElephantsDream_4s1.m4s
+DEBUG: 2023/02/27 11:31:11 get file from URL: https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s1.m4s
+
+DEBUG: 2023/02/27 11:31:11 Get the url https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s1.m4s
+DEBUG: 2023/02/27 11:31:11 URL is : https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s1.m4s
+DEBUG: 2023/02/27 11:31:11 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:11 HTTP body size is 39.361328
+DEBUG: 2023/02/27 11:31:11 Before consul update
+DEBUG: 2023/02/27 11:31:11 After consul update
+DEBUG: 2023/02/27 11:31:11 200
+
+DEBUG: 2023/02/27 11:31:11 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:11 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:11 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:11 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:11 Getting Yu Value
+
+DEBUG: 2023/02/27 11:31:11 bba2XL-base has choosen rep_Rate 19 @ a rate of 45
+
+DEBUG: 2023/02/27 11:31:11 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:11 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:11 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:11 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:11 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:11 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:11 current segment URL: ed_45791bps/ElephantsDream_4s2.m4s
+DEBUG: 2023/02/27 11:31:11 get file from URL: https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s2.m4s
+
+DEBUG: 2023/02/27 11:31:11 Get the url https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s2.m4s
+DEBUG: 2023/02/27 11:31:11 URL is : https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s2.m4s
+DEBUG: 2023/02/27 11:31:11 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:12 HTTP body size is 47.980469
+DEBUG: 2023/02/27 11:31:12 Before consul update
+DEBUG: 2023/02/27 11:31:12 After consul update
+DEBUG: 2023/02/27 11:31:12 200
+
+DEBUG: 2023/02/27 11:31:12 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:12 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:12 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:12 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:12 Getting Yu Value
+DEBUG: 2023/02/27 11:31:12 DELTAB 3 406494
+DEBUG: 2023/02/27 11:31:12 Using Rate
+DEBUG: 2023/02/27 11:31:12 Selected 18 for segment 2
+
+DEBUG: 2023/02/27 11:31:12 bba2XL-base has choosen rep_Rate 18 @ a rate of 89
+
+DEBUG: 2023/02/27 11:31:12 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:12 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:12 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:12 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:12 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:12 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:12 current segment URL: ed_89889bps/ElephantsDream_4s3.m4s
+DEBUG: 2023/02/27 11:31:12 get file from URL: https://server4/ElephantsDream/4sec/ed_89889bps/ElephantsDream_4s3.m4s
+
+DEBUG: 2023/02/27 11:31:12 Get the url https://server4/ElephantsDream/4sec/ed_89889bps/ElephantsDream_4s3.m4s
+DEBUG: 2023/02/27 11:31:12 URL is : https://server4/ElephantsDream/4sec/ed_89889bps/ElephantsDream_4s3.m4s
+DEBUG: 2023/02/27 11:31:12 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:12 HTTP body size is 94.769531
+DEBUG: 2023/02/27 11:31:12 Before consul update
+DEBUG: 2023/02/27 11:31:12 After consul update
+DEBUG: 2023/02/27 11:31:12 200
+
+DEBUG: 2023/02/27 11:31:12 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:12 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:12 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:12 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:12 Getting Yu Value
+DEBUG: 2023/02/27 11:31:12 Stepping down
+DEBUG: 2023/02/27 11:31:12 DELTAB 3 620848
+DEBUG: 2023/02/27 11:31:12 Using Rate
+DEBUG: 2023/02/27 11:31:12 Selected 17 for segment 3
+
+DEBUG: 2023/02/27 11:31:12 bba2XL-base has choosen rep_Rate 17 @ a rate of 129
+
+DEBUG: 2023/02/27 11:31:12 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:12 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:12 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:12 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:12 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:12 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:12 current segment URL: ed_129426bps/ElephantsDream_4s4.m4s
+DEBUG: 2023/02/27 11:31:12 get file from URL: https://server4/ElephantsDream/4sec/ed_129426bps/ElephantsDream_4s4.m4s
+
+DEBUG: 2023/02/27 11:31:12 Get the url https://server4/ElephantsDream/4sec/ed_129426bps/ElephantsDream_4s4.m4s
+DEBUG: 2023/02/27 11:31:12 URL is : https://server4/ElephantsDream/4sec/ed_129426bps/ElephantsDream_4s4.m4s
+DEBUG: 2023/02/27 11:31:12 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:12 HTTP body size is 141.318359
+DEBUG: 2023/02/27 11:31:12 Before consul update
+DEBUG: 2023/02/27 11:31:12 After consul update
+DEBUG: 2023/02/27 11:31:12 200
+
+DEBUG: 2023/02/27 11:31:12 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:12 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:12 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:12 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:12 Getting Yu Value
+DEBUG: 2023/02/27 11:31:12 Stepping up
+DEBUG: 2023/02/27 11:31:12 DELTAB 3 831654
+DEBUG: 2023/02/27 11:31:12 Using Rate
+DEBUG: 2023/02/27 11:31:12 Selected 16 for segment 4
+
+DEBUG: 2023/02/27 11:31:12 bba2XL-base has choosen rep_Rate 16 @ a rate of 179
+
+DEBUG: 2023/02/27 11:31:12 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:12 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:12 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:12 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:12 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:12 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:12 current segment URL: ed_179119bps/ElephantsDream_4s5.m4s
+DEBUG: 2023/02/27 11:31:12 get file from URL: https://server4/ElephantsDream/4sec/ed_179119bps/ElephantsDream_4s5.m4s
+
+DEBUG: 2023/02/27 11:31:12 Get the url https://server4/ElephantsDream/4sec/ed_179119bps/ElephantsDream_4s5.m4s
+DEBUG: 2023/02/27 11:31:12 URL is : https://server4/ElephantsDream/4sec/ed_179119bps/ElephantsDream_4s5.m4s
+DEBUG: 2023/02/27 11:31:12 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:13 HTTP body size is 192.027344
+DEBUG: 2023/02/27 11:31:13 Before consul update
+DEBUG: 2023/02/27 11:31:13 After consul update
+DEBUG: 2023/02/27 11:31:13 200
+
+DEBUG: 2023/02/27 11:31:13 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:13 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:13 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:13 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:13 Getting Yu Value
+DEBUG: 2023/02/27 11:31:13 Stepping up
+DEBUG: 2023/02/27 11:31:13 DELTAB 3 1039402
+DEBUG: 2023/02/27 11:31:13 Using Rate
+DEBUG: 2023/02/27 11:31:13 Selected 15 for segment 5
+
+DEBUG: 2023/02/27 11:31:13 bba2XL-base has choosen rep_Rate 15 @ a rate of 220
+
+DEBUG: 2023/02/27 11:31:13 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:13 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:13 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:13 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:13 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:13 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:13 current segment URL: ed_220743bps/ElephantsDream_4s6.m4s
+DEBUG: 2023/02/27 11:31:13 get file from URL: https://server4/ElephantsDream/4sec/ed_220743bps/ElephantsDream_4s6.m4s
+
+DEBUG: 2023/02/27 11:31:13 Get the url https://server4/ElephantsDream/4sec/ed_220743bps/ElephantsDream_4s6.m4s
+DEBUG: 2023/02/27 11:31:13 URL is : https://server4/ElephantsDream/4sec/ed_220743bps/ElephantsDream_4s6.m4s
+DEBUG: 2023/02/27 11:31:13 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:13 HTTP body size is 220.667969
+DEBUG: 2023/02/27 11:31:13 Before consul update
+DEBUG: 2023/02/27 11:31:13 After consul update
+DEBUG: 2023/02/27 11:31:13 200
+
+DEBUG: 2023/02/27 11:31:13 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:13 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:13 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:13 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:13 Getting Yu Value
+DEBUG: 2023/02/27 11:31:13 Stepping up
+DEBUG: 2023/02/27 11:31:13 DELTAB 3 1249696
+DEBUG: 2023/02/27 11:31:13 Using Rate
+DEBUG: 2023/02/27 11:31:13 Selected 14 for segment 6
+
+DEBUG: 2023/02/27 11:31:13 bba2XL-base has choosen rep_Rate 14 @ a rate of 259
+
+DEBUG: 2023/02/27 11:31:13 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:13 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:13 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:13 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:13 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:13 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:13 current segment URL: ed_259179bps/ElephantsDream_4s7.m4s
+DEBUG: 2023/02/27 11:31:13 get file from URL: https://server4/ElephantsDream/4sec/ed_259179bps/ElephantsDream_4s7.m4s
+
+DEBUG: 2023/02/27 11:31:13 Get the url https://server4/ElephantsDream/4sec/ed_259179bps/ElephantsDream_4s7.m4s
+DEBUG: 2023/02/27 11:31:13 URL is : https://server4/ElephantsDream/4sec/ed_259179bps/ElephantsDream_4s7.m4s
+DEBUG: 2023/02/27 11:31:13 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:14 HTTP body size is 255.583984
+DEBUG: 2023/02/27 11:31:14 Before consul update
+DEBUG: 2023/02/27 11:31:14 After consul update
+DEBUG: 2023/02/27 11:31:14 200
+
+DEBUG: 2023/02/27 11:31:14 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:14 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:14 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:14 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:14 Getting Yu Value
+DEBUG: 2023/02/27 11:31:14 Stepping up
+DEBUG: 2023/02/27 11:31:14 DELTAB 3 1677320
+DEBUG: 2023/02/27 11:31:14 Using Rate
+DEBUG: 2023/02/27 11:31:14 Selected 13 for segment 7
+
+DEBUG: 2023/02/27 11:31:14 bba2XL-base has choosen rep_Rate 13 @ a rate of 323
+
+DEBUG: 2023/02/27 11:31:14 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:14 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:14 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:14 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:14 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:14 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:14 current segment URL: ed_323473bps/ElephantsDream_4s8.m4s
+DEBUG: 2023/02/27 11:31:14 get file from URL: https://server4/ElephantsDream/4sec/ed_323473bps/ElephantsDream_4s8.m4s
+
+DEBUG: 2023/02/27 11:31:14 Get the url https://server4/ElephantsDream/4sec/ed_323473bps/ElephantsDream_4s8.m4s
+DEBUG: 2023/02/27 11:31:14 URL is : https://server4/ElephantsDream/4sec/ed_323473bps/ElephantsDream_4s8.m4s
+DEBUG: 2023/02/27 11:31:14 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:14 HTTP body size is 378.976562
+DEBUG: 2023/02/27 11:31:14 Before consul update
+DEBUG: 2023/02/27 11:31:14 After consul update
+DEBUG: 2023/02/27 11:31:14 200
+
+DEBUG: 2023/02/27 11:31:14 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:14 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:14 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:14 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:14 Getting Yu Value
+DEBUG: 2023/02/27 11:31:14 Stepping up
+DEBUG: 2023/02/27 11:31:14 DELTAB 3 2099516
+DEBUG: 2023/02/27 11:31:14 Using Rate
+DEBUG: 2023/02/27 11:31:14 Selected 12 for segment 8
+
+DEBUG: 2023/02/27 11:31:14 bba2XL-base has choosen rep_Rate 12 @ a rate of 375
+
+DEBUG: 2023/02/27 11:31:14 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:14 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:14 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:14 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:14 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:14 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:14 current segment URL: ed_375852bps/ElephantsDream_4s9.m4s
+DEBUG: 2023/02/27 11:31:14 get file from URL: https://server4/ElephantsDream/4sec/ed_375852bps/ElephantsDream_4s9.m4s
+
+DEBUG: 2023/02/27 11:31:14 Get the url https://server4/ElephantsDream/4sec/ed_375852bps/ElephantsDream_4s9.m4s
+DEBUG: 2023/02/27 11:31:15 URL is : https://server4/ElephantsDream/4sec/ed_375852bps/ElephantsDream_4s9.m4s
+DEBUG: 2023/02/27 11:31:15 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:16 HTTP body size is 489.330078
+DEBUG: 2023/02/27 11:31:16 Before consul update
+DEBUG: 2023/02/27 11:31:16 After consul update
+DEBUG: 2023/02/27 11:31:16 200
+
+DEBUG: 2023/02/27 11:31:16 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:16 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:16 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:16 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:16 Getting Yu Value
+DEBUG: 2023/02/27 11:31:16 Stepping up
+DEBUG: 2023/02/27 11:31:16 DELTAB 3 2496004
+DEBUG: 2023/02/27 11:31:16 Using Rate
+DEBUG: 2023/02/27 11:31:16 Selected 11 for segment 9
+
+DEBUG: 2023/02/27 11:31:16 bba2XL-base has choosen rep_Rate 11 @ a rate of 516
+
+DEBUG: 2023/02/27 11:31:16 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:16 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:16 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:16 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:16 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:16 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:16 current segment URL: ed_516656bps/ElephantsDream_4s10.m4s
+DEBUG: 2023/02/27 11:31:16 get file from URL: https://server4/ElephantsDream/4sec/ed_516656bps/ElephantsDream_4s10.m4s
+
+DEBUG: 2023/02/27 11:31:16 Get the url https://server4/ElephantsDream/4sec/ed_516656bps/ElephantsDream_4s10.m4s
+DEBUG: 2023/02/27 11:31:16 URL is : https://server4/ElephantsDream/4sec/ed_516656bps/ElephantsDream_4s10.m4s
+DEBUG: 2023/02/27 11:31:16 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:17 HTTP body size is 543.919922
+DEBUG: 2023/02/27 11:31:17 Before consul update
+DEBUG: 2023/02/27 11:31:17 After consul update
+DEBUG: 2023/02/27 11:31:17 200
+
+DEBUG: 2023/02/27 11:31:17 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:17 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:17 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:17 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:17 Getting Yu Value
+DEBUG: 2023/02/27 11:31:17 Stepping up
+DEBUG: 2023/02/27 11:31:17 DELTAB 3 2914600
+DEBUG: 2023/02/27 11:31:17 Using Rate
+DEBUG: 2023/02/27 11:31:17 Selected 10 for segment 10
+
+DEBUG: 2023/02/27 11:31:17 bba2XL-base has choosen rep_Rate 10 @ a rate of 582
+
+DEBUG: 2023/02/27 11:31:17 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:17 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:17 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:17 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:17 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:17 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:17 current segment URL: ed_582757bps/ElephantsDream_4s11.m4s
+DEBUG: 2023/02/27 11:31:17 get file from URL: https://server4/ElephantsDream/4sec/ed_582757bps/ElephantsDream_4s11.m4s
+
+DEBUG: 2023/02/27 11:31:17 Get the url https://server4/ElephantsDream/4sec/ed_582757bps/ElephantsDream_4s11.m4s
+DEBUG: 2023/02/27 11:31:17 URL is : https://server4/ElephantsDream/4sec/ed_582757bps/ElephantsDream_4s11.m4s
+DEBUG: 2023/02/27 11:31:17 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:18 HTTP body size is 669.652344
+DEBUG: 2023/02/27 11:31:18 Before consul update
+DEBUG: 2023/02/27 11:31:18 After consul update
+DEBUG: 2023/02/27 11:31:18 200
+
+DEBUG: 2023/02/27 11:31:18 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:18 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:18 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:18 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:18 Getting Yu Value
+DEBUG: 2023/02/27 11:31:18 Stepping up
+DEBUG: 2023/02/27 11:31:18 DELTAB 3 3747022
+DEBUG: 2023/02/27 11:31:18 Using Rate
+DEBUG: 2023/02/27 11:31:18 Selected 9 for segment 11
+
+DEBUG: 2023/02/27 11:31:18 bba2XL-base has choosen rep_Rate 9 @ a rate of 792
+
+DEBUG: 2023/02/27 11:31:18 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:18 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:18 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:18 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:18 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:18 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:18 current segment URL: ed_792489bps/ElephantsDream_4s12.m4s
+DEBUG: 2023/02/27 11:31:18 get file from URL: https://server4/ElephantsDream/4sec/ed_792489bps/ElephantsDream_4s12.m4s
+
+DEBUG: 2023/02/27 11:31:18 Get the url https://server4/ElephantsDream/4sec/ed_792489bps/ElephantsDream_4s12.m4s
+DEBUG: 2023/02/27 11:31:18 URL is : https://server4/ElephantsDream/4sec/ed_792489bps/ElephantsDream_4s12.m4s
+DEBUG: 2023/02/27 11:31:18 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:20 HTTP body size is 861.638672
+DEBUG: 2023/02/27 11:31:20 Before consul update
+DEBUG: 2023/02/27 11:31:20 After consul update
+DEBUG: 2023/02/27 11:31:20 200
+
+DEBUG: 2023/02/27 11:31:20 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:20 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:20 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:20 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:20 Getting Yu Value
+DEBUG: 2023/02/27 11:31:20 Stepping up
+DEBUG: 2023/02/27 11:31:20 DELTAB 3 4996898
+DEBUG: 2023/02/27 11:31:20 Using Rate
+DEBUG: 2023/02/27 11:31:20 Selected 8 for segment 12
+
+DEBUG: 2023/02/27 11:31:20 bba2XL-base has choosen rep_Rate 8 @ a rate of 1016
+
+DEBUG: 2023/02/27 11:31:20 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:20 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:20 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:20 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:20 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:20 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:20 current segment URL: ed_1016017bps/ElephantsDream_4s13.m4s
+DEBUG: 2023/02/27 11:31:20 get file from URL: https://server4/ElephantsDream/4sec/ed_1016017bps/ElephantsDream_4s13.m4s
+
+DEBUG: 2023/02/27 11:31:20 Get the url https://server4/ElephantsDream/4sec/ed_1016017bps/ElephantsDream_4s13.m4s
+DEBUG: 2023/02/27 11:31:20 URL is : https://server4/ElephantsDream/4sec/ed_1016017bps/ElephantsDream_4s13.m4s
+DEBUG: 2023/02/27 11:31:20 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:52 HTTP body size is 1181.435547
+DEBUG: 2023/02/27 11:31:52 Before consul update
+DEBUG: 2023/02/27 11:31:52 After consul update
+DEBUG: 2023/02/27 11:31:52 200
+
+DEBUG: 2023/02/27 11:31:52 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:52 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:52 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:52 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:52 Getting Yu Value
+DEBUG: 2023/02/27 11:31:52 Stepping down
+DEBUG: 2023/02/27 11:31:52 DELTAB 2 6278026
+DEBUG: 2023/02/27 11:31:52 Switched from Rate to BBA2
+DEBUG: 2023/02/27 11:31:52 Selected 9 for segment 13
+
+DEBUG: 2023/02/27 11:31:52 bba2XL-base has choosen rep_Rate 9 @ a rate of 792
+
+DEBUG: 2023/02/27 11:31:52 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:52 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:52 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:52 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:52 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:52 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:52 current segment URL: ed_792489bps/ElephantsDream_4s14.m4s
+DEBUG: 2023/02/27 11:31:52 get file from URL: https://server4/ElephantsDream/4sec/ed_792489bps/ElephantsDream_4s14.m4s
+
+DEBUG: 2023/02/27 11:31:52 Get the url https://server4/ElephantsDream/4sec/ed_792489bps/ElephantsDream_4s14.m4s
+DEBUG: 2023/02/27 11:31:52 URL is : https://server4/ElephantsDream/4sec/ed_792489bps/ElephantsDream_4s14.m4s
+DEBUG: 2023/02/27 11:31:52 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:55 HTTP body size is 826.740234
+DEBUG: 2023/02/27 11:31:55 Before consul update
+DEBUG: 2023/02/27 11:31:55 After consul update
+DEBUG: 2023/02/27 11:31:55 200
+
+DEBUG: 2023/02/27 11:31:55 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:55 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:55 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:55 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:55 Getting Yu Value
+DEBUG: 2023/02/27 11:31:55 Stepping down
+DEBUG: 2023/02/27 11:31:55 Selected 10 for segment 14
+
+DEBUG: 2023/02/27 11:31:55 bba2XL-base has choosen rep_Rate 10 @ a rate of 582
+
+DEBUG: 2023/02/27 11:31:55 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:55 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:55 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:55 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:55 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:55 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:55 current segment URL: ed_582757bps/ElephantsDream_4s15.m4s
+DEBUG: 2023/02/27 11:31:55 get file from URL: https://server4/ElephantsDream/4sec/ed_582757bps/ElephantsDream_4s15.m4s
+
+DEBUG: 2023/02/27 11:31:55 Get the url https://server4/ElephantsDream/4sec/ed_582757bps/ElephantsDream_4s15.m4s
+DEBUG: 2023/02/27 11:31:55 URL is : https://server4/ElephantsDream/4sec/ed_582757bps/ElephantsDream_4s15.m4s
+DEBUG: 2023/02/27 11:31:55 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:31:58 HTTP body size is 678.470703
+DEBUG: 2023/02/27 11:31:58 Before consul update
+DEBUG: 2023/02/27 11:31:58 After consul update
+DEBUG: 2023/02/27 11:31:58 200
+
+DEBUG: 2023/02/27 11:31:58 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:31:58 Getting Claye Value
+
+DEBUG: 2023/02/27 11:31:58 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:31:58 Getting Yin Value
+
+DEBUG: 2023/02/27 11:31:58 Getting Yu Value
+DEBUG: 2023/02/27 11:31:58 Stepping down
+DEBUG: 2023/02/27 11:31:58 Selected 11 for segment 15
+
+DEBUG: 2023/02/27 11:31:58 bba2XL-base has choosen rep_Rate 11 @ a rate of 516
+
+DEBUG: 2023/02/27 11:31:58 Current segment duration: 4000
+DEBUG: 2023/02/27 11:31:58 Total segment duration: 0
+DEBUG: 2023/02/27 11:31:58 Next chunk duration: 4
+DEBUG: 2023/02/27 11:31:58 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:31:58 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:31:58 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:31:58 current segment URL: ed_516656bps/ElephantsDream_4s16.m4s
+DEBUG: 2023/02/27 11:31:58 get file from URL: https://server4/ElephantsDream/4sec/ed_516656bps/ElephantsDream_4s16.m4s
+
+DEBUG: 2023/02/27 11:31:58 Get the url https://server4/ElephantsDream/4sec/ed_516656bps/ElephantsDream_4s16.m4s
+DEBUG: 2023/02/27 11:31:58 URL is : https://server4/ElephantsDream/4sec/ed_516656bps/ElephantsDream_4s16.m4s
+DEBUG: 2023/02/27 11:31:58 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:01 HTTP body size is 584.417969
+DEBUG: 2023/02/27 11:32:01 Before consul update
+DEBUG: 2023/02/27 11:32:01 After consul update
+DEBUG: 2023/02/27 11:32:01 200
+
+DEBUG: 2023/02/27 11:32:01 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:01 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:01 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:01 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:01 Getting Yu Value
+DEBUG: 2023/02/27 11:32:01 Stepping down
+DEBUG: 2023/02/27 11:32:01 Selected 12 for segment 16
+
+DEBUG: 2023/02/27 11:32:01 bba2XL-base has choosen rep_Rate 12 @ a rate of 375
+
+DEBUG: 2023/02/27 11:32:01 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:01 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:01 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:01 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:01 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:01 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:01 current segment URL: ed_375852bps/ElephantsDream_4s17.m4s
+DEBUG: 2023/02/27 11:32:01 get file from URL: https://server4/ElephantsDream/4sec/ed_375852bps/ElephantsDream_4s17.m4s
+
+DEBUG: 2023/02/27 11:32:01 Get the url https://server4/ElephantsDream/4sec/ed_375852bps/ElephantsDream_4s17.m4s
+DEBUG: 2023/02/27 11:32:01 URL is : https://server4/ElephantsDream/4sec/ed_375852bps/ElephantsDream_4s17.m4s
+DEBUG: 2023/02/27 11:32:01 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:09 HTTP body size is 309.189453
+DEBUG: 2023/02/27 11:32:09 Before consul update
+DEBUG: 2023/02/27 11:32:09 After consul update
+DEBUG: 2023/02/27 11:32:09 200
+
+DEBUG: 2023/02/27 11:32:09 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:09 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:09 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:09 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:09 Getting Yu Value
+DEBUG: 2023/02/27 11:32:09 Stepping down
+DEBUG: 2023/02/27 11:32:09 Selected 13 for segment 17
+
+DEBUG: 2023/02/27 11:32:09 bba2XL-base has choosen rep_Rate 13 @ a rate of 323
+
+DEBUG: 2023/02/27 11:32:09 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:09 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:09 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:09 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:09 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:09 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:09 current segment URL: ed_323473bps/ElephantsDream_4s18.m4s
+DEBUG: 2023/02/27 11:32:09 get file from URL: https://server4/ElephantsDream/4sec/ed_323473bps/ElephantsDream_4s18.m4s
+
+DEBUG: 2023/02/27 11:32:09 Get the url https://server4/ElephantsDream/4sec/ed_323473bps/ElephantsDream_4s18.m4s
+DEBUG: 2023/02/27 11:32:10 URL is : https://server4/ElephantsDream/4sec/ed_323473bps/ElephantsDream_4s18.m4s
+DEBUG: 2023/02/27 11:32:10 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:12 HTTP body size is 32.314453
+DEBUG: 2023/02/27 11:32:12 Before consul update
+DEBUG: 2023/02/27 11:32:12 After consul update
+DEBUG: 2023/02/27 11:32:12 200
+DEBUG: 2023/02/27 11:32:12 current segment URL: ed_45791bps/ElephantsDream_4s18.m4s
+
+DEBUG: 2023/02/27 11:32:12 ABORT has choosen rep_Rate 19 @ a rate of 45
+DEBUG: 2023/02/27 11:32:12 get file from URL: https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s18.m4s
+
+DEBUG: 2023/02/27 11:32:12 Get the url https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s18.m4s
+DEBUG: 2023/02/27 11:32:12 URL is : https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s18.m4s
+DEBUG: 2023/02/27 11:32:12 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:14 HTTP body size is 43.925781
+DEBUG: 2023/02/27 11:32:14 Before consul update
+DEBUG: 2023/02/27 11:32:14 After consul update
+
+DEBUG: 2023/02/27 11:32:14 Abort segment arrived
+
+DEBUG: 2023/02/27 11:32:14 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:14 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:14 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:14 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:14 Getting Yu Value
+DEBUG: 2023/02/27 11:32:14 DELTAB 1 406494
+DEBUG: 2023/02/27 11:32:14 Switched from Rate to BBA2
+DEBUG: 2023/02/27 11:32:14 Selected 19 for segment 18
+
+DEBUG: 2023/02/27 11:32:14 bba2XL-base has choosen rep_Rate 19 @ a rate of 45
+
+DEBUG: 2023/02/27 11:32:14 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:14 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:14 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:14 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:14 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:14 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:14 current segment URL: ed_45791bps/ElephantsDream_4s19.m4s
+DEBUG: 2023/02/27 11:32:14 get file from URL: https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s19.m4s
+
+DEBUG: 2023/02/27 11:32:14 Get the url https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s19.m4s
+DEBUG: 2023/02/27 11:32:14 URL is : https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s19.m4s
+DEBUG: 2023/02/27 11:32:14 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:16 HTTP body size is 47.429688
+DEBUG: 2023/02/27 11:32:16 Before consul update
+DEBUG: 2023/02/27 11:32:16 After consul update
+DEBUG: 2023/02/27 11:32:16 200
+
+DEBUG: 2023/02/27 11:32:16 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:16 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:16 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:16 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:16 Getting Yu Value
+DEBUG: 2023/02/27 11:32:16 Selected 19 for segment 19
+
+DEBUG: 2023/02/27 11:32:16 bba2XL-base has choosen rep_Rate 19 @ a rate of 45
+
+DEBUG: 2023/02/27 11:32:16 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:16 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:16 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:16 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:16 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:16 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:16 current segment URL: ed_45791bps/ElephantsDream_4s20.m4s
+DEBUG: 2023/02/27 11:32:16 get file from URL: https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s20.m4s
+
+DEBUG: 2023/02/27 11:32:16 Get the url https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s20.m4s
+DEBUG: 2023/02/27 11:32:16 URL is : https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s20.m4s
+DEBUG: 2023/02/27 11:32:16 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:18 HTTP body size is 49.339844
+DEBUG: 2023/02/27 11:32:18 Before consul update
+DEBUG: 2023/02/27 11:32:18 After consul update
+DEBUG: 2023/02/27 11:32:18 200
+
+DEBUG: 2023/02/27 11:32:18 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:18 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:18 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:18 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:18 Getting Yu Value
+DEBUG: 2023/02/27 11:32:18 Stepping up
+DEBUG: 2023/02/27 11:32:18 Selected 18 for segment 20
+
+DEBUG: 2023/02/27 11:32:18 bba2XL-base has choosen rep_Rate 18 @ a rate of 89
+
+DEBUG: 2023/02/27 11:32:18 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:18 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:18 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:18 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:18 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:18 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:18 current segment URL: ed_89889bps/ElephantsDream_4s21.m4s
+DEBUG: 2023/02/27 11:32:18 get file from URL: https://server4/ElephantsDream/4sec/ed_89889bps/ElephantsDream_4s21.m4s
+
+DEBUG: 2023/02/27 11:32:18 Get the url https://server4/ElephantsDream/4sec/ed_89889bps/ElephantsDream_4s21.m4s
+DEBUG: 2023/02/27 11:32:18 URL is : https://server4/ElephantsDream/4sec/ed_89889bps/ElephantsDream_4s21.m4s
+DEBUG: 2023/02/27 11:32:18 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:22 HTTP body size is 94.091797
+DEBUG: 2023/02/27 11:32:22 Before consul update
+DEBUG: 2023/02/27 11:32:22 After consul update
+DEBUG: 2023/02/27 11:32:22 200
+
+DEBUG: 2023/02/27 11:32:22 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:22 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:22 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:22 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:22 Getting Yu Value
+DEBUG: 2023/02/27 11:32:22 Stepping up
+DEBUG: 2023/02/27 11:32:22 Selected 17 for segment 21
+
+DEBUG: 2023/02/27 11:32:22 bba2XL-base has choosen rep_Rate 17 @ a rate of 129
+
+DEBUG: 2023/02/27 11:32:22 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:22 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:22 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:22 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:22 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:22 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:22 current segment URL: ed_129426bps/ElephantsDream_4s22.m4s
+DEBUG: 2023/02/27 11:32:22 get file from URL: https://server4/ElephantsDream/4sec/ed_129426bps/ElephantsDream_4s22.m4s
+
+DEBUG: 2023/02/27 11:32:22 Get the url https://server4/ElephantsDream/4sec/ed_129426bps/ElephantsDream_4s22.m4s
+DEBUG: 2023/02/27 11:32:22 URL is : https://server4/ElephantsDream/4sec/ed_129426bps/ElephantsDream_4s22.m4s
+DEBUG: 2023/02/27 11:32:22 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:28 HTTP body size is 141.476562
+DEBUG: 2023/02/27 11:32:28 Before consul update
+DEBUG: 2023/02/27 11:32:28 After consul update
+DEBUG: 2023/02/27 11:32:28 200
+
+DEBUG: 2023/02/27 11:32:28 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:28 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:28 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:28 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:28 Getting Yu Value
+DEBUG: 2023/02/27 11:32:28 Stepping down
+DEBUG: 2023/02/27 11:32:28 Selected 18 for segment 22
+
+DEBUG: 2023/02/27 11:32:28 bba2XL-base has choosen rep_Rate 18 @ a rate of 89
+
+DEBUG: 2023/02/27 11:32:28 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:28 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:28 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:28 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:28 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:28 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:28 current segment URL: ed_89889bps/ElephantsDream_4s23.m4s
+DEBUG: 2023/02/27 11:32:28 get file from URL: https://server4/ElephantsDream/4sec/ed_89889bps/ElephantsDream_4s23.m4s
+
+DEBUG: 2023/02/27 11:32:28 Get the url https://server4/ElephantsDream/4sec/ed_89889bps/ElephantsDream_4s23.m4s
+DEBUG: 2023/02/27 11:32:28 URL is : https://server4/ElephantsDream/4sec/ed_89889bps/ElephantsDream_4s23.m4s
+DEBUG: 2023/02/27 11:32:28 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:31 HTTP body size is 73.207031
+DEBUG: 2023/02/27 11:32:31 Before consul update
+DEBUG: 2023/02/27 11:32:31 After consul update
+DEBUG: 2023/02/27 11:32:31 200
+
+DEBUG: 2023/02/27 11:32:31 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:31 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:31 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:31 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:31 Getting Yu Value
+DEBUG: 2023/02/27 11:32:31 Stepping down
+DEBUG: 2023/02/27 11:32:31 Selected 19 for segment 23
+
+DEBUG: 2023/02/27 11:32:31 bba2XL-base has choosen rep_Rate 19 @ a rate of 45
+
+DEBUG: 2023/02/27 11:32:31 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:31 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:31 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:31 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:31 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:31 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:31 current segment URL: ed_45791bps/ElephantsDream_4s24.m4s
+DEBUG: 2023/02/27 11:32:31 get file from URL: https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s24.m4s
+
+DEBUG: 2023/02/27 11:32:31 Get the url https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s24.m4s
+DEBUG: 2023/02/27 11:32:31 URL is : https://server4/ElephantsDream/4sec/ed_45791bps/ElephantsDream_4s24.m4s
+DEBUG: 2023/02/27 11:32:31 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:31 HTTP body size is 42.771484
+DEBUG: 2023/02/27 11:32:31 Before consul update
+DEBUG: 2023/02/27 11:32:31 After consul update
+DEBUG: 2023/02/27 11:32:31 200
+
+DEBUG: 2023/02/27 11:32:31 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:31 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:31 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:31 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:31 Getting Yu Value
+DEBUG: 2023/02/27 11:32:31 Stepping up
+DEBUG: 2023/02/27 11:32:31 Selected 18 for segment 24
+
+DEBUG: 2023/02/27 11:32:31 bba2XL-base has choosen rep_Rate 18 @ a rate of 89
+
+DEBUG: 2023/02/27 11:32:31 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:31 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:31 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:31 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:31 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:31 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:31 current segment URL: ed_89889bps/ElephantsDream_4s25.m4s
+DEBUG: 2023/02/27 11:32:31 get file from URL: https://server4/ElephantsDream/4sec/ed_89889bps/ElephantsDream_4s25.m4s
+
+DEBUG: 2023/02/27 11:32:31 Get the url https://server4/ElephantsDream/4sec/ed_89889bps/ElephantsDream_4s25.m4s
+DEBUG: 2023/02/27 11:32:31 URL is : https://server4/ElephantsDream/4sec/ed_89889bps/ElephantsDream_4s25.m4s
+DEBUG: 2023/02/27 11:32:31 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:32 HTTP body size is 96.794922
+DEBUG: 2023/02/27 11:32:32 Before consul update
+DEBUG: 2023/02/27 11:32:32 After consul update
+DEBUG: 2023/02/27 11:32:32 200
+
+DEBUG: 2023/02/27 11:32:32 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:32 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:32 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:32 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:32 Getting Yu Value
+DEBUG: 2023/02/27 11:32:32 Stepping up
+DEBUG: 2023/02/27 11:32:32 Selected 17 for segment 25
+
+DEBUG: 2023/02/27 11:32:32 bba2XL-base has choosen rep_Rate 17 @ a rate of 129
+
+DEBUG: 2023/02/27 11:32:32 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:32 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:32 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:32 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:32 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:32 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:32 current segment URL: ed_129426bps/ElephantsDream_4s26.m4s
+DEBUG: 2023/02/27 11:32:32 get file from URL: https://server4/ElephantsDream/4sec/ed_129426bps/ElephantsDream_4s26.m4s
+
+DEBUG: 2023/02/27 11:32:32 Get the url https://server4/ElephantsDream/4sec/ed_129426bps/ElephantsDream_4s26.m4s
+DEBUG: 2023/02/27 11:32:32 URL is : https://server4/ElephantsDream/4sec/ed_129426bps/ElephantsDream_4s26.m4s
+DEBUG: 2023/02/27 11:32:32 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:32 HTTP body size is 131.406250
+DEBUG: 2023/02/27 11:32:32 Before consul update
+DEBUG: 2023/02/27 11:32:32 After consul update
+DEBUG: 2023/02/27 11:32:32 200
+
+DEBUG: 2023/02/27 11:32:32 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:32 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:32 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:32 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:32 Getting Yu Value
+DEBUG: 2023/02/27 11:32:32 Stepping up
+DEBUG: 2023/02/27 11:32:32 Selected 16 for segment 26
+
+DEBUG: 2023/02/27 11:32:32 bba2XL-base has choosen rep_Rate 16 @ a rate of 179
+
+DEBUG: 2023/02/27 11:32:32 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:32 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:32 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:32 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:32 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:32 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:32 current segment URL: ed_179119bps/ElephantsDream_4s27.m4s
+DEBUG: 2023/02/27 11:32:32 get file from URL: https://server4/ElephantsDream/4sec/ed_179119bps/ElephantsDream_4s27.m4s
+
+DEBUG: 2023/02/27 11:32:32 Get the url https://server4/ElephantsDream/4sec/ed_179119bps/ElephantsDream_4s27.m4s
+DEBUG: 2023/02/27 11:32:32 URL is : https://server4/ElephantsDream/4sec/ed_179119bps/ElephantsDream_4s27.m4s
+DEBUG: 2023/02/27 11:32:32 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:32 HTTP body size is 167.214844
+DEBUG: 2023/02/27 11:32:32 Before consul update
+DEBUG: 2023/02/27 11:32:32 After consul update
+DEBUG: 2023/02/27 11:32:32 200
+
+DEBUG: 2023/02/27 11:32:32 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:32 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:32 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:32 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:32 Getting Yu Value
+DEBUG: 2023/02/27 11:32:32 Stepping up
+DEBUG: 2023/02/27 11:32:32 Selected 15 for segment 27
+
+DEBUG: 2023/02/27 11:32:32 bba2XL-base has choosen rep_Rate 15 @ a rate of 220
+
+DEBUG: 2023/02/27 11:32:32 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:32 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:32 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:32 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:32 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:32 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:32 current segment URL: ed_220743bps/ElephantsDream_4s28.m4s
+DEBUG: 2023/02/27 11:32:32 get file from URL: https://server4/ElephantsDream/4sec/ed_220743bps/ElephantsDream_4s28.m4s
+
+DEBUG: 2023/02/27 11:32:32 Get the url https://server4/ElephantsDream/4sec/ed_220743bps/ElephantsDream_4s28.m4s
+DEBUG: 2023/02/27 11:32:33 URL is : https://server4/ElephantsDream/4sec/ed_220743bps/ElephantsDream_4s28.m4s
+DEBUG: 2023/02/27 11:32:33 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:33 HTTP body size is 221.822266
+DEBUG: 2023/02/27 11:32:33 Before consul update
+DEBUG: 2023/02/27 11:32:33 After consul update
+DEBUG: 2023/02/27 11:32:33 200
+
+DEBUG: 2023/02/27 11:32:33 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:33 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:33 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:33 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:33 Getting Yu Value
+DEBUG: 2023/02/27 11:32:33 Stepping up
+DEBUG: 2023/02/27 11:32:33 Selected 14 for segment 28
+
+DEBUG: 2023/02/27 11:32:33 bba2XL-base has choosen rep_Rate 14 @ a rate of 259
+
+DEBUG: 2023/02/27 11:32:33 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:33 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:33 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:33 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:33 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:33 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:33 current segment URL: ed_259179bps/ElephantsDream_4s29.m4s
+DEBUG: 2023/02/27 11:32:33 get file from URL: https://server4/ElephantsDream/4sec/ed_259179bps/ElephantsDream_4s29.m4s
+
+DEBUG: 2023/02/27 11:32:33 Get the url https://server4/ElephantsDream/4sec/ed_259179bps/ElephantsDream_4s29.m4s
+DEBUG: 2023/02/27 11:32:33 URL is : https://server4/ElephantsDream/4sec/ed_259179bps/ElephantsDream_4s29.m4s
+DEBUG: 2023/02/27 11:32:33 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:34 HTTP body size is 289.675781
+DEBUG: 2023/02/27 11:32:34 Before consul update
+DEBUG: 2023/02/27 11:32:34 After consul update
+DEBUG: 2023/02/27 11:32:34 200
+
+DEBUG: 2023/02/27 11:32:34 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:34 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:34 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:34 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:34 Getting Yu Value
+DEBUG: 2023/02/27 11:32:34 Stepping up
+DEBUG: 2023/02/27 11:32:34 Selected 13 for segment 29
+
+DEBUG: 2023/02/27 11:32:34 bba2XL-base has choosen rep_Rate 13 @ a rate of 323
+
+DEBUG: 2023/02/27 11:32:34 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:34 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:34 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:34 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:34 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:34 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:34 current segment URL: ed_323473bps/ElephantsDream_4s30.m4s
+DEBUG: 2023/02/27 11:32:34 get file from URL: https://server4/ElephantsDream/4sec/ed_323473bps/ElephantsDream_4s30.m4s
+
+DEBUG: 2023/02/27 11:32:34 Get the url https://server4/ElephantsDream/4sec/ed_323473bps/ElephantsDream_4s30.m4s
+DEBUG: 2023/02/27 11:32:34 URL is : https://server4/ElephantsDream/4sec/ed_323473bps/ElephantsDream_4s30.m4s
+DEBUG: 2023/02/27 11:32:34 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:35 HTTP body size is 408.207031
+DEBUG: 2023/02/27 11:32:35 Before consul update
+DEBUG: 2023/02/27 11:32:35 After consul update
+DEBUG: 2023/02/27 11:32:35 200
+
+DEBUG: 2023/02/27 11:32:35 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:35 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:35 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:35 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:35 Getting Yu Value
+DEBUG: 2023/02/27 11:32:35 Stepping up
+DEBUG: 2023/02/27 11:32:35 Selected 12 for segment 30
+
+DEBUG: 2023/02/27 11:32:35 bba2XL-base has choosen rep_Rate 12 @ a rate of 375
+
+DEBUG: 2023/02/27 11:32:35 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:35 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:35 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:35 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:35 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:35 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:35 current segment URL: ed_375852bps/ElephantsDream_4s31.m4s
+DEBUG: 2023/02/27 11:32:35 get file from URL: https://server4/ElephantsDream/4sec/ed_375852bps/ElephantsDream_4s31.m4s
+
+DEBUG: 2023/02/27 11:32:35 Get the url https://server4/ElephantsDream/4sec/ed_375852bps/ElephantsDream_4s31.m4s
+DEBUG: 2023/02/27 11:32:35 URL is : https://server4/ElephantsDream/4sec/ed_375852bps/ElephantsDream_4s31.m4s
+DEBUG: 2023/02/27 11:32:35 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:36 HTTP body size is 448.333984
+DEBUG: 2023/02/27 11:32:36 Before consul update
+DEBUG: 2023/02/27 11:32:36 After consul update
+DEBUG: 2023/02/27 11:32:36 200
+
+DEBUG: 2023/02/27 11:32:36 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:36 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:36 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:36 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:36 Getting Yu Value
+DEBUG: 2023/02/27 11:32:36 Stepping up
+DEBUG: 2023/02/27 11:32:36 Selected 11 for segment 31
+
+DEBUG: 2023/02/27 11:32:36 bba2XL-base has choosen rep_Rate 11 @ a rate of 516
+
+DEBUG: 2023/02/27 11:32:36 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:36 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:36 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:36 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:36 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:36 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:36 current segment URL: ed_516656bps/ElephantsDream_4s32.m4s
+DEBUG: 2023/02/27 11:32:36 get file from URL: https://server4/ElephantsDream/4sec/ed_516656bps/ElephantsDream_4s32.m4s
+
+DEBUG: 2023/02/27 11:32:36 Get the url https://server4/ElephantsDream/4sec/ed_516656bps/ElephantsDream_4s32.m4s
+DEBUG: 2023/02/27 11:32:36 URL is : https://server4/ElephantsDream/4sec/ed_516656bps/ElephantsDream_4s32.m4s
+DEBUG: 2023/02/27 11:32:36 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:37 HTTP body size is 575.697266
+DEBUG: 2023/02/27 11:32:37 Before consul update
+DEBUG: 2023/02/27 11:32:37 After consul update
+DEBUG: 2023/02/27 11:32:37 200
+
+DEBUG: 2023/02/27 11:32:37 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:37 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:37 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:37 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:37 Getting Yu Value
+DEBUG: 2023/02/27 11:32:37 Stepping up
+DEBUG: 2023/02/27 11:32:37 Selected 10 for segment 32
+
+DEBUG: 2023/02/27 11:32:37 bba2XL-base has choosen rep_Rate 10 @ a rate of 582
+
+DEBUG: 2023/02/27 11:32:37 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:37 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:37 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:37 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:37 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:37 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:37 current segment URL: ed_582757bps/ElephantsDream_4s33.m4s
+DEBUG: 2023/02/27 11:32:37 get file from URL: https://server4/ElephantsDream/4sec/ed_582757bps/ElephantsDream_4s33.m4s
+
+DEBUG: 2023/02/27 11:32:37 Get the url https://server4/ElephantsDream/4sec/ed_582757bps/ElephantsDream_4s33.m4s
+DEBUG: 2023/02/27 11:32:37 URL is : https://server4/ElephantsDream/4sec/ed_582757bps/ElephantsDream_4s33.m4s
+DEBUG: 2023/02/27 11:32:37 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:38 HTTP body size is 677.367188
+DEBUG: 2023/02/27 11:32:38 Before consul update
+DEBUG: 2023/02/27 11:32:38 After consul update
+DEBUG: 2023/02/27 11:32:38 200
+
+DEBUG: 2023/02/27 11:32:38 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:38 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:38 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:38 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:38 Getting Yu Value
+DEBUG: 2023/02/27 11:32:38 Stepping up
+DEBUG: 2023/02/27 11:32:38 Selected 9 for segment 33
+
+DEBUG: 2023/02/27 11:32:38 bba2XL-base has choosen rep_Rate 9 @ a rate of 792
+
+DEBUG: 2023/02/27 11:32:38 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:38 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:38 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:38 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:38 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:38 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:38 current segment URL: ed_792489bps/ElephantsDream_4s34.m4s
+DEBUG: 2023/02/27 11:32:38 get file from URL: https://server4/ElephantsDream/4sec/ed_792489bps/ElephantsDream_4s34.m4s
+
+DEBUG: 2023/02/27 11:32:38 Get the url https://server4/ElephantsDream/4sec/ed_792489bps/ElephantsDream_4s34.m4s
+DEBUG: 2023/02/27 11:32:38 URL is : https://server4/ElephantsDream/4sec/ed_792489bps/ElephantsDream_4s34.m4s
+DEBUG: 2023/02/27 11:32:38 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:40 HTTP body size is 890.308594
+DEBUG: 2023/02/27 11:32:40 Before consul update
+DEBUG: 2023/02/27 11:32:40 After consul update
+DEBUG: 2023/02/27 11:32:40 200
+
+DEBUG: 2023/02/27 11:32:40 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:40 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:40 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:40 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:40 Getting Yu Value
+DEBUG: 2023/02/27 11:32:40 Stepping up
+DEBUG: 2023/02/27 11:32:40 Selected 8 for segment 34
+
+DEBUG: 2023/02/27 11:32:40 bba2XL-base has choosen rep_Rate 8 @ a rate of 1016
+
+DEBUG: 2023/02/27 11:32:40 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:40 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:40 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:40 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:40 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:40 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:40 current segment URL: ed_1016017bps/ElephantsDream_4s35.m4s
+DEBUG: 2023/02/27 11:32:40 get file from URL: https://server4/ElephantsDream/4sec/ed_1016017bps/ElephantsDream_4s35.m4s
+
+DEBUG: 2023/02/27 11:32:40 Get the url https://server4/ElephantsDream/4sec/ed_1016017bps/ElephantsDream_4s35.m4s
+DEBUG: 2023/02/27 11:32:40 URL is : https://server4/ElephantsDream/4sec/ed_1016017bps/ElephantsDream_4s35.m4s
+DEBUG: 2023/02/27 11:32:40 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:43 HTTP body size is 1089.212891
+DEBUG: 2023/02/27 11:32:43 Before consul update
+DEBUG: 2023/02/27 11:32:43 After consul update
+DEBUG: 2023/02/27 11:32:43 200
+
+DEBUG: 2023/02/27 11:32:43 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:43 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:43 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:43 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:43 Getting Yu Value
+DEBUG: 2023/02/27 11:32:43 Stepping up
+DEBUG: 2023/02/27 11:32:43 Selected 7 for segment 35
+
+DEBUG: 2023/02/27 11:32:43 bba2XL-base has choosen rep_Rate 7 @ a rate of 1197
+
+DEBUG: 2023/02/27 11:32:43 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:43 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:43 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:43 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:43 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:43 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:43 current segment URL: ed_1197604bps/ElephantsDream_4s36.m4s
+DEBUG: 2023/02/27 11:32:43 get file from URL: https://server4/ElephantsDream/4sec/ed_1197604bps/ElephantsDream_4s36.m4s
+
+DEBUG: 2023/02/27 11:32:43 Get the url https://server4/ElephantsDream/4sec/ed_1197604bps/ElephantsDream_4s36.m4s
+DEBUG: 2023/02/27 11:32:43 URL is : https://server4/ElephantsDream/4sec/ed_1197604bps/ElephantsDream_4s36.m4s
+DEBUG: 2023/02/27 11:32:43 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:46 HTTP body size is 1449.769531
+DEBUG: 2023/02/27 11:32:46 Before consul update
+DEBUG: 2023/02/27 11:32:46 After consul update
+DEBUG: 2023/02/27 11:32:46 200
+
+DEBUG: 2023/02/27 11:32:46 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:46 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:46 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:46 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:46 Getting Yu Value
+DEBUG: 2023/02/27 11:32:46 Stepping up
+DEBUG: 2023/02/27 11:32:46 Selected 6 for segment 36
+
+DEBUG: 2023/02/27 11:32:46 bba2XL-base has choosen rep_Rate 6 @ a rate of 1456
+
+DEBUG: 2023/02/27 11:32:46 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:46 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:46 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:46 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:46 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:46 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:46 current segment URL: ed_1456380bps/ElephantsDream_4s37.m4s
+DEBUG: 2023/02/27 11:32:46 get file from URL: https://server4/ElephantsDream/4sec/ed_1456380bps/ElephantsDream_4s37.m4s
+
+DEBUG: 2023/02/27 11:32:46 Get the url https://server4/ElephantsDream/4sec/ed_1456380bps/ElephantsDream_4s37.m4s
+DEBUG: 2023/02/27 11:32:46 URL is : https://server4/ElephantsDream/4sec/ed_1456380bps/ElephantsDream_4s37.m4s
+DEBUG: 2023/02/27 11:32:46 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:50 HTTP body size is 1971.275391
+DEBUG: 2023/02/27 11:32:50 Before consul update
+DEBUG: 2023/02/27 11:32:50 After consul update
+DEBUG: 2023/02/27 11:32:50 200
+
+DEBUG: 2023/02/27 11:32:50 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:50 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:50 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:50 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:50 Getting Yu Value
+DEBUG: 2023/02/27 11:32:50 Stepping up
+DEBUG: 2023/02/27 11:32:50 Selected 5 for segment 37
+
+DEBUG: 2023/02/27 11:32:50 bba2XL-base has choosen rep_Rate 5 @ a rate of 2087
+
+DEBUG: 2023/02/27 11:32:50 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:50 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:50 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:50 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:50 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:50 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:50 current segment URL: ed_2087288bps/ElephantsDream_4s38.m4s
+DEBUG: 2023/02/27 11:32:50 get file from URL: https://server4/ElephantsDream/4sec/ed_2087288bps/ElephantsDream_4s38.m4s
+
+DEBUG: 2023/02/27 11:32:50 Get the url https://server4/ElephantsDream/4sec/ed_2087288bps/ElephantsDream_4s38.m4s
+DEBUG: 2023/02/27 11:32:50 URL is : https://server4/ElephantsDream/4sec/ed_2087288bps/ElephantsDream_4s38.m4s
+DEBUG: 2023/02/27 11:32:50 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:53 HTTP body size is 1340.906250
+DEBUG: 2023/02/27 11:32:53 Before consul update
+DEBUG: 2023/02/27 11:32:53 After consul update
+DEBUG: 2023/02/27 11:32:53 200
+
+DEBUG: 2023/02/27 11:32:53 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:53 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:53 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:53 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:53 Getting Yu Value
+DEBUG: 2023/02/27 11:32:53 Stepping up
+DEBUG: 2023/02/27 11:32:53 Selected 4 for segment 38
+
+DEBUG: 2023/02/27 11:32:53 bba2XL-base has choosen rep_Rate 4 @ a rate of 2394
+
+DEBUG: 2023/02/27 11:32:53 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:53 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:53 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:53 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:53 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:53 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:53 current segment URL: ed_2394379bps/ElephantsDream_4s39.m4s
+DEBUG: 2023/02/27 11:32:53 get file from URL: https://server4/ElephantsDream/4sec/ed_2394379bps/ElephantsDream_4s39.m4s
+
+DEBUG: 2023/02/27 11:32:53 Get the url https://server4/ElephantsDream/4sec/ed_2394379bps/ElephantsDream_4s39.m4s
+DEBUG: 2023/02/27 11:32:53 URL is : https://server4/ElephantsDream/4sec/ed_2394379bps/ElephantsDream_4s39.m4s
+DEBUG: 2023/02/27 11:32:53 Protocol is : HTTP/3.0
+DEBUG: 2023/02/27 11:32:57 HTTP body size is 1901.871094
+DEBUG: 2023/02/27 11:32:57 Before consul update
+DEBUG: 2023/02/27 11:32:57 After consul update
+DEBUG: 2023/02/27 11:32:57 200
+
+DEBUG: 2023/02/27 11:32:57 checking for P1203 compatibility
+
+DEBUG: 2023/02/27 11:32:57 Getting Claye Value
+
+DEBUG: 2023/02/27 11:32:57 Getting Duanmu Value
+
+DEBUG: 2023/02/27 11:32:57 Getting Yin Value
+
+DEBUG: 2023/02/27 11:32:57 Getting Yu Value
+DEBUG: 2023/02/27 11:32:57 Stepping up
+DEBUG: 2023/02/27 11:32:57 Selected 3 for segment 39
+
+DEBUG: 2023/02/27 11:32:57 bba2XL-base has choosen rep_Rate 3 @ a rate of 2908
+
+DEBUG: 2023/02/27 11:32:57 Current segment duration: 4000
+DEBUG: 2023/02/27 11:32:57 Total segment duration: 0
+DEBUG: 2023/02/27 11:32:57 Next chunk duration: 4
+DEBUG: 2023/02/27 11:32:57 Next chunk index: 1
+
+DEBUG: 2023/02/27 11:32:57 current MimeType header: video/mp4
+DEBUG: 2023/02/27 11:32:57 DASH profile for this segment is: isoff-live
+DEBUG: 2023/02/27 11:32:57 current segment URL: ed_2908119bps/ElephantsDream_4s40.m4s
+DEBUG: 2023/02/27 11:32:57 get file from URL: https://server4/ElephantsDream/4sec/ed_2908119bps/ElephantsDream_4s40.m4s
+
+DEBUG: 2023/02/27 11:32:57 Get the url https://server4/ElephantsDream/4sec/ed_2908119bps/ElephantsDream_4s40.m4s
+DEBUG: 2023/02/27 11:32:57 URL is : https://server4/ElephantsDream/4sec/ed_2908119bps/ElephantsDream_4s40.m4s
+DEBUG: 2023/02/27 11:32:57 Protocol is : HTTP/3.0
