@@ -49,7 +49,7 @@ class CrossLayer(BaseEnvironment):
 					file_path = os.path.join(paths.log_path_client, f"files/{file_to_test}")
 					logging.info(f"ITU P.1203 test starting for file [{file_path}]")
 					with open(os.path.join(paths.log_path_client, "itu-p1203.json"), "w") as fp:
-						subprocess.run(f"source .venv/bin/activate && python -m itu_p1203 {file_path}", shell=True, stdout=fp, executable="/bin/bash")
+						subprocess.run(f"source .venv/bin/activate && python -m itu_p1203 --accept-notice {file_path}", shell=True, stdout=fp, executable="/bin/bash")
 				except Exception as e:
 					logger.error(f"ITU P.1203 failed {e}")
 
