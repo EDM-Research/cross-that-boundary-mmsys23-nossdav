@@ -35,36 +35,38 @@ The instructions below are to reproduce our findings using the [Vegvisir QUIC-HT
 9. Navigate into the ``itu-p1203`` folder and install the implementation with ``pip install .``
 	1. Make sure the virtual environment of step 3 is still enabled!
 10. Copy the contents of ``root/paper/paper-utilities/vegvisir-configurations/`` to ``root/vegvisir``
-11. [Increase the UDP receive buffer size](https://github.com/quic-go/quic-go/wiki/UDP-Receive-Buffer-Size/#non-bsd)
+11. [Increase the UDP receive buffer size](https://github.com/quic-go/quic-go/wiki/UDP-Receive-Buffer-Size/#non-bsd) (non-BSD instructions)
+	1. *Note: This is volatile. To make this change permanent, add the configuration to ``/etc/sysctl.conf`` and reload the configuration with ``sudo sysctl --system``
 
 **Preparing the dataset**  
 This paper makes use of the [MPEG-DASH dataset provided by Lederer et al.](https://dash.itec.aau.at/dash-dataset/)
 
-12. Navigate to ``root/`` and create an empty folder called ``datasets``
-13. Retrieve all representations for the 2s, 4s and 6s folders of the following datasets (we recommend using ``wget``):
+12. Navigate to ``root/`` and create an empty folder called ``datasets``, then navigate into ``root/datasets/``
+13. Create three folders ``BigBuckBunny``, ``OfForestAndMen`` and ``ElephantsDream``
+14. Retrieve the **2s**, **4s** and **6s** datasets in their respective folders of the following datasets (we recommend using ``wget --recursive --no-parent --reject="*index.html*" -nc -l 20 --continue {URL}``):
 	1. [Big Buck Bunny](http://ftp.itec.aau.at/datasets/DASHDataset2014/BigBuckBunny/)
 	2. [Of Forest And Men](http://ftp.itec.aau.at/datasets/DASHDataset2014/OfForestAndMen/)
 	3. [Elephants Dream](http://ftp.itec.aau.at/datasets/DASHDataset2014/ElephantsDream/)
-14. Navigate to ``root/paper/paper-utilities``
-15. Convert the 9 MPDs with *simple* in the name using the ``Convert_to_BBA2.py`` script
+15. Navigate to ``root/paper/paper-utilities``
+16. Convert the 9 MPDs with *simple* in the name using the ``Convert_to_BBA2.py`` script
 	1. ``python Convert_to_BBA2.py /full/path/to/simple.mpd`` produces MPDs compatible with our BBA2, BBA2-CL and BBA2-CLDouble ABR algorithms
-16. Navigate to ``root/datasets`` and execute ``pwd`` to retrieve the full path to this folder, copy this in your clipboard
-17. Open ``root/vegvisir/paper_experiment_full.json`` and paste the copied path in the ``settings > www_dir`` JSON key (bottom of file)  
+17. Navigate to ``root/datasets`` and execute ``pwd`` to retrieve the full path to this folder, copy this in your clipboard
+18. Open ``root/vegvisir/paper_experiment_full.json`` and paste the copied path in the ``settings > www_dir`` JSON key (bottom of file)  
 
 **Run the experiment**
 
-18. Navigate to ``root/vegvisir``, make sure the virtual environment is enabled
-19. Execute ``python -m vegvisir run paper_experiment_full.json``
+19. Navigate to ``root/vegvisir``, make sure the virtual environment is enabled
+20. Execute ``python -m vegvisir run paper_experiment_full.json``
 	1. Vegvisir will show the experiment progress in the console
 	2. If any errors occur, recheck the above steps for any mistakes
-20. After completion, the results of all testcases can be found in ``root/vegvisir/logs/cross_layer_paper/{datetime of run}``
+21. After completion, the results of all testcases can be found in ``root/vegvisir/logs/cross_layer_paper/{datetime of run}``
 	1. The folder structure will be the same as ``paper-logs`` explained in the section above.
 
 **Convenience script**  
 Checking every testcase folder individually is cumbersome and it makes comparing results difficult. As such we have provided a small convenience HTML page that autoloads the graphs produced by the above experiment and displays them on a grid.  
 *Note: This script only displays graphs for the above mentioned datasets. If you want to display other datasets/test setups, please change the script accordingly.*
 
-21. Copy the ``root/paper/paper-utilities/visualize_ouput.html`` file to ``root/vegvisir/logs/``
-22. Open and edit the variable on **line 86** to represent the correct folder prefix as explained in instruction 19
-23. Navigate to ``root/vegvisir/logs/`` and perform ``python -m http.server``
-24. Open a web browser and navigate to [http://127.0.0.1:8000/visualize_ouput.html](http://127.0.0.1:8000/visualize_ouput.html)
+22. Copy the ``root/paper/paper-utilities/visualize_ouput.html`` file to ``root/vegvisir/logs/``
+23. Open and edit the variable on **line 86** to represent the correct folder prefix as explained in instruction 19
+24. Navigate to ``root/vegvisir/logs/`` and perform ``python -m http.server``
+25. Open a web browser and navigate to [http://127.0.0.1:8000/visualize_ouput.html](http://127.0.0.1:8000/visualize_ouput.html)
