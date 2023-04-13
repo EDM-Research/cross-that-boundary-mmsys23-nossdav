@@ -27,7 +27,7 @@ class CrossLayer(BaseEnvironment):
 				cmd = f"source .venv/bin/activate && python ./util/segmentGraph.py {metrics_log} {shaper_metrics_log} todo-name {output_path} {mode}"
 				with open(os.path.join(paths.log_path_client, f"viz_command_{mode}.txt"), "w") as fp:
 					fp.write(cmd)
-				subprocess.run(cmd ,shell=True)
+				subprocess.run(cmd, shell=True, executable="/bin/bash")
 			except Exception as e:
 				logger.error(f"Viz failed {e}")
 			
@@ -49,7 +49,7 @@ class CrossLayer(BaseEnvironment):
 					file_path = os.path.join(paths.log_path_client, f"files/{file_to_test}")
 					logging.info(f"ITU P.1203 test starting for file [{file_path}]")
 					with open(os.path.join(paths.log_path_client, "itu-p1203.json"), "w") as fp:
-						subprocess.run(f"source .venv/bin/activate && python -m itu_p1203 {file_path}" ,shell=True, stdout=fp)
+						subprocess.run(f"source .venv/bin/activate && python -m itu_p1203 {file_path}", shell=True, stdout=fp, executable="/bin/bash")
 				except Exception as e:
 					logger.error(f"ITU P.1203 failed {e}")
 
