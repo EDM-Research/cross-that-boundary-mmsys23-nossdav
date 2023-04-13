@@ -146,7 +146,7 @@ ax2.legend(lines + lines2, labels + labels2, loc=0)
 plt.title(sys.argv[3])
 
 plt.tight_layout()
-plt.savefig(sys.argv[4], dpi=2000)
+plt.savefig(sys.argv[4], dpi=200)
 
 plt.clf()
 
