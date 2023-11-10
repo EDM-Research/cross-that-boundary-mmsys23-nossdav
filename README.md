@@ -43,15 +43,15 @@ This paper makes use of the [MPEG-DASH dataset provided by Lederer et al.](https
 
 12. Navigate to ``root/`` and create an empty folder called ``datasets``, then navigate into ``root/datasets/``
 13. Create three folders ``BigBuckBunny``, ``OfForestAndMen`` and ``ElephantsDream``
-14. Retrieve the **2s**, **4s** and **6s** datasets in their respective folders of the following datasets (we recommend using ``wget --recursive --no-parent --reject="*index.html*" -nc -l 20 --continue {URL}``):
+14. Retrieve the **2sec**, **4sec** and **6sec** datasets in their respective folders of the following datasets (we recommend using ``wget --recursive --no-parent --reject="*index.html*" -nc -l 20 --continue {URL}``):
 	1. [Big Buck Bunny](http://ftp.itec.aau.at/datasets/DASHDataset2014/BigBuckBunny/)
 	2. [Of Forest And Men](http://ftp.itec.aau.at/datasets/DASHDataset2014/OfForestAndMen/)
 	3. [Elephants Dream](http://ftp.itec.aau.at/datasets/DASHDataset2014/ElephantsDream/)
-	4. Note: the **2s**, **4s** and **6s** folders should be placed in the roots of ``BigBuckBunny``, ``OfForestAndMen`` and ``ElephantsDream`` (e.g., ``BigBuckBunny/2s/...``, ``BigBuckBunny/4s/...`` and ``BigBuckBunny/6s/...``)
+	4. Note: the **2sec**, **4sec** and **6sec** folders should be placed in the roots of ``BigBuckBunny``, ``OfForestAndMen`` and ``ElephantsDream`` (e.g., ``BigBuckBunny/2sec/...``, ``BigBuckBunny/4sec/...`` and ``BigBuckBunny/6sec/...``)
 15. Navigate to ``root/paper/paper-utilities``
 16. Convert the 9 MPDs with *simple* in the name using the ``Convert_to_BBA2.py`` script
 	1. ``python Convert_to_BBA2.py /full/path/to/simple.mpd`` produces MPDs compatible with our BBA2, BBA2-CL and BBA2-CLDouble ABR algorithms
-	2. E.g., ``python Convert_to_BBA2.py root/datasets/BigBuckBunny/2s/BigBuckBunny_2s_simple_2014_05_09.mpd``
+	2. E.g., ``python Convert_to_BBA2.py root/datasets/BigBuckBunny/2sec/BigBuckBunny_2s_simple_2014_05_09.mpd``
 17. Navigate to ``root/datasets`` and execute ``pwd`` to retrieve the full path to this folder, copy this in your clipboard
 18. Open ``root/vegvisir/paper_experiment_full.json`` and paste the copied path in the ``settings > www_dir`` JSON key (bottom of file)  
 
